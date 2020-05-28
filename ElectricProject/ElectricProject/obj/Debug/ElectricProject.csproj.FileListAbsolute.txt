@@ -1,0 +1,10 @@
+D:\Project\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+D:\Project\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+D:\Project\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+D:\Project\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
+D:\Project\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+D:\Project\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+D:\Project\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.cache
+D:\Project\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CoreCompileInputs.cache
+D:\Project\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+D:\Project\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
