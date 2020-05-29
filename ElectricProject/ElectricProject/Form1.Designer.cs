@@ -144,6 +144,8 @@
             this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
             this.diagram1 = new MindFusion.Diagramming.Diagram();
             this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -157,6 +159,7 @@
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panelView.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -480,36 +483,32 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.comboBox2);
-            this.panel4.Controls.Add(this.TextboxWidth);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.TextboxLine);
-            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.panel6);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(267, 86);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1119, 58);
+            this.panel4.Size = new System.Drawing.Size(1119, 46);
             this.panel4.TabIndex = 3;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(550, 12);
+            this.label8.ForeColor = System.Drawing.Color.Silver;
+            this.label8.Location = new System.Drawing.Point(461, 16);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(41, 17);
+            this.label8.Size = new System.Drawing.Size(45, 17);
             this.label8.TabIndex = 6;
-            this.label8.Text = "Color";
+            this.label8.Text = "Color:";
             // 
             // comboBox2
             // 
+            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "RED",
             "BLUE"});
-            this.comboBox2.Location = new System.Drawing.Point(604, 8);
+            this.comboBox2.Location = new System.Drawing.Point(506, 14);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(71, 21);
             this.comboBox2.TabIndex = 5;
@@ -517,7 +516,8 @@
             // 
             // TextboxWidth
             // 
-            this.TextboxWidth.Location = new System.Drawing.Point(441, 9);
+            this.TextboxWidth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.TextboxWidth.Location = new System.Drawing.Point(389, 15);
             this.TextboxWidth.Name = "TextboxWidth";
             this.TextboxWidth.Size = new System.Drawing.Size(66, 20);
             this.TextboxWidth.TabIndex = 4;
@@ -527,7 +527,8 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(373, 12);
+            this.label7.ForeColor = System.Drawing.Color.Silver;
+            this.label7.Location = new System.Drawing.Point(341, 15);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(48, 17);
             this.label7.TabIndex = 3;
@@ -537,7 +538,8 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(220, 12);
+            this.label6.ForeColor = System.Drawing.Color.Silver;
+            this.label6.Location = new System.Drawing.Point(227, 15);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 17);
             this.label6.TabIndex = 2;
@@ -545,7 +547,8 @@
             // 
             // TextboxLine
             // 
-            this.TextboxLine.Location = new System.Drawing.Point(276, 9);
+            this.TextboxLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.TextboxLine.Location = new System.Drawing.Point(271, 14);
             this.TextboxLine.Name = "TextboxLine";
             this.TextboxLine.Size = new System.Drawing.Size(66, 20);
             this.TextboxLine.TabIndex = 1;
@@ -556,7 +559,8 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(20, 7);
+            this.label5.ForeColor = System.Drawing.Color.Silver;
+            this.label5.Location = new System.Drawing.Point(10, 12);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 22);
             this.label5.TabIndex = 0;
@@ -600,7 +604,7 @@
             this.panel_3D.Controls.Add(this.button72);
             this.panel_3D.Controls.Add(this.label4);
             this.panel_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_3D.Location = new System.Drawing.Point(0, 1081);
+            this.panel_3D.Location = new System.Drawing.Point(0, 425);
             this.panel_3D.Name = "panel_3D";
             this.panel_3D.Size = new System.Drawing.Size(217, 522);
             this.panel_3D.TabIndex = 4;
@@ -1063,7 +1067,7 @@
             this.panel_2D.Controls.Add(this.button51);
             this.panel_2D.Controls.Add(this.label3);
             this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_2D.Location = new System.Drawing.Point(0, 748);
+            this.panel_2D.Location = new System.Drawing.Point(0, 92);
             this.panel_2D.Name = "panel_2D";
             this.panel_2D.Size = new System.Drawing.Size(217, 333);
             this.panel_2D.TabIndex = 3;
@@ -1107,6 +1111,7 @@
             this.button3.Text = "TB 1";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button33
             // 
@@ -1524,9 +1529,9 @@
             this.panel_Thuchanh.Controls.Add(this.button8);
             this.panel_Thuchanh.Controls.Add(this.button20);
             this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 378);
+            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 35);
             this.panel_Thuchanh.Name = "panel_Thuchanh";
-            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 370);
+            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 57);
             this.panel_Thuchanh.TabIndex = 1;
             // 
             // button25
@@ -1971,7 +1976,7 @@
             this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
             this.panel_lythuyet.Name = "panel_lythuyet";
-            this.panel_lythuyet.Size = new System.Drawing.Size(217, 378);
+            this.panel_lythuyet.Size = new System.Drawing.Size(217, 35);
             this.panel_lythuyet.TabIndex = 2;
             // 
             // panel9
@@ -2141,22 +2146,25 @@
             // 
             // panelView
             // 
+            this.panelView.Controls.Add(this.panel7);
             this.panelView.Controls.Add(this.diagramView1);
             this.panelView.Controls.Add(this.ruler1);
             this.panelView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelView.Location = new System.Drawing.Point(267, 144);
+            this.panelView.Location = new System.Drawing.Point(267, 132);
             this.panelView.Name = "panelView";
-            this.panelView.Size = new System.Drawing.Size(1119, 623);
+            this.panelView.Size = new System.Drawing.Size(1119, 635);
             this.panelView.TabIndex = 5;
             // 
             // diagramView1
             // 
+            this.diagramView1.BackColor = System.Drawing.Color.Black;
             this.diagramView1.Diagram = this.diagram1;
             this.diagramView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.diagramView1.LicenseKey = null;
             this.diagramView1.Location = new System.Drawing.Point(0, 0);
+            this.diagramView1.MagnifierFrameColor = System.Drawing.Color.DimGray;
             this.diagramView1.Name = "diagramView1";
-            this.diagramView1.Size = new System.Drawing.Size(1119, 623);
+            this.diagramView1.Size = new System.Drawing.Size(1119, 635);
             this.diagramView1.TabIndex = 1;
             this.diagramView1.Text = "diagramView1";
             // 
@@ -2176,10 +2184,33 @@
             this.ruler1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ruler1.Location = new System.Drawing.Point(0, 0);
             this.ruler1.Name = "ruler1";
-            this.ruler1.Size = new System.Drawing.Size(1119, 623);
+            this.ruler1.Size = new System.Drawing.Size(1119, 635);
             this.ruler1.TabIndex = 0;
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.comboBox2);
+            this.panel6.Controls.Add(this.label8);
+            this.panel6.Controls.Add(this.label5);
+            this.panel6.Controls.Add(this.TextboxLine);
+            this.panel6.Controls.Add(this.TextboxWidth);
+            this.panel6.Controls.Add(this.label6);
+            this.panel6.Controls.Add(this.label7);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(597, 46);
+            this.panel6.TabIndex = 7;
+            // 
+            // panel7
+            // 
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1119, 635);
+            this.panel7.TabIndex = 2;
             // 
             // Form1
             // 
@@ -2206,7 +2237,6 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel_3D.ResumeLayout(false);
             this.panel_2D.ResumeLayout(false);
@@ -2216,6 +2246,8 @@
             this.panel9.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panelView.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2337,6 +2369,8 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel7;
     }
 }
 
