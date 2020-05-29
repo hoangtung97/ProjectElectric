@@ -145,10 +145,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panelView = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
             this.diagram1 = new MindFusion.Diagramming.Diagram();
             this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
+            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -644,7 +644,7 @@
             this.panel_3D.Controls.Add(this.button72);
             this.panel_3D.Controls.Add(this.label4);
             this.panel_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_3D.Location = new System.Drawing.Point(0, 1456);
+            this.panel_3D.Location = new System.Drawing.Point(0, 1460);
             this.panel_3D.Name = "panel_3D";
             this.panel_3D.Size = new System.Drawing.Size(217, 522);
             this.panel_3D.TabIndex = 4;
@@ -1107,7 +1107,7 @@
             this.panel_2D.Controls.Add(this.button51);
             this.panel_2D.Controls.Add(this.label3);
             this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_2D.Location = new System.Drawing.Point(0, 915);
+            this.panel_2D.Location = new System.Drawing.Point(0, 919);
             this.panel_2D.Name = "panel_2D";
             this.panel_2D.Size = new System.Drawing.Size(217, 541);
             this.panel_2D.TabIndex = 3;
@@ -1569,7 +1569,7 @@
             this.panel_Thuchanh.Controls.Add(this.button8);
             this.panel_Thuchanh.Controls.Add(this.button20);
             this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 391);
+            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 395);
             this.panel_Thuchanh.Name = "panel_Thuchanh";
             this.panel_Thuchanh.Size = new System.Drawing.Size(217, 524);
             this.panel_Thuchanh.TabIndex = 1;
@@ -2016,8 +2016,9 @@
             this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
             this.panel_lythuyet.Name = "panel_lythuyet";
-            this.panel_lythuyet.Size = new System.Drawing.Size(217, 391);
+            this.panel_lythuyet.Size = new System.Drawing.Size(217, 395);
             this.panel_lythuyet.TabIndex = 2;
+            this.panel_lythuyet.Visible = false;
             // 
             // panel9
             // 
@@ -2204,15 +2205,6 @@
             this.panel7.Size = new System.Drawing.Size(1119, 635);
             this.panel7.TabIndex = 2;
             // 
-            // axShockwaveFlash1
-            // 
-            this.axShockwaveFlash1.Enabled = true;
-            this.axShockwaveFlash1.Location = new System.Drawing.Point(7, 7);
-            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
-            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
-            this.axShockwaveFlash1.Size = new System.Drawing.Size(1102, 616);
-            this.axShockwaveFlash1.TabIndex = 0;
-            // 
             // diagramView1
             // 
             this.diagramView1.BackColor = System.Drawing.Color.Black;
@@ -2246,6 +2238,15 @@
             this.ruler1.TabIndex = 0;
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
+            // 
+            // axShockwaveFlash1
+            // 
+            this.axShockwaveFlash1.Enabled = true;
+            this.axShockwaveFlash1.Location = new System.Drawing.Point(8, 9);
+            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
+            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
+            this.axShockwaveFlash1.Size = new System.Drawing.Size(1102, 616);
+            this.axShockwaveFlash1.TabIndex = 1;
             // 
             // Form1
             // 

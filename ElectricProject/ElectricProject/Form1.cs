@@ -118,16 +118,19 @@ namespace ElectricProject
             panel10.Visible = false;
             panel6.Visible = false;
 
+            panel5.Visible = true;
 
             if (panel_lythuyet.Visible == true)
             {
                 panel_lythuyet.Visible = false;
+                panel5.Visible = false;
+
             }
             else
             {
                 panel_lythuyet.Visible = true;
             }
-            panel5.Visible = true;
+            
         }
 
         private void btn_2D_Click(object sender, EventArgs e)
@@ -368,10 +371,12 @@ namespace ElectricProject
 
         #endregion
 
+        #region hiển thị flash
         private void button3_Click(object sender, EventArgs e)
         {
             axShockwaveFlash1.Visible = true;
             axShockwaveFlash1.Movie = Environment.CurrentDirectory + @"\2D\HeThongBoiTronAI9B.swf";
         }
+        #endregion
     }
 }
