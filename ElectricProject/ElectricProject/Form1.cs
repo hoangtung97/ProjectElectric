@@ -91,7 +91,9 @@ namespace ElectricProject
             panel7.Visible = false;
             axShockwaveFlash1.Visible = false;
             diagramView1.Visible = true;
-            
+            panel10.Visible = true;
+            panel6.Visible = true;
+
             if (panel_Thuchanh.Visible == true)
             {
                 panel_Thuchanh.Visible = false;
@@ -113,6 +115,8 @@ namespace ElectricProject
             panel_3D.Visible = false;
             axShockwaveFlash1.Visible = false;
             diagramView1.Visible = false;
+            panel10.Visible = false;
+            panel6.Visible = false;
 
 
             if (panel_lythuyet.Visible == true)
@@ -133,6 +137,8 @@ namespace ElectricProject
             panel_3D.Visible = false;
             diagramView1.Visible = false;
             panel7.Visible = true;
+            panel10.Visible = false;
+            panel6.Visible = false;
 
 
             if ( panel_2D.Visible == true)
@@ -153,6 +159,8 @@ namespace ElectricProject
             panel_Thuchanh.Visible = false;
             axShockwaveFlash1.Visible = false;
             diagramView1.Visible = false;
+            panel10.Visible = false;
+            panel6.Visible = false;
             if (panel_3D.Visible == true)
             {
                 panel_3D.Visible = false;
