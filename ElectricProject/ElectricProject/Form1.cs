@@ -88,6 +88,10 @@ namespace ElectricProject
             panel_lythuyet.Visible = false;
             panel_2D.Visible = false;
             panel_3D.Visible = false;
+            panel7.Visible = false;
+            axShockwaveFlash1.Visible = false;
+            diagramView1.Visible = true;
+            
             if (panel_Thuchanh.Visible == true)
             {
                 panel_Thuchanh.Visible = false;
@@ -107,6 +111,8 @@ namespace ElectricProject
             panel9.Visible = false;
             panel_2D.Visible = false;
             panel_3D.Visible = false;
+            axShockwaveFlash1.Visible = false;
+            diagramView1.Visible = false;
 
 
             if (panel_lythuyet.Visible == true)
@@ -125,6 +131,10 @@ namespace ElectricProject
             panel_lythuyet.Visible = false;
             panel_Thuchanh.Visible = false;
             panel_3D.Visible = false;
+            diagramView1.Visible = false;
+            panel7.Visible = true;
+
+
             if ( panel_2D.Visible == true)
             {
                 panel_2D.Visible = false;
@@ -141,7 +151,9 @@ namespace ElectricProject
             panel_2D.Visible = false;
             panel_lythuyet.Visible = false;
             panel_Thuchanh.Visible = false;
-            if(panel_3D.Visible == true)
+            axShockwaveFlash1.Visible = false;
+            diagramView1.Visible = false;
+            if (panel_3D.Visible == true)
             {
                 panel_3D.Visible = false;
             }
@@ -350,7 +362,8 @@ namespace ElectricProject
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            axShockwaveFlash1.Visible = true;
+            axShockwaveFlash1.Movie = Environment.CurrentDirectory + @"\2D\HeThongBoiTronAI9B.swf";
         }
     }
 }

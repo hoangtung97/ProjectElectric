@@ -128,3 +128,9 @@ D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Electr
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache

@@ -47,17 +47,20 @@
             this.btn_2D = new System.Windows.Forms.Button();
             this.btn_Document = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.TextboxWidth = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.TextboxLine = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.TextboxLine = new System.Windows.Forms.TextBox();
+            this.TextboxWidth = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel_3D = new System.Windows.Forms.Panel();
             this.button52 = new System.Windows.Forms.Button();
@@ -141,16 +144,18 @@
             this.btn_Lythuyetdien1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panelView = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
             this.diagram1 = new MindFusion.Diagramming.Diagram();
             this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel10.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel_3D.SuspendLayout();
             this.panel_2D.SuspendLayout();
@@ -159,7 +164,8 @@
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panelView.SuspendLayout();
-            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -421,14 +427,23 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.button29);
+            this.panel3.Controls.Add(this.panel10);
             this.panel3.Controls.Add(this.button28);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 35);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1386, 51);
             this.panel3.TabIndex = 2;
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.button1);
+            this.panel10.Controls.Add(this.button29);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel10.Location = new System.Drawing.Point(1141, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(245, 51);
+            this.panel10.TabIndex = 3;
             // 
             // button1
             // 
@@ -439,7 +454,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(1154, 10);
+            this.button1.Location = new System.Drawing.Point(15, 11);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 31);
             this.button1.TabIndex = 2;
@@ -454,7 +469,7 @@
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button29.ForeColor = System.Drawing.SystemColors.Control;
-            this.button29.Location = new System.Drawing.Point(1267, 10);
+            this.button29.Location = new System.Drawing.Point(128, 11);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(107, 31);
             this.button29.TabIndex = 1;
@@ -468,13 +483,13 @@
             this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
             this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.button28.ForeColor = System.Drawing.Color.Transparent;
             this.button28.Image = global::ElectricProject.Properties.Resources.BTN_BACK;
             this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button28.Location = new System.Drawing.Point(0, 0);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(95, 51);
+            this.button28.Size = new System.Drawing.Size(96, 51);
             this.button28.TabIndex = 0;
             this.button28.Text = "Home";
             this.button28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -483,12 +498,50 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
+            this.panel4.Controls.Add(this.panel11);
             this.panel4.Controls.Add(this.panel6);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(267, 86);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1119, 46);
             this.panel4.TabIndex = 3;
+            // 
+            // panel11
+            // 
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel11.Location = new System.Drawing.Point(603, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(516, 46);
+            this.panel11.TabIndex = 8;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.comboBox2);
+            this.panel6.Controls.Add(this.label8);
+            this.panel6.Controls.Add(this.label5);
+            this.panel6.Controls.Add(this.TextboxLine);
+            this.panel6.Controls.Add(this.TextboxWidth);
+            this.panel6.Controls.Add(this.label6);
+            this.panel6.Controls.Add(this.label7);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(597, 46);
+            this.panel6.TabIndex = 7;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.comboBox2.ForeColor = System.Drawing.Color.Transparent;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "RED",
+            "BLUE"});
+            this.comboBox2.Location = new System.Drawing.Point(506, 14);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(71, 21);
+            this.comboBox2.TabIndex = 5;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -501,18 +554,26 @@
             this.label8.TabIndex = 6;
             this.label8.Text = "Color:";
             // 
-            // comboBox2
+            // label5
             // 
-            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "RED",
-            "BLUE"});
-            this.comboBox2.Location = new System.Drawing.Point(506, 14);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(71, 21);
-            this.comboBox2.TabIndex = 5;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Silver;
+            this.label5.Location = new System.Drawing.Point(10, 12);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(72, 22);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Name : ";
+            // 
+            // TextboxLine
+            // 
+            this.TextboxLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.TextboxLine.Location = new System.Drawing.Point(271, 14);
+            this.TextboxLine.Name = "TextboxLine";
+            this.TextboxLine.Size = new System.Drawing.Size(66, 20);
+            this.TextboxLine.TabIndex = 1;
+            this.TextboxLine.Click += new System.EventHandler(this.TextboxLine_Click);
+            this.TextboxLine.Leave += new System.EventHandler(this.TextboxLine_Leave);
             // 
             // TextboxWidth
             // 
@@ -522,17 +583,6 @@
             this.TextboxWidth.Size = new System.Drawing.Size(66, 20);
             this.TextboxWidth.TabIndex = 4;
             this.TextboxWidth.Leave += new System.EventHandler(this.TextboxWidth_Leave);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Silver;
-            this.label7.Location = new System.Drawing.Point(341, 15);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 17);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Width:";
             // 
             // label6
             // 
@@ -545,26 +595,16 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "Text :";
             // 
-            // TextboxLine
+            // label7
             // 
-            this.TextboxLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.TextboxLine.Location = new System.Drawing.Point(271, 14);
-            this.TextboxLine.Name = "TextboxLine";
-            this.TextboxLine.Size = new System.Drawing.Size(66, 20);
-            this.TextboxLine.TabIndex = 1;
-            this.TextboxLine.Click += new System.EventHandler(this.TextboxLine_Click);
-            this.TextboxLine.Leave += new System.EventHandler(this.TextboxLine_Leave);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Silver;
-            this.label5.Location = new System.Drawing.Point(10, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 22);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Name : ";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Silver;
+            this.label7.Location = new System.Drawing.Point(341, 15);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(48, 17);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Width:";
             // 
             // panel5
             // 
@@ -604,7 +644,7 @@
             this.panel_3D.Controls.Add(this.button72);
             this.panel_3D.Controls.Add(this.label4);
             this.panel_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_3D.Location = new System.Drawing.Point(0, 425);
+            this.panel_3D.Location = new System.Drawing.Point(0, 1456);
             this.panel_3D.Name = "panel_3D";
             this.panel_3D.Size = new System.Drawing.Size(217, 522);
             this.panel_3D.TabIndex = 4;
@@ -1067,9 +1107,9 @@
             this.panel_2D.Controls.Add(this.button51);
             this.panel_2D.Controls.Add(this.label3);
             this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_2D.Location = new System.Drawing.Point(0, 92);
+            this.panel_2D.Location = new System.Drawing.Point(0, 915);
             this.panel_2D.Name = "panel_2D";
-            this.panel_2D.Size = new System.Drawing.Size(217, 333);
+            this.panel_2D.Size = new System.Drawing.Size(217, 541);
             this.panel_2D.TabIndex = 3;
             // 
             // button2
@@ -1529,9 +1569,9 @@
             this.panel_Thuchanh.Controls.Add(this.button8);
             this.panel_Thuchanh.Controls.Add(this.button20);
             this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 35);
+            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 391);
             this.panel_Thuchanh.Name = "panel_Thuchanh";
-            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 57);
+            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 524);
             this.panel_Thuchanh.TabIndex = 1;
             // 
             // button25
@@ -1976,7 +2016,7 @@
             this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
             this.panel_lythuyet.Name = "panel_lythuyet";
-            this.panel_lythuyet.Size = new System.Drawing.Size(217, 35);
+            this.panel_lythuyet.Size = new System.Drawing.Size(217, 391);
             this.panel_lythuyet.TabIndex = 2;
             // 
             // panel9
@@ -1985,7 +2025,7 @@
             this.panel9.Controls.Add(this.button31);
             this.panel9.Controls.Add(this.button32);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 248);
+            this.panel9.Location = new System.Drawing.Point(0, 272);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(217, 107);
             this.panel9.TabIndex = 5;
@@ -2047,7 +2087,7 @@
             this.btn_Lythuyetdien2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Lythuyetdien2.Image = global::ElectricProject.Properties.Resources.electric2;
             this.btn_Lythuyetdien2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Lythuyetdien2.Location = new System.Drawing.Point(0, 201);
+            this.btn_Lythuyetdien2.Location = new System.Drawing.Point(0, 225);
             this.btn_Lythuyetdien2.Name = "btn_Lythuyetdien2";
             this.btn_Lythuyetdien2.Size = new System.Drawing.Size(217, 47);
             this.btn_Lythuyetdien2.TabIndex = 3;
@@ -2061,7 +2101,7 @@
             this.panel8.Controls.Add(this.button5);
             this.panel8.Controls.Add(this.button4);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 98);
+            this.panel8.Location = new System.Drawing.Point(0, 122);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(217, 103);
             this.panel8.TabIndex = 4;
@@ -2123,7 +2163,7 @@
             this.btn_Lythuyetdien1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Lythuyetdien1.Image = global::ElectricProject.Properties.Resources.electric;
             this.btn_Lythuyetdien1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Lythuyetdien1.Location = new System.Drawing.Point(0, 52);
+            this.btn_Lythuyetdien1.Location = new System.Drawing.Point(0, 76);
             this.btn_Lythuyetdien1.Name = "btn_Lythuyetdien1";
             this.btn_Lythuyetdien1.Size = new System.Drawing.Size(217, 46);
             this.btn_Lythuyetdien1.TabIndex = 2;
@@ -2139,7 +2179,7 @@
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 52);
+            this.label2.Size = new System.Drawing.Size(217, 76);
             this.label2.TabIndex = 1;
             this.label2.Text = "LÝ THUYẾT";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -2154,6 +2194,24 @@
             this.panelView.Name = "panelView";
             this.panelView.Size = new System.Drawing.Size(1119, 635);
             this.panelView.TabIndex = 5;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.axShockwaveFlash1);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1119, 635);
+            this.panel7.TabIndex = 2;
+            // 
+            // axShockwaveFlash1
+            // 
+            this.axShockwaveFlash1.Enabled = true;
+            this.axShockwaveFlash1.Location = new System.Drawing.Point(7, 7);
+            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
+            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
+            this.axShockwaveFlash1.Size = new System.Drawing.Size(1102, 616);
+            this.axShockwaveFlash1.TabIndex = 0;
             // 
             // diagramView1
             // 
@@ -2189,29 +2247,6 @@
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
             // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.comboBox2);
-            this.panel6.Controls.Add(this.label8);
-            this.panel6.Controls.Add(this.label5);
-            this.panel6.Controls.Add(this.TextboxLine);
-            this.panel6.Controls.Add(this.TextboxWidth);
-            this.panel6.Controls.Add(this.label6);
-            this.panel6.Controls.Add(this.label7);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(597, 46);
-            this.panel6.TabIndex = 7;
-            // 
-            // panel7
-            // 
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1119, 635);
-            this.panel7.TabIndex = 2;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2236,7 +2271,10 @@
             this.menuStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel_3D.ResumeLayout(false);
             this.panel_2D.ResumeLayout(false);
@@ -2246,8 +2284,8 @@
             this.panel9.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panelView.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2371,6 +2409,9 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel11;
+        private AxShockwaveFlashObjects.AxShockwaveFlash axShockwaveFlash1;
     }
 }
 
