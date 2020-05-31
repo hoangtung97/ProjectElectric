@@ -223,7 +223,13 @@ namespace ElectricProject
 
         private void button53_Click(object sender, EventArgs e)
         {
-            new View3DForm().Show();
+            View3DForm view3d = new View3DForm();
+            panel_display3d.Controls.Add(view3d);
+            panel_display3d.BringToFront();
+            panel_display3d.Visible = true;
+            view3d.Dock = DockStyle.Fill;
+            view3d.FormBorderStyle = FormBorderStyle.None;
+            view3d.Show();
         }
 
         private void button71_Click(object sender, EventArgs e)

@@ -64,7 +64,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel_3D = new System.Windows.Forms.Panel();
             this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
+            this.button_device3d_1 = new System.Windows.Forms.Button();
             this.button54 = new System.Windows.Forms.Button();
             this.button55 = new System.Windows.Forms.Button();
             this.button56 = new System.Windows.Forms.Button();
@@ -145,10 +145,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panelView = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.panel_display3d = new System.Windows.Forms.Panel();
             this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
             this.diagram1 = new MindFusion.Diagramming.Diagram();
             this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
+            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
+            this.view3D_XAML1 = new ElectricProject.View3D_XAML();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -165,6 +168,7 @@
             this.panel8.SuspendLayout();
             this.panelView.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel_display3d.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -622,7 +626,7 @@
             // panel_3D
             // 
             this.panel_3D.Controls.Add(this.button52);
-            this.panel_3D.Controls.Add(this.button53);
+            this.panel_3D.Controls.Add(this.button_device3d_1);
             this.panel_3D.Controls.Add(this.button54);
             this.panel_3D.Controls.Add(this.button55);
             this.panel_3D.Controls.Add(this.button56);
@@ -644,7 +648,7 @@
             this.panel_3D.Controls.Add(this.button72);
             this.panel_3D.Controls.Add(this.label4);
             this.panel_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_3D.Location = new System.Drawing.Point(0, 1460);
+            this.panel_3D.Location = new System.Drawing.Point(0, 142);
             this.panel_3D.Name = "panel_3D";
             this.panel_3D.Size = new System.Drawing.Size(217, 522);
             this.panel_3D.TabIndex = 4;
@@ -669,26 +673,26 @@
             this.button52.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button52.UseVisualStyleBackColor = false;
             // 
-            // button53
+            // button_device3d_1
             // 
-            this.button53.BackColor = System.Drawing.Color.Transparent;
-            this.button53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button53.FlatAppearance.BorderSize = 0;
-            this.button53.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button53.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button53.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button53.ForeColor = System.Drawing.Color.Silver;
-            this.button53.Image = ((System.Drawing.Image)(resources.GetObject("button53.Image")));
-            this.button53.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button53.Location = new System.Drawing.Point(15, 47);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(50, 72);
-            this.button53.TabIndex = 45;
-            this.button53.Text = "TB 1";
-            this.button53.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button53.UseVisualStyleBackColor = false;
-            this.button53.Click += new System.EventHandler(this.button53_Click);
+            this.button_device3d_1.BackColor = System.Drawing.Color.Transparent;
+            this.button_device3d_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_device3d_1.FlatAppearance.BorderSize = 0;
+            this.button_device3d_1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button_device3d_1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button_device3d_1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button_device3d_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_device3d_1.ForeColor = System.Drawing.Color.Silver;
+            this.button_device3d_1.Image = ((System.Drawing.Image)(resources.GetObject("button_device3d_1.Image")));
+            this.button_device3d_1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button_device3d_1.Location = new System.Drawing.Point(15, 47);
+            this.button_device3d_1.Name = "button_device3d_1";
+            this.button_device3d_1.Size = new System.Drawing.Size(50, 72);
+            this.button_device3d_1.TabIndex = 45;
+            this.button_device3d_1.Text = "TB 1";
+            this.button_device3d_1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button_device3d_1.UseVisualStyleBackColor = false;
+            this.button_device3d_1.Click += new System.EventHandler(this.button53_Click);
             // 
             // button54
             // 
@@ -1107,9 +1111,9 @@
             this.panel_2D.Controls.Add(this.button51);
             this.panel_2D.Controls.Add(this.label3);
             this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_2D.Location = new System.Drawing.Point(0, 919);
+            this.panel_2D.Location = new System.Drawing.Point(0, 95);
             this.panel_2D.Name = "panel_2D";
-            this.panel_2D.Size = new System.Drawing.Size(217, 541);
+            this.panel_2D.Size = new System.Drawing.Size(217, 47);
             this.panel_2D.TabIndex = 3;
             // 
             // button2
@@ -1569,9 +1573,9 @@
             this.panel_Thuchanh.Controls.Add(this.button8);
             this.panel_Thuchanh.Controls.Add(this.button20);
             this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 395);
+            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 43);
             this.panel_Thuchanh.Name = "panel_Thuchanh";
-            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 524);
+            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 52);
             this.panel_Thuchanh.TabIndex = 1;
             // 
             // button25
@@ -2016,7 +2020,7 @@
             this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
             this.panel_lythuyet.Name = "panel_lythuyet";
-            this.panel_lythuyet.Size = new System.Drawing.Size(217, 395);
+            this.panel_lythuyet.Size = new System.Drawing.Size(217, 43);
             this.panel_lythuyet.TabIndex = 2;
             this.panel_lythuyet.Visible = false;
             // 
@@ -2199,12 +2203,22 @@
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.panel_display3d);
             this.panel7.Controls.Add(this.axShockwaveFlash1);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1119, 635);
             this.panel7.TabIndex = 2;
+            // 
+            // panel_display3d
+            // 
+            this.panel_display3d.Controls.Add(this.elementHost1);
+            this.panel_display3d.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_display3d.Location = new System.Drawing.Point(0, 0);
+            this.panel_display3d.Name = "panel_display3d";
+            this.panel_display3d.Size = new System.Drawing.Size(1119, 635);
+            this.panel_display3d.TabIndex = 2;
             // 
             // axShockwaveFlash1
             // 
@@ -2252,6 +2266,16 @@
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
             // 
+            // elementHost1
+            // 
+            this.elementHost1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.elementHost1.Location = new System.Drawing.Point(0, 0);
+            this.elementHost1.Name = "elementHost1";
+            this.elementHost1.Size = new System.Drawing.Size(1119, 635);
+            this.elementHost1.TabIndex = 0;
+            this.elementHost1.Text = "elementHost1";
+            this.elementHost1.Child = this.view3D_XAML1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2290,6 +2314,7 @@
             this.panel8.ResumeLayout(false);
             this.panelView.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
+            this.panel_display3d.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).EndInit();
             this.ResumeLayout(false);
 
@@ -2380,7 +2405,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel_3D;
         private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button53;
+        private System.Windows.Forms.Button button_device3d_1;
         private System.Windows.Forms.Button button54;
         private System.Windows.Forms.Button button55;
         private System.Windows.Forms.Button button56;
@@ -2417,6 +2442,9 @@
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel11;
         private AxShockwaveFlashObjects.AxShockwaveFlash axShockwaveFlash1;
+        private System.Windows.Forms.Panel panel_display3d;
+        private System.Windows.Forms.Integration.ElementHost elementHost1;
+        private View3D_XAML view3D_XAML1;
     }
 }
 
