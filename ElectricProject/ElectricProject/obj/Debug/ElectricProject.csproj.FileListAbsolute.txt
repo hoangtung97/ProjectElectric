@@ -139,3 +139,16 @@ E:\Github Clone\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Electr
 E:\Github Clone\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.Cache
 E:\Github Clone\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
 E:\Github Clone\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses

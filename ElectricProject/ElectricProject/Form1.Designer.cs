@@ -145,10 +145,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panelView = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
             this.diagram1 = new MindFusion.Diagramming.Diagram();
             this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
-            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -2154,6 +2154,7 @@
             this.button4.TabIndex = 6;
             this.button4.Text = "Phần 1";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btn_Lythuyetdien1
             // 
@@ -2205,6 +2206,18 @@
             this.panel7.Size = new System.Drawing.Size(1119, 635);
             this.panel7.TabIndex = 2;
             // 
+            // axShockwaveFlash1
+            // 
+            this.axShockwaveFlash1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.axShockwaveFlash1.Enabled = true;
+            this.axShockwaveFlash1.Location = new System.Drawing.Point(8, 9);
+            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
+            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
+            this.axShockwaveFlash1.Size = new System.Drawing.Size(1102, 616);
+            this.axShockwaveFlash1.TabIndex = 1;
+            // 
             // diagramView1
             // 
             this.diagramView1.BackColor = System.Drawing.Color.Black;
@@ -2238,15 +2251,6 @@
             this.ruler1.TabIndex = 0;
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
-            // 
-            // axShockwaveFlash1
-            // 
-            this.axShockwaveFlash1.Enabled = true;
-            this.axShockwaveFlash1.Location = new System.Drawing.Point(8, 9);
-            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
-            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
-            this.axShockwaveFlash1.Size = new System.Drawing.Size(1102, 616);
-            this.axShockwaveFlash1.TabIndex = 1;
             // 
             // Form1
             // 

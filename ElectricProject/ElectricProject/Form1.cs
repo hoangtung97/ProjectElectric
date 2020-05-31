@@ -21,6 +21,8 @@ namespace ElectricProject
             InitializeComponent();
             btn_Restoredown.Visible = false;
             panel5.Visible = false;
+            panel10.Visible = false;
+            panel6.Visible = false;
 
         }
         private void panel1_MouseDown(object sender, MouseEventArgs e)
@@ -117,8 +119,15 @@ namespace ElectricProject
             diagramView1.Visible = false;
             panel10.Visible = false;
             panel6.Visible = false;
-
             panel5.Visible = true;
+            //fill form
+            PDFViewerForm objForm = new PDFViewerForm();
+            
+            objForm.TopLevel = false;
+            panel7.Controls.Add(objForm);
+            objForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            objForm.Dock = DockStyle.Fill;
+            objForm.Show();
 
             if (panel_lythuyet.Visible == true)
             {
@@ -164,6 +173,7 @@ namespace ElectricProject
             diagramView1.Visible = false;
             panel10.Visible = false;
             panel6.Visible = false;
+            panel7.Visible = false;
             if (panel_3D.Visible == true)
             {
                 panel_3D.Visible = false;
@@ -378,5 +388,12 @@ namespace ElectricProject
             axShockwaveFlash1.Movie = Environment.CurrentDirectory + @"\2D\HeThongBoiTronAI9B.swf";
         }
         #endregion
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            PDFViewerForm pdf = new PDFViewerForm();
+            pdf.Loadpdf(@"D:\Project\BGChinhTri\giáo dục quốc phòng - an ninh 10.pdf");
+            
+        }
     }
 }
