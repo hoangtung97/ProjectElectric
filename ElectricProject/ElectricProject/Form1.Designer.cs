@@ -30,27 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_Minimized = new System.Windows.Forms.Button();
-            this.btn_Fullscreen = new System.Windows.Forms.Button();
-            this.btn_Restoredown = new System.Windows.Forms.Button();
-            this.btn_Exit = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.eLECTRICSIMULATIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_Option = new System.Windows.Forms.Button();
-            this.btn_Help = new System.Windows.Forms.Button();
-            this.btb_Simulate = new System.Windows.Forms.Button();
-            this.btn_3D = new System.Windows.Forms.Button();
-            this.btn_2D = new System.Windows.Forms.Button();
-            this.btn_Document = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -63,6 +51,30 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel_3D = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel_2D = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel_Thuchanh = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel_lythuyet = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panelView = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel_display3d = new System.Windows.Forms.Panel();
+            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
+            this.view3D_XAML1 = new ElectricProject.View3D_XAML();
+            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
+            this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
+            this.diagram1 = new MindFusion.Diagramming.Diagram();
+            this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
             this.button52 = new System.Windows.Forms.Button();
             this.button_device3d_1 = new System.Windows.Forms.Button();
             this.button54 = new System.Windows.Forms.Button();
@@ -84,8 +96,6 @@
             this.button70 = new System.Windows.Forms.Button();
             this.button71 = new System.Windows.Forms.Button();
             this.button72 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel_2D = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
@@ -107,10 +117,7 @@
             this.button49 = new System.Windows.Forms.Button();
             this.button50 = new System.Windows.Forms.Button();
             this.button51 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel_Thuchanh = new System.Windows.Forms.Panel();
             this.button25 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -131,27 +138,20 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
-            this.panel_lythuyet = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
             this.btn_Lythuyetdien2 = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.btn_Lythuyetdien1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panelView = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel_display3d = new System.Windows.Forms.Panel();
-            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
-            this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
-            this.diagram1 = new MindFusion.Diagramming.Diagram();
-            this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
-            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.view3D_XAML1 = new ElectricProject.View3D_XAML();
+            this.btn_Option = new System.Windows.Forms.Button();
+            this.btn_Help = new System.Windows.Forms.Button();
+            this.btb_Simulate = new System.Windows.Forms.Button();
+            this.btn_3D = new System.Windows.Forms.Button();
+            this.btn_2D = new System.Windows.Forms.Button();
+            this.btn_Document = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.btn_Minimized = new System.Windows.Forms.Button();
+            this.btn_Fullscreen = new System.Windows.Forms.Button();
+            this.btn_Restoredown = new System.Windows.Forms.Button();
+            this.btn_Exit = new System.Windows.Forms.Button();
+            this.eLECTRICSIMULATIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -189,74 +189,6 @@
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
-            // btn_Minimized
-            // 
-            this.btn_Minimized.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Minimized.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Minimized.FlatAppearance.BorderSize = 0;
-            this.btn_Minimized.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Minimized.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Minimized.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Minimized.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Minimized.Image = global::ElectricProject.Properties.Resources.MINIMIZE1;
-            this.btn_Minimized.Location = new System.Drawing.Point(1246, 0);
-            this.btn_Minimized.Name = "btn_Minimized";
-            this.btn_Minimized.Size = new System.Drawing.Size(35, 35);
-            this.btn_Minimized.TabIndex = 3;
-            this.btn_Minimized.UseVisualStyleBackColor = false;
-            this.btn_Minimized.Click += new System.EventHandler(this.btn_Minimized_Click);
-            // 
-            // btn_Fullscreen
-            // 
-            this.btn_Fullscreen.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Fullscreen.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Fullscreen.FlatAppearance.BorderSize = 0;
-            this.btn_Fullscreen.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Fullscreen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Fullscreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Fullscreen.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Fullscreen.Image = global::ElectricProject.Properties.Resources.FULLSCREEN;
-            this.btn_Fullscreen.Location = new System.Drawing.Point(1281, 0);
-            this.btn_Fullscreen.Name = "btn_Fullscreen";
-            this.btn_Fullscreen.Size = new System.Drawing.Size(35, 35);
-            this.btn_Fullscreen.TabIndex = 2;
-            this.btn_Fullscreen.UseVisualStyleBackColor = false;
-            this.btn_Fullscreen.Click += new System.EventHandler(this.btn_Fullscreen_Click);
-            // 
-            // btn_Restoredown
-            // 
-            this.btn_Restoredown.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Restoredown.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Restoredown.FlatAppearance.BorderSize = 0;
-            this.btn_Restoredown.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Restoredown.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Restoredown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Restoredown.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Restoredown.Image = global::ElectricProject.Properties.Resources.RESTORE_DOWN1;
-            this.btn_Restoredown.Location = new System.Drawing.Point(1316, 0);
-            this.btn_Restoredown.Name = "btn_Restoredown";
-            this.btn_Restoredown.Size = new System.Drawing.Size(35, 35);
-            this.btn_Restoredown.TabIndex = 1;
-            this.btn_Restoredown.UseVisualStyleBackColor = false;
-            this.btn_Restoredown.Click += new System.EventHandler(this.btn_Restoredown_Click);
-            // 
-            // btn_Exit
-            // 
-            this.btn_Exit.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Exit.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Exit.FlatAppearance.BorderSize = 0;
-            this.btn_Exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Exit.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Exit.Image = global::ElectricProject.Properties.Resources.EXIT1;
-            this.btn_Exit.Location = new System.Drawing.Point(1351, 0);
-            this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(35, 35);
-            this.btn_Exit.TabIndex = 0;
-            this.btn_Exit.UseVisualStyleBackColor = false;
-            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
-            // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
@@ -271,15 +203,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(293, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // eLECTRICSIMULATIONToolStripMenuItem
-            // 
-            this.eLECTRICSIMULATIONToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.eLECTRICSIMULATIONToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
-            this.eLECTRICSIMULATIONToolStripMenuItem.Image = global::ElectricProject.Properties.Resources.LOGO2;
-            this.eLECTRICSIMULATIONToolStripMenuItem.Name = "eLECTRICSIMULATIONToolStripMenuItem";
-            this.eLECTRICSIMULATIONToolStripMenuItem.Size = new System.Drawing.Size(162, 20);
-            this.eLECTRICSIMULATIONToolStripMenuItem.Text = "ELECTRIC SIMULATION";
             // 
             // editToolStripMenuItem
             // 
@@ -319,114 +242,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(50, 681);
             this.panel2.TabIndex = 1;
-            // 
-            // btn_Option
-            // 
-            this.btn_Option.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Option.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Option.FlatAppearance.BorderSize = 0;
-            this.btn_Option.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Option.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Option.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Option.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Option.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Option.Image = global::ElectricProject.Properties.Resources.OPTION;
-            this.btn_Option.Location = new System.Drawing.Point(0, 290);
-            this.btn_Option.Name = "btn_Option";
-            this.btn_Option.Size = new System.Drawing.Size(50, 58);
-            this.btn_Option.TabIndex = 5;
-            this.btn_Option.UseVisualStyleBackColor = false;
-            this.btn_Option.Click += new System.EventHandler(this.btn_Option_Click);
-            // 
-            // btn_Help
-            // 
-            this.btn_Help.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Help.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Help.FlatAppearance.BorderSize = 0;
-            this.btn_Help.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Help.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Help.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Help.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Help.Image = global::ElectricProject.Properties.Resources.HELP;
-            this.btn_Help.Location = new System.Drawing.Point(0, 232);
-            this.btn_Help.Name = "btn_Help";
-            this.btn_Help.Size = new System.Drawing.Size(50, 58);
-            this.btn_Help.TabIndex = 4;
-            this.btn_Help.UseVisualStyleBackColor = false;
-            this.btn_Help.Click += new System.EventHandler(this.btn_Help_Click);
-            // 
-            // btb_Simulate
-            // 
-            this.btb_Simulate.BackColor = System.Drawing.Color.Transparent;
-            this.btb_Simulate.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btb_Simulate.FlatAppearance.BorderSize = 0;
-            this.btb_Simulate.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btb_Simulate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btb_Simulate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btb_Simulate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btb_Simulate.ForeColor = System.Drawing.Color.Transparent;
-            this.btb_Simulate.Image = global::ElectricProject.Properties.Resources.Editor;
-            this.btb_Simulate.Location = new System.Drawing.Point(0, 174);
-            this.btb_Simulate.Name = "btb_Simulate";
-            this.btb_Simulate.Size = new System.Drawing.Size(50, 58);
-            this.btb_Simulate.TabIndex = 3;
-            this.btb_Simulate.UseVisualStyleBackColor = false;
-            this.btb_Simulate.Click += new System.EventHandler(this.btb_Simulate_Click);
-            // 
-            // btn_3D
-            // 
-            this.btn_3D.BackColor = System.Drawing.Color.Transparent;
-            this.btn_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_3D.FlatAppearance.BorderSize = 0;
-            this.btn_3D.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_3D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_3D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_3D.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_3D.Image = global::ElectricProject.Properties.Resources._3D;
-            this.btn_3D.Location = new System.Drawing.Point(0, 116);
-            this.btn_3D.Name = "btn_3D";
-            this.btn_3D.Size = new System.Drawing.Size(50, 58);
-            this.btn_3D.TabIndex = 2;
-            this.btn_3D.UseVisualStyleBackColor = false;
-            this.btn_3D.Click += new System.EventHandler(this.btn_3D_Click);
-            // 
-            // btn_2D
-            // 
-            this.btn_2D.BackColor = System.Drawing.Color.Transparent;
-            this.btn_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_2D.FlatAppearance.BorderSize = 0;
-            this.btn_2D.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_2D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_2D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_2D.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_2D.Image = global::ElectricProject.Properties.Resources.BACKGROUND;
-            this.btn_2D.Location = new System.Drawing.Point(0, 58);
-            this.btn_2D.Name = "btn_2D";
-            this.btn_2D.Size = new System.Drawing.Size(50, 58);
-            this.btn_2D.TabIndex = 1;
-            this.btn_2D.UseVisualStyleBackColor = false;
-            this.btn_2D.Click += new System.EventHandler(this.btn_2D_Click);
-            // 
-            // btn_Document
-            // 
-            this.btn_Document.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Document.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Document.FlatAppearance.BorderSize = 0;
-            this.btn_Document.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Document.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Document.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Document.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Document.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Document.Image = global::ElectricProject.Properties.Resources.DOCUMENT;
-            this.btn_Document.Location = new System.Drawing.Point(0, 0);
-            this.btn_Document.Name = "btn_Document";
-            this.btn_Document.Size = new System.Drawing.Size(50, 58);
-            this.btn_Document.TabIndex = 0;
-            this.btn_Document.UseVisualStyleBackColor = false;
-            this.btn_Document.Click += new System.EventHandler(this.btn_Document_Click);
             // 
             // panel3
             // 
@@ -479,25 +294,6 @@
             this.button29.TabIndex = 1;
             this.button29.Text = "Simulate";
             this.button29.UseVisualStyleBackColor = false;
-            // 
-            // button28
-            // 
-            this.button28.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
-            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.button28.ForeColor = System.Drawing.Color.Transparent;
-            this.button28.Image = global::ElectricProject.Properties.Resources.BTN_BACK;
-            this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button28.Location = new System.Drawing.Point(0, 0);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(96, 51);
-            this.button28.TabIndex = 0;
-            this.button28.Text = "Home";
-            this.button28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button28.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -648,432 +444,10 @@
             this.panel_3D.Controls.Add(this.button72);
             this.panel_3D.Controls.Add(this.label4);
             this.panel_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_3D.Location = new System.Drawing.Point(0, 142);
+            this.panel_3D.Location = new System.Drawing.Point(0, 1457);
             this.panel_3D.Name = "panel_3D";
-            this.panel_3D.Size = new System.Drawing.Size(217, 522);
+            this.panel_3D.Size = new System.Drawing.Size(217, 527);
             this.panel_3D.TabIndex = 4;
-            // 
-            // button52
-            // 
-            this.button52.BackColor = System.Drawing.Color.Transparent;
-            this.button52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button52.FlatAppearance.BorderSize = 0;
-            this.button52.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button52.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button52.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button52.ForeColor = System.Drawing.Color.Silver;
-            this.button52.Image = ((System.Drawing.Image)(resources.GetObject("button52.Image")));
-            this.button52.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button52.Location = new System.Drawing.Point(151, 521);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(50, 72);
-            this.button52.TabIndex = 65;
-            this.button52.Text = "TB21";
-            this.button52.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button52.UseVisualStyleBackColor = false;
-            // 
-            // button_device3d_1
-            // 
-            this.button_device3d_1.BackColor = System.Drawing.Color.Transparent;
-            this.button_device3d_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button_device3d_1.FlatAppearance.BorderSize = 0;
-            this.button_device3d_1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button_device3d_1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button_device3d_1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button_device3d_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_device3d_1.ForeColor = System.Drawing.Color.Silver;
-            this.button_device3d_1.Image = ((System.Drawing.Image)(resources.GetObject("button_device3d_1.Image")));
-            this.button_device3d_1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button_device3d_1.Location = new System.Drawing.Point(15, 47);
-            this.button_device3d_1.Name = "button_device3d_1";
-            this.button_device3d_1.Size = new System.Drawing.Size(50, 72);
-            this.button_device3d_1.TabIndex = 45;
-            this.button_device3d_1.Text = "TB 1";
-            this.button_device3d_1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button_device3d_1.UseVisualStyleBackColor = false;
-            this.button_device3d_1.Click += new System.EventHandler(this.button53_Click);
-            // 
-            // button54
-            // 
-            this.button54.BackColor = System.Drawing.Color.Transparent;
-            this.button54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button54.FlatAppearance.BorderSize = 0;
-            this.button54.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button54.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button54.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button54.ForeColor = System.Drawing.Color.Silver;
-            this.button54.Image = ((System.Drawing.Image)(resources.GetObject("button54.Image")));
-            this.button54.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button54.Location = new System.Drawing.Point(83, 521);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(50, 72);
-            this.button54.TabIndex = 64;
-            this.button54.Text = "TB20";
-            this.button54.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button54.UseVisualStyleBackColor = false;
-            // 
-            // button55
-            // 
-            this.button55.BackColor = System.Drawing.Color.Transparent;
-            this.button55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button55.FlatAppearance.BorderSize = 0;
-            this.button55.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button55.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button55.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button55.ForeColor = System.Drawing.Color.Silver;
-            this.button55.Image = ((System.Drawing.Image)(resources.GetObject("button55.Image")));
-            this.button55.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button55.Location = new System.Drawing.Point(83, 208);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(50, 72);
-            this.button55.TabIndex = 52;
-            this.button55.Text = "TB8";
-            this.button55.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button55.UseVisualStyleBackColor = false;
-            // 
-            // button56
-            // 
-            this.button56.BackColor = System.Drawing.Color.Transparent;
-            this.button56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button56.FlatAppearance.BorderSize = 0;
-            this.button56.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button56.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button56.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button56.ForeColor = System.Drawing.Color.Silver;
-            this.button56.Image = ((System.Drawing.Image)(resources.GetObject("button56.Image")));
-            this.button56.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button56.Location = new System.Drawing.Point(151, 208);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(50, 72);
-            this.button56.TabIndex = 53;
-            this.button56.Text = "TB9";
-            this.button56.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button56.UseVisualStyleBackColor = false;
-            // 
-            // button57
-            // 
-            this.button57.BackColor = System.Drawing.Color.Transparent;
-            this.button57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button57.FlatAppearance.BorderSize = 0;
-            this.button57.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button57.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button57.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button57.ForeColor = System.Drawing.Color.Silver;
-            this.button57.Image = ((System.Drawing.Image)(resources.GetObject("button57.Image")));
-            this.button57.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button57.Location = new System.Drawing.Point(15, 521);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(50, 72);
-            this.button57.TabIndex = 63;
-            this.button57.Text = "TB19";
-            this.button57.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button57.UseVisualStyleBackColor = false;
-            // 
-            // button58
-            // 
-            this.button58.BackColor = System.Drawing.Color.Transparent;
-            this.button58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button58.FlatAppearance.BorderSize = 0;
-            this.button58.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button58.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button58.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button58.ForeColor = System.Drawing.Color.Silver;
-            this.button58.Image = ((System.Drawing.Image)(resources.GetObject("button58.Image")));
-            this.button58.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button58.Location = new System.Drawing.Point(15, 208);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(50, 72);
-            this.button58.TabIndex = 51;
-            this.button58.Text = "TB7";
-            this.button58.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button58.UseVisualStyleBackColor = false;
-            // 
-            // button59
-            // 
-            this.button59.BackColor = System.Drawing.Color.Transparent;
-            this.button59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button59.FlatAppearance.BorderSize = 0;
-            this.button59.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button59.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button59.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button59.ForeColor = System.Drawing.Color.Silver;
-            this.button59.Image = ((System.Drawing.Image)(resources.GetObject("button59.Image")));
-            this.button59.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button59.Location = new System.Drawing.Point(15, 287);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(50, 72);
-            this.button59.TabIndex = 54;
-            this.button59.Text = "TB10";
-            this.button59.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button59.UseVisualStyleBackColor = false;
-            // 
-            // button60
-            // 
-            this.button60.BackColor = System.Drawing.Color.Transparent;
-            this.button60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button60.FlatAppearance.BorderSize = 0;
-            this.button60.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button60.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button60.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button60.ForeColor = System.Drawing.Color.Silver;
-            this.button60.Image = ((System.Drawing.Image)(resources.GetObject("button60.Image")));
-            this.button60.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button60.Location = new System.Drawing.Point(151, 441);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(50, 72);
-            this.button60.TabIndex = 62;
-            this.button60.Text = "TB18";
-            this.button60.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button60.UseVisualStyleBackColor = false;
-            // 
-            // button61
-            // 
-            this.button61.BackColor = System.Drawing.Color.Transparent;
-            this.button61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button61.FlatAppearance.BorderSize = 0;
-            this.button61.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button61.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button61.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button61.ForeColor = System.Drawing.Color.Silver;
-            this.button61.Image = ((System.Drawing.Image)(resources.GetObject("button61.Image")));
-            this.button61.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button61.Location = new System.Drawing.Point(151, 128);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(50, 72);
-            this.button61.TabIndex = 50;
-            this.button61.Text = "TB6";
-            this.button61.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button61.UseVisualStyleBackColor = false;
-            // 
-            // button62
-            // 
-            this.button62.BackColor = System.Drawing.Color.Transparent;
-            this.button62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button62.FlatAppearance.BorderSize = 0;
-            this.button62.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button62.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button62.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button62.ForeColor = System.Drawing.Color.Silver;
-            this.button62.Image = ((System.Drawing.Image)(resources.GetObject("button62.Image")));
-            this.button62.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button62.Location = new System.Drawing.Point(83, 287);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(50, 72);
-            this.button62.TabIndex = 55;
-            this.button62.Text = "TB11";
-            this.button62.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button62.UseVisualStyleBackColor = false;
-            // 
-            // button63
-            // 
-            this.button63.BackColor = System.Drawing.Color.Transparent;
-            this.button63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button63.FlatAppearance.BorderSize = 0;
-            this.button63.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button63.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button63.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button63.ForeColor = System.Drawing.Color.Silver;
-            this.button63.Image = ((System.Drawing.Image)(resources.GetObject("button63.Image")));
-            this.button63.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button63.Location = new System.Drawing.Point(83, 441);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(50, 72);
-            this.button63.TabIndex = 61;
-            this.button63.Text = "TB17";
-            this.button63.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button63.UseVisualStyleBackColor = false;
-            // 
-            // button64
-            // 
-            this.button64.BackColor = System.Drawing.Color.Transparent;
-            this.button64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button64.FlatAppearance.BorderSize = 0;
-            this.button64.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button64.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button64.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button64.ForeColor = System.Drawing.Color.Silver;
-            this.button64.Image = ((System.Drawing.Image)(resources.GetObject("button64.Image")));
-            this.button64.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button64.Location = new System.Drawing.Point(83, 128);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(50, 72);
-            this.button64.TabIndex = 49;
-            this.button64.Text = "TB5";
-            this.button64.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button64.UseVisualStyleBackColor = false;
-            // 
-            // button65
-            // 
-            this.button65.BackColor = System.Drawing.Color.Transparent;
-            this.button65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button65.FlatAppearance.BorderSize = 0;
-            this.button65.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button65.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button65.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button65.ForeColor = System.Drawing.Color.Silver;
-            this.button65.Image = ((System.Drawing.Image)(resources.GetObject("button65.Image")));
-            this.button65.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button65.Location = new System.Drawing.Point(151, 287);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(50, 72);
-            this.button65.TabIndex = 56;
-            this.button65.Text = "TB12";
-            this.button65.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button65.UseVisualStyleBackColor = false;
-            // 
-            // button66
-            // 
-            this.button66.BackColor = System.Drawing.Color.Transparent;
-            this.button66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button66.FlatAppearance.BorderSize = 0;
-            this.button66.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button66.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button66.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button66.ForeColor = System.Drawing.Color.Silver;
-            this.button66.Image = ((System.Drawing.Image)(resources.GetObject("button66.Image")));
-            this.button66.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button66.Location = new System.Drawing.Point(15, 441);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(50, 72);
-            this.button66.TabIndex = 60;
-            this.button66.Text = "TB16";
-            this.button66.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button66.UseVisualStyleBackColor = false;
-            // 
-            // button67
-            // 
-            this.button67.BackColor = System.Drawing.Color.Transparent;
-            this.button67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button67.FlatAppearance.BorderSize = 0;
-            this.button67.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button67.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button67.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button67.ForeColor = System.Drawing.Color.Silver;
-            this.button67.Image = ((System.Drawing.Image)(resources.GetObject("button67.Image")));
-            this.button67.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button67.Location = new System.Drawing.Point(15, 128);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(50, 72);
-            this.button67.TabIndex = 48;
-            this.button67.Text = "TB4";
-            this.button67.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button67.UseVisualStyleBackColor = false;
-            // 
-            // button68
-            // 
-            this.button68.BackColor = System.Drawing.Color.Transparent;
-            this.button68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button68.FlatAppearance.BorderSize = 0;
-            this.button68.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button68.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button68.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button68.ForeColor = System.Drawing.Color.Silver;
-            this.button68.Image = ((System.Drawing.Image)(resources.GetObject("button68.Image")));
-            this.button68.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button68.Location = new System.Drawing.Point(151, 47);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(50, 72);
-            this.button68.TabIndex = 47;
-            this.button68.Text = "TB3";
-            this.button68.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button68.UseVisualStyleBackColor = false;
-            // 
-            // button69
-            // 
-            this.button69.BackColor = System.Drawing.Color.Transparent;
-            this.button69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button69.FlatAppearance.BorderSize = 0;
-            this.button69.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button69.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button69.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button69.ForeColor = System.Drawing.Color.Silver;
-            this.button69.Image = ((System.Drawing.Image)(resources.GetObject("button69.Image")));
-            this.button69.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button69.Location = new System.Drawing.Point(15, 363);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(50, 72);
-            this.button69.TabIndex = 57;
-            this.button69.Text = "TB13";
-            this.button69.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button69.UseVisualStyleBackColor = false;
-            // 
-            // button70
-            // 
-            this.button70.BackColor = System.Drawing.Color.Transparent;
-            this.button70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button70.FlatAppearance.BorderSize = 0;
-            this.button70.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button70.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button70.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button70.ForeColor = System.Drawing.Color.Silver;
-            this.button70.Image = ((System.Drawing.Image)(resources.GetObject("button70.Image")));
-            this.button70.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button70.Location = new System.Drawing.Point(151, 363);
-            this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(50, 72);
-            this.button70.TabIndex = 59;
-            this.button70.Text = "TB15";
-            this.button70.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button70.UseVisualStyleBackColor = false;
-            // 
-            // button71
-            // 
-            this.button71.BackColor = System.Drawing.Color.Transparent;
-            this.button71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button71.FlatAppearance.BorderSize = 0;
-            this.button71.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button71.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button71.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button71.ForeColor = System.Drawing.Color.Silver;
-            this.button71.Image = ((System.Drawing.Image)(resources.GetObject("button71.Image")));
-            this.button71.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button71.Location = new System.Drawing.Point(83, 47);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(50, 72);
-            this.button71.TabIndex = 46;
-            this.button71.Text = "TB2";
-            this.button71.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button71.UseVisualStyleBackColor = false;
-            this.button71.Click += new System.EventHandler(this.button71_Click);
-            // 
-            // button72
-            // 
-            this.button72.BackColor = System.Drawing.Color.Transparent;
-            this.button72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button72.FlatAppearance.BorderSize = 0;
-            this.button72.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button72.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button72.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button72.ForeColor = System.Drawing.Color.Silver;
-            this.button72.Image = ((System.Drawing.Image)(resources.GetObject("button72.Image")));
-            this.button72.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button72.Location = new System.Drawing.Point(83, 363);
-            this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(50, 72);
-            this.button72.TabIndex = 58;
-            this.button72.Text = "TB14";
-            this.button72.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button72.UseVisualStyleBackColor = false;
             // 
             // label4
             // 
@@ -1111,431 +485,10 @@
             this.panel_2D.Controls.Add(this.button51);
             this.panel_2D.Controls.Add(this.label3);
             this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_2D.Location = new System.Drawing.Point(0, 95);
+            this.panel_2D.Location = new System.Drawing.Point(0, 907);
             this.panel_2D.Name = "panel_2D";
-            this.panel_2D.Size = new System.Drawing.Size(217, 47);
+            this.panel_2D.Size = new System.Drawing.Size(217, 550);
             this.panel_2D.TabIndex = 3;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.Silver;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(151, 541);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 72);
-            this.button2.TabIndex = 43;
-            this.button2.Text = "TB21";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.Silver;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.Location = new System.Drawing.Point(15, 67);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 72);
-            this.button3.TabIndex = 23;
-            this.button3.Text = "TB 1";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button33
-            // 
-            this.button33.BackColor = System.Drawing.Color.Transparent;
-            this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button33.FlatAppearance.BorderSize = 0;
-            this.button33.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button33.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.ForeColor = System.Drawing.Color.Silver;
-            this.button33.Image = ((System.Drawing.Image)(resources.GetObject("button33.Image")));
-            this.button33.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button33.Location = new System.Drawing.Point(83, 541);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(50, 72);
-            this.button33.TabIndex = 42;
-            this.button33.Text = "TB20";
-            this.button33.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button33.UseVisualStyleBackColor = false;
-            // 
-            // button34
-            // 
-            this.button34.BackColor = System.Drawing.Color.Transparent;
-            this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button34.FlatAppearance.BorderSize = 0;
-            this.button34.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button34.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button34.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.ForeColor = System.Drawing.Color.Silver;
-            this.button34.Image = ((System.Drawing.Image)(resources.GetObject("button34.Image")));
-            this.button34.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button34.Location = new System.Drawing.Point(83, 228);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(50, 72);
-            this.button34.TabIndex = 30;
-            this.button34.Text = "TB8";
-            this.button34.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button34.UseVisualStyleBackColor = false;
-            // 
-            // button35
-            // 
-            this.button35.BackColor = System.Drawing.Color.Transparent;
-            this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button35.FlatAppearance.BorderSize = 0;
-            this.button35.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button35.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.ForeColor = System.Drawing.Color.Silver;
-            this.button35.Image = ((System.Drawing.Image)(resources.GetObject("button35.Image")));
-            this.button35.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button35.Location = new System.Drawing.Point(151, 228);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(50, 72);
-            this.button35.TabIndex = 31;
-            this.button35.Text = "TB9";
-            this.button35.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button35.UseVisualStyleBackColor = false;
-            // 
-            // button36
-            // 
-            this.button36.BackColor = System.Drawing.Color.Transparent;
-            this.button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button36.FlatAppearance.BorderSize = 0;
-            this.button36.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button36.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button36.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.ForeColor = System.Drawing.Color.Silver;
-            this.button36.Image = ((System.Drawing.Image)(resources.GetObject("button36.Image")));
-            this.button36.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button36.Location = new System.Drawing.Point(15, 541);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(50, 72);
-            this.button36.TabIndex = 41;
-            this.button36.Text = "TB19";
-            this.button36.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button36.UseVisualStyleBackColor = false;
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.Transparent;
-            this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button37.FlatAppearance.BorderSize = 0;
-            this.button37.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.ForeColor = System.Drawing.Color.Silver;
-            this.button37.Image = ((System.Drawing.Image)(resources.GetObject("button37.Image")));
-            this.button37.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button37.Location = new System.Drawing.Point(15, 228);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(50, 72);
-            this.button37.TabIndex = 29;
-            this.button37.Text = "TB7";
-            this.button37.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button37.UseVisualStyleBackColor = false;
-            // 
-            // button38
-            // 
-            this.button38.BackColor = System.Drawing.Color.Transparent;
-            this.button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button38.FlatAppearance.BorderSize = 0;
-            this.button38.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button38.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button38.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.ForeColor = System.Drawing.Color.Silver;
-            this.button38.Image = ((System.Drawing.Image)(resources.GetObject("button38.Image")));
-            this.button38.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button38.Location = new System.Drawing.Point(15, 307);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(50, 72);
-            this.button38.TabIndex = 32;
-            this.button38.Text = "TB10";
-            this.button38.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button38.UseVisualStyleBackColor = false;
-            // 
-            // button39
-            // 
-            this.button39.BackColor = System.Drawing.Color.Transparent;
-            this.button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button39.FlatAppearance.BorderSize = 0;
-            this.button39.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button39.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button39.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.ForeColor = System.Drawing.Color.Silver;
-            this.button39.Image = ((System.Drawing.Image)(resources.GetObject("button39.Image")));
-            this.button39.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button39.Location = new System.Drawing.Point(151, 461);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(50, 72);
-            this.button39.TabIndex = 40;
-            this.button39.Text = "TB18";
-            this.button39.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button39.UseVisualStyleBackColor = false;
-            // 
-            // button40
-            // 
-            this.button40.BackColor = System.Drawing.Color.Transparent;
-            this.button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button40.FlatAppearance.BorderSize = 0;
-            this.button40.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button40.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.ForeColor = System.Drawing.Color.Silver;
-            this.button40.Image = ((System.Drawing.Image)(resources.GetObject("button40.Image")));
-            this.button40.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button40.Location = new System.Drawing.Point(151, 148);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(50, 72);
-            this.button40.TabIndex = 28;
-            this.button40.Text = "TB6";
-            this.button40.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button40.UseVisualStyleBackColor = false;
-            // 
-            // button41
-            // 
-            this.button41.BackColor = System.Drawing.Color.Transparent;
-            this.button41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button41.FlatAppearance.BorderSize = 0;
-            this.button41.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button41.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button41.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button41.ForeColor = System.Drawing.Color.Silver;
-            this.button41.Image = ((System.Drawing.Image)(resources.GetObject("button41.Image")));
-            this.button41.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button41.Location = new System.Drawing.Point(83, 307);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(50, 72);
-            this.button41.TabIndex = 33;
-            this.button41.Text = "TB11";
-            this.button41.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button41.UseVisualStyleBackColor = false;
-            // 
-            // button42
-            // 
-            this.button42.BackColor = System.Drawing.Color.Transparent;
-            this.button42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button42.FlatAppearance.BorderSize = 0;
-            this.button42.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button42.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button42.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button42.ForeColor = System.Drawing.Color.Silver;
-            this.button42.Image = ((System.Drawing.Image)(resources.GetObject("button42.Image")));
-            this.button42.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button42.Location = new System.Drawing.Point(83, 461);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(50, 72);
-            this.button42.TabIndex = 39;
-            this.button42.Text = "TB17";
-            this.button42.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button42.UseVisualStyleBackColor = false;
-            // 
-            // button43
-            // 
-            this.button43.BackColor = System.Drawing.Color.Transparent;
-            this.button43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button43.FlatAppearance.BorderSize = 0;
-            this.button43.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button43.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button43.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button43.ForeColor = System.Drawing.Color.Silver;
-            this.button43.Image = ((System.Drawing.Image)(resources.GetObject("button43.Image")));
-            this.button43.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button43.Location = new System.Drawing.Point(83, 148);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(50, 72);
-            this.button43.TabIndex = 27;
-            this.button43.Text = "TB5";
-            this.button43.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button43.UseVisualStyleBackColor = false;
-            // 
-            // button44
-            // 
-            this.button44.BackColor = System.Drawing.Color.Transparent;
-            this.button44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button44.FlatAppearance.BorderSize = 0;
-            this.button44.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button44.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button44.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button44.ForeColor = System.Drawing.Color.Silver;
-            this.button44.Image = ((System.Drawing.Image)(resources.GetObject("button44.Image")));
-            this.button44.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button44.Location = new System.Drawing.Point(151, 307);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(50, 72);
-            this.button44.TabIndex = 34;
-            this.button44.Text = "TB12";
-            this.button44.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button44.UseVisualStyleBackColor = false;
-            // 
-            // button45
-            // 
-            this.button45.BackColor = System.Drawing.Color.Transparent;
-            this.button45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button45.FlatAppearance.BorderSize = 0;
-            this.button45.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button45.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button45.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button45.ForeColor = System.Drawing.Color.Silver;
-            this.button45.Image = ((System.Drawing.Image)(resources.GetObject("button45.Image")));
-            this.button45.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button45.Location = new System.Drawing.Point(15, 461);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(50, 72);
-            this.button45.TabIndex = 38;
-            this.button45.Text = "TB16";
-            this.button45.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button45.UseVisualStyleBackColor = false;
-            // 
-            // button46
-            // 
-            this.button46.BackColor = System.Drawing.Color.Transparent;
-            this.button46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button46.FlatAppearance.BorderSize = 0;
-            this.button46.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button46.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button46.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button46.ForeColor = System.Drawing.Color.Silver;
-            this.button46.Image = ((System.Drawing.Image)(resources.GetObject("button46.Image")));
-            this.button46.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button46.Location = new System.Drawing.Point(15, 148);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(50, 72);
-            this.button46.TabIndex = 26;
-            this.button46.Text = "TB4";
-            this.button46.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button46.UseVisualStyleBackColor = false;
-            // 
-            // button47
-            // 
-            this.button47.BackColor = System.Drawing.Color.Transparent;
-            this.button47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button47.FlatAppearance.BorderSize = 0;
-            this.button47.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button47.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button47.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button47.ForeColor = System.Drawing.Color.Silver;
-            this.button47.Image = ((System.Drawing.Image)(resources.GetObject("button47.Image")));
-            this.button47.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button47.Location = new System.Drawing.Point(151, 67);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(50, 72);
-            this.button47.TabIndex = 25;
-            this.button47.Text = "TB3";
-            this.button47.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button47.UseVisualStyleBackColor = false;
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.Color.Transparent;
-            this.button48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button48.FlatAppearance.BorderSize = 0;
-            this.button48.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button48.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button48.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button48.ForeColor = System.Drawing.Color.Silver;
-            this.button48.Image = ((System.Drawing.Image)(resources.GetObject("button48.Image")));
-            this.button48.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button48.Location = new System.Drawing.Point(15, 383);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(50, 72);
-            this.button48.TabIndex = 35;
-            this.button48.Text = "TB13";
-            this.button48.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button48.UseVisualStyleBackColor = false;
-            // 
-            // button49
-            // 
-            this.button49.BackColor = System.Drawing.Color.Transparent;
-            this.button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button49.FlatAppearance.BorderSize = 0;
-            this.button49.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button49.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button49.ForeColor = System.Drawing.Color.Silver;
-            this.button49.Image = ((System.Drawing.Image)(resources.GetObject("button49.Image")));
-            this.button49.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button49.Location = new System.Drawing.Point(151, 383);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(50, 72);
-            this.button49.TabIndex = 37;
-            this.button49.Text = "TB15";
-            this.button49.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button49.UseVisualStyleBackColor = false;
-            // 
-            // button50
-            // 
-            this.button50.BackColor = System.Drawing.Color.Transparent;
-            this.button50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button50.FlatAppearance.BorderSize = 0;
-            this.button50.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button50.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button50.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button50.ForeColor = System.Drawing.Color.Silver;
-            this.button50.Image = ((System.Drawing.Image)(resources.GetObject("button50.Image")));
-            this.button50.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button50.Location = new System.Drawing.Point(83, 67);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(50, 72);
-            this.button50.TabIndex = 24;
-            this.button50.Text = "TB2";
-            this.button50.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button50.UseVisualStyleBackColor = false;
-            // 
-            // button51
-            // 
-            this.button51.BackColor = System.Drawing.Color.Transparent;
-            this.button51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button51.FlatAppearance.BorderSize = 0;
-            this.button51.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button51.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button51.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button51.ForeColor = System.Drawing.Color.Silver;
-            this.button51.Image = ((System.Drawing.Image)(resources.GetObject("button51.Image")));
-            this.button51.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button51.Location = new System.Drawing.Point(83, 383);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(50, 72);
-            this.button51.TabIndex = 36;
-            this.button51.Text = "TB14";
-            this.button51.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button51.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -1573,30 +526,10 @@
             this.panel_Thuchanh.Controls.Add(this.button8);
             this.panel_Thuchanh.Controls.Add(this.button20);
             this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 43);
+            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 384);
             this.panel_Thuchanh.Name = "panel_Thuchanh";
-            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 52);
+            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 523);
             this.panel_Thuchanh.TabIndex = 1;
-            // 
-            // button25
-            // 
-            this.button25.BackColor = System.Drawing.Color.Transparent;
-            this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button25.FlatAppearance.BorderSize = 0;
-            this.button25.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.ForeColor = System.Drawing.Color.Silver;
-            this.button25.Image = ((System.Drawing.Image)(resources.GetObject("button25.Image")));
-            this.button25.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button25.Location = new System.Drawing.Point(151, 518);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(50, 72);
-            this.button25.TabIndex = 21;
-            this.button25.Text = "TB21";
-            this.button25.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button25.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -1609,407 +542,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "THỰC HÀNH";
             // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.Silver;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button7.Location = new System.Drawing.Point(15, 44);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(50, 72);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "TB 1";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // button26
-            // 
-            this.button26.BackColor = System.Drawing.Color.Transparent;
-            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button26.FlatAppearance.BorderSize = 0;
-            this.button26.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button26.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.ForeColor = System.Drawing.Color.Silver;
-            this.button26.Image = ((System.Drawing.Image)(resources.GetObject("button26.Image")));
-            this.button26.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button26.Location = new System.Drawing.Point(83, 518);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(50, 72);
-            this.button26.TabIndex = 20;
-            this.button26.Text = "TB20";
-            this.button26.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button26.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.Transparent;
-            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.ForeColor = System.Drawing.Color.Silver;
-            this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button14.Location = new System.Drawing.Point(83, 205);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(50, 72);
-            this.button14.TabIndex = 8;
-            this.button14.Text = "TB8";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.Transparent;
-            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.ForeColor = System.Drawing.Color.Silver;
-            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
-            this.button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button13.Location = new System.Drawing.Point(151, 205);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(50, 72);
-            this.button13.TabIndex = 9;
-            this.button13.Text = "TB9";
-            this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button27
-            // 
-            this.button27.BackColor = System.Drawing.Color.Transparent;
-            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.ForeColor = System.Drawing.Color.Silver;
-            this.button27.Image = ((System.Drawing.Image)(resources.GetObject("button27.Image")));
-            this.button27.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button27.Location = new System.Drawing.Point(15, 518);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(50, 72);
-            this.button27.TabIndex = 19;
-            this.button27.Text = "TB19";
-            this.button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button27.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.Transparent;
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.ForeColor = System.Drawing.Color.Silver;
-            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-            this.button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button15.Location = new System.Drawing.Point(15, 205);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(50, 72);
-            this.button15.TabIndex = 7;
-            this.button15.Text = "TB7";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.Color.Transparent;
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.ForeColor = System.Drawing.Color.Silver;
-            this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
-            this.button18.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button18.Location = new System.Drawing.Point(15, 284);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(50, 72);
-            this.button18.TabIndex = 10;
-            this.button18.Text = "TB10";
-            this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button18.UseVisualStyleBackColor = false;
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.Transparent;
-            this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.ForeColor = System.Drawing.Color.Silver;
-            this.button22.Image = ((System.Drawing.Image)(resources.GetObject("button22.Image")));
-            this.button22.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button22.Location = new System.Drawing.Point(151, 438);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(50, 72);
-            this.button22.TabIndex = 18;
-            this.button22.Text = "TB18";
-            this.button22.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button22.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.Transparent;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.ForeColor = System.Drawing.Color.Silver;
-            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button10.Location = new System.Drawing.Point(151, 125);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(50, 72);
-            this.button10.TabIndex = 6;
-            this.button10.Text = "TB6";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button17
-            // 
-            this.button17.BackColor = System.Drawing.Color.Transparent;
-            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.ForeColor = System.Drawing.Color.Silver;
-            this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
-            this.button17.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button17.Location = new System.Drawing.Point(83, 284);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(50, 72);
-            this.button17.TabIndex = 11;
-            this.button17.Text = "TB11";
-            this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button17.UseVisualStyleBackColor = false;
-            // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.Transparent;
-            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.ForeColor = System.Drawing.Color.Silver;
-            this.button23.Image = ((System.Drawing.Image)(resources.GetObject("button23.Image")));
-            this.button23.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button23.Location = new System.Drawing.Point(83, 438);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(50, 72);
-            this.button23.TabIndex = 17;
-            this.button23.Text = "TB17";
-            this.button23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button23.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.Transparent;
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.ForeColor = System.Drawing.Color.Silver;
-            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button11.Location = new System.Drawing.Point(83, 125);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(50, 72);
-            this.button11.TabIndex = 5;
-            this.button11.Text = "TB5";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.Transparent;
-            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.ForeColor = System.Drawing.Color.Silver;
-            this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
-            this.button16.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button16.Location = new System.Drawing.Point(151, 284);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(50, 72);
-            this.button16.TabIndex = 12;
-            this.button16.Text = "TB12";
-            this.button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.Transparent;
-            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.ForeColor = System.Drawing.Color.Silver;
-            this.button24.Image = ((System.Drawing.Image)(resources.GetObject("button24.Image")));
-            this.button24.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button24.Location = new System.Drawing.Point(15, 438);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(50, 72);
-            this.button24.TabIndex = 16;
-            this.button24.Text = "TB16";
-            this.button24.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button24.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.Transparent;
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.ForeColor = System.Drawing.Color.Silver;
-            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button12.Location = new System.Drawing.Point(15, 125);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(50, 72);
-            this.button12.TabIndex = 4;
-            this.button12.Text = "TB4";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.Transparent;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.ForeColor = System.Drawing.Color.Silver;
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button9.Location = new System.Drawing.Point(151, 44);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(50, 72);
-            this.button9.TabIndex = 3;
-            this.button9.Text = "TB3";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.Transparent;
-            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.ForeColor = System.Drawing.Color.Silver;
-            this.button21.Image = ((System.Drawing.Image)(resources.GetObject("button21.Image")));
-            this.button21.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button21.Location = new System.Drawing.Point(15, 360);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(50, 72);
-            this.button21.TabIndex = 13;
-            this.button21.Text = "TB13";
-            this.button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button21.UseVisualStyleBackColor = false;
-            // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.Color.Transparent;
-            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.ForeColor = System.Drawing.Color.Silver;
-            this.button19.Image = ((System.Drawing.Image)(resources.GetObject("button19.Image")));
-            this.button19.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button19.Location = new System.Drawing.Point(151, 360);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(50, 72);
-            this.button19.TabIndex = 15;
-            this.button19.Text = "TB15";
-            this.button19.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button19.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.Transparent;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.ForeColor = System.Drawing.Color.Silver;
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button8.Location = new System.Drawing.Point(83, 44);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(50, 72);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "TB2";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.Color.Transparent;
-            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.ForeColor = System.Drawing.Color.Silver;
-            this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
-            this.button20.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button20.Location = new System.Drawing.Point(83, 360);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(50, 72);
-            this.button20.TabIndex = 14;
-            this.button20.Text = "TB14";
-            this.button20.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button20.UseVisualStyleBackColor = false;
-            // 
             // panel_lythuyet
             // 
             this.panel_lythuyet.Controls.Add(this.panel9);
@@ -2020,7 +552,7 @@
             this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
             this.panel_lythuyet.Name = "panel_lythuyet";
-            this.panel_lythuyet.Size = new System.Drawing.Size(217, 43);
+            this.panel_lythuyet.Size = new System.Drawing.Size(217, 384);
             this.panel_lythuyet.TabIndex = 2;
             this.panel_lythuyet.Visible = false;
             // 
@@ -2083,23 +615,6 @@
             this.button32.Text = "Phần 1";
             this.button32.UseVisualStyleBackColor = false;
             // 
-            // btn_Lythuyetdien2
-            // 
-            this.btn_Lythuyetdien2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Lythuyetdien2.FlatAppearance.BorderSize = 0;
-            this.btn_Lythuyetdien2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Lythuyetdien2.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
-            this.btn_Lythuyetdien2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_Lythuyetdien2.Image = global::ElectricProject.Properties.Resources.electric2;
-            this.btn_Lythuyetdien2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Lythuyetdien2.Location = new System.Drawing.Point(0, 225);
-            this.btn_Lythuyetdien2.Name = "btn_Lythuyetdien2";
-            this.btn_Lythuyetdien2.Size = new System.Drawing.Size(217, 47);
-            this.btn_Lythuyetdien2.TabIndex = 3;
-            this.btn_Lythuyetdien2.Text = "Lý thuyết điện 2";
-            this.btn_Lythuyetdien2.UseVisualStyleBackColor = true;
-            this.btn_Lythuyetdien2.Click += new System.EventHandler(this.btn_Lythuyetdien2_Click);
-            // 
             // panel8
             // 
             this.panel8.Controls.Add(this.button6);
@@ -2160,23 +675,6 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // btn_Lythuyetdien1
-            // 
-            this.btn_Lythuyetdien1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Lythuyetdien1.FlatAppearance.BorderSize = 0;
-            this.btn_Lythuyetdien1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Lythuyetdien1.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
-            this.btn_Lythuyetdien1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_Lythuyetdien1.Image = global::ElectricProject.Properties.Resources.electric;
-            this.btn_Lythuyetdien1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Lythuyetdien1.Location = new System.Drawing.Point(0, 76);
-            this.btn_Lythuyetdien1.Name = "btn_Lythuyetdien1";
-            this.btn_Lythuyetdien1.Size = new System.Drawing.Size(217, 46);
-            this.btn_Lythuyetdien1.TabIndex = 2;
-            this.btn_Lythuyetdien1.Text = "Lý thuyết điện 1";
-            this.btn_Lythuyetdien1.UseVisualStyleBackColor = true;
-            this.btn_Lythuyetdien1.Click += new System.EventHandler(this.btn_Lythuyetdien1_Click);
-            // 
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -2219,6 +717,16 @@
             this.panel_display3d.Name = "panel_display3d";
             this.panel_display3d.Size = new System.Drawing.Size(1119, 635);
             this.panel_display3d.TabIndex = 2;
+            // 
+            // elementHost1
+            // 
+            this.elementHost1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.elementHost1.Location = new System.Drawing.Point(0, 0);
+            this.elementHost1.Name = "elementHost1";
+            this.elementHost1.Size = new System.Drawing.Size(1119, 635);
+            this.elementHost1.TabIndex = 0;
+            this.elementHost1.Text = "elementHost1";
+            this.elementHost1.Child = this.view3D_XAML1;
             // 
             // axShockwaveFlash1
             // 
@@ -2266,15 +774,1507 @@
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
             // 
-            // elementHost1
+            // button52
             // 
-            this.elementHost1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.elementHost1.Location = new System.Drawing.Point(0, 0);
-            this.elementHost1.Name = "elementHost1";
-            this.elementHost1.Size = new System.Drawing.Size(1119, 635);
-            this.elementHost1.TabIndex = 0;
-            this.elementHost1.Text = "elementHost1";
-            this.elementHost1.Child = this.view3D_XAML1;
+            this.button52.BackColor = System.Drawing.Color.Transparent;
+            this.button52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button52.FlatAppearance.BorderSize = 0;
+            this.button52.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button52.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button52.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button52.ForeColor = System.Drawing.Color.Silver;
+            this.button52.Image = ((System.Drawing.Image)(resources.GetObject("button52.Image")));
+            this.button52.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button52.Location = new System.Drawing.Point(151, 521);
+            this.button52.Name = "button52";
+            this.button52.Size = new System.Drawing.Size(50, 72);
+            this.button52.TabIndex = 65;
+            this.button52.Text = "TB21";
+            this.button52.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button52.UseVisualStyleBackColor = false;
+            // 
+            // button_device3d_1
+            // 
+            this.button_device3d_1.BackColor = System.Drawing.Color.Transparent;
+            this.button_device3d_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_device3d_1.FlatAppearance.BorderSize = 0;
+            this.button_device3d_1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button_device3d_1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button_device3d_1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button_device3d_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_device3d_1.ForeColor = System.Drawing.Color.Silver;
+            this.button_device3d_1.Image = global::ElectricProject.Properties.Resources._1_nguon_mot_chieu1;
+            this.button_device3d_1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button_device3d_1.Location = new System.Drawing.Point(15, 47);
+            this.button_device3d_1.Name = "button_device3d_1";
+            this.button_device3d_1.Size = new System.Drawing.Size(50, 72);
+            this.button_device3d_1.TabIndex = 45;
+            this.button_device3d_1.Text = "TB 1";
+            this.button_device3d_1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button_device3d_1.UseVisualStyleBackColor = false;
+            this.button_device3d_1.Click += new System.EventHandler(this.button53_Click);
+            // 
+            // button54
+            // 
+            this.button54.BackColor = System.Drawing.Color.Transparent;
+            this.button54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button54.FlatAppearance.BorderSize = 0;
+            this.button54.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button54.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button54.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button54.ForeColor = System.Drawing.Color.Silver;
+            this.button54.Image = ((System.Drawing.Image)(resources.GetObject("button54.Image")));
+            this.button54.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button54.Location = new System.Drawing.Point(83, 521);
+            this.button54.Name = "button54";
+            this.button54.Size = new System.Drawing.Size(50, 72);
+            this.button54.TabIndex = 64;
+            this.button54.Text = "TB20";
+            this.button54.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button54.UseVisualStyleBackColor = false;
+            // 
+            // button55
+            // 
+            this.button55.BackColor = System.Drawing.Color.Transparent;
+            this.button55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button55.FlatAppearance.BorderSize = 0;
+            this.button55.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button55.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button55.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button55.ForeColor = System.Drawing.Color.Silver;
+            this.button55.Image = global::ElectricProject.Properties.Resources._18_role_bao_ve_dien_ap1;
+            this.button55.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button55.Location = new System.Drawing.Point(83, 208);
+            this.button55.Name = "button55";
+            this.button55.Size = new System.Drawing.Size(50, 72);
+            this.button55.TabIndex = 52;
+            this.button55.Text = "TB8";
+            this.button55.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button55.UseVisualStyleBackColor = false;
+            // 
+            // button56
+            // 
+            this.button56.BackColor = System.Drawing.Color.Transparent;
+            this.button56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button56.FlatAppearance.BorderSize = 0;
+            this.button56.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button56.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button56.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button56.ForeColor = System.Drawing.Color.Silver;
+            this.button56.Image = global::ElectricProject.Properties.Resources._19_cau_dau_8_chan1;
+            this.button56.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button56.Location = new System.Drawing.Point(151, 208);
+            this.button56.Name = "button56";
+            this.button56.Size = new System.Drawing.Size(50, 72);
+            this.button56.TabIndex = 53;
+            this.button56.Text = "TB9";
+            this.button56.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button56.UseVisualStyleBackColor = false;
+            // 
+            // button57
+            // 
+            this.button57.BackColor = System.Drawing.Color.Transparent;
+            this.button57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button57.FlatAppearance.BorderSize = 0;
+            this.button57.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button57.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button57.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button57.ForeColor = System.Drawing.Color.Silver;
+            this.button57.Image = ((System.Drawing.Image)(resources.GetObject("button57.Image")));
+            this.button57.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button57.Location = new System.Drawing.Point(15, 521);
+            this.button57.Name = "button57";
+            this.button57.Size = new System.Drawing.Size(50, 72);
+            this.button57.TabIndex = 63;
+            this.button57.Text = "TB19";
+            this.button57.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button57.UseVisualStyleBackColor = false;
+            // 
+            // button58
+            // 
+            this.button58.BackColor = System.Drawing.Color.Transparent;
+            this.button58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button58.FlatAppearance.BorderSize = 0;
+            this.button58.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button58.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button58.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button58.ForeColor = System.Drawing.Color.Silver;
+            this.button58.Image = global::ElectricProject.Properties.Resources._17_role_bao_ve_mat_pha1;
+            this.button58.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button58.Location = new System.Drawing.Point(15, 208);
+            this.button58.Name = "button58";
+            this.button58.Size = new System.Drawing.Size(50, 72);
+            this.button58.TabIndex = 51;
+            this.button58.Text = "TB7";
+            this.button58.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button58.UseVisualStyleBackColor = false;
+            // 
+            // button59
+            // 
+            this.button59.BackColor = System.Drawing.Color.Transparent;
+            this.button59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button59.FlatAppearance.BorderSize = 0;
+            this.button59.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button59.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button59.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button59.ForeColor = System.Drawing.Color.Silver;
+            this.button59.Image = global::ElectricProject.Properties.Resources._20_cau_dau_20_chan1;
+            this.button59.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button59.Location = new System.Drawing.Point(15, 287);
+            this.button59.Name = "button59";
+            this.button59.Size = new System.Drawing.Size(50, 72);
+            this.button59.TabIndex = 54;
+            this.button59.Text = "TB10";
+            this.button59.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button59.UseVisualStyleBackColor = false;
+            // 
+            // button60
+            // 
+            this.button60.BackColor = System.Drawing.Color.Transparent;
+            this.button60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button60.FlatAppearance.BorderSize = 0;
+            this.button60.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button60.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button60.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button60.ForeColor = System.Drawing.Color.Silver;
+            this.button60.Image = global::ElectricProject.Properties.Resources._6_APTOMAT_3_cong_suat_lon1;
+            this.button60.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button60.Location = new System.Drawing.Point(151, 441);
+            this.button60.Name = "button60";
+            this.button60.Size = new System.Drawing.Size(50, 72);
+            this.button60.TabIndex = 62;
+            this.button60.Text = "TB18";
+            this.button60.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button60.UseVisualStyleBackColor = false;
+            // 
+            // button61
+            // 
+            this.button61.BackColor = System.Drawing.Color.Transparent;
+            this.button61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button61.FlatAppearance.BorderSize = 0;
+            this.button61.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button61.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button61.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button61.ForeColor = System.Drawing.Color.Silver;
+            this.button61.Image = global::ElectricProject.Properties.Resources._16_role_bao_ve_qua_dong1;
+            this.button61.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button61.Location = new System.Drawing.Point(151, 128);
+            this.button61.Name = "button61";
+            this.button61.Size = new System.Drawing.Size(50, 72);
+            this.button61.TabIndex = 50;
+            this.button61.Text = "TB6";
+            this.button61.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button61.UseVisualStyleBackColor = false;
+            // 
+            // button62
+            // 
+            this.button62.BackColor = System.Drawing.Color.Transparent;
+            this.button62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button62.FlatAppearance.BorderSize = 0;
+            this.button62.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button62.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button62.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button62.ForeColor = System.Drawing.Color.Silver;
+            this.button62.Image = global::ElectricProject.Properties.Resources._211;
+            this.button62.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button62.Location = new System.Drawing.Point(83, 287);
+            this.button62.Name = "button62";
+            this.button62.Size = new System.Drawing.Size(50, 72);
+            this.button62.TabIndex = 55;
+            this.button62.Text = "TB11";
+            this.button62.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button62.UseVisualStyleBackColor = false;
+            // 
+            // button63
+            // 
+            this.button63.BackColor = System.Drawing.Color.Transparent;
+            this.button63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button63.FlatAppearance.BorderSize = 0;
+            this.button63.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button63.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button63.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button63.ForeColor = System.Drawing.Color.Silver;
+            this.button63.Image = global::ElectricProject.Properties.Resources._5_aptomat_3_pha1;
+            this.button63.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button63.Location = new System.Drawing.Point(83, 441);
+            this.button63.Name = "button63";
+            this.button63.Size = new System.Drawing.Size(50, 72);
+            this.button63.TabIndex = 61;
+            this.button63.Text = "TB17";
+            this.button63.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button63.UseVisualStyleBackColor = false;
+            // 
+            // button64
+            // 
+            this.button64.BackColor = System.Drawing.Color.Transparent;
+            this.button64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button64.FlatAppearance.BorderSize = 0;
+            this.button64.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button64.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button64.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button64.ForeColor = System.Drawing.Color.Silver;
+            this.button64.Image = global::ElectricProject.Properties.Resources._15_RoLE_NHIeT1;
+            this.button64.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button64.Location = new System.Drawing.Point(83, 128);
+            this.button64.Name = "button64";
+            this.button64.Size = new System.Drawing.Size(50, 72);
+            this.button64.TabIndex = 49;
+            this.button64.Text = "TB5";
+            this.button64.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button64.UseVisualStyleBackColor = false;
+            // 
+            // button65
+            // 
+            this.button65.BackColor = System.Drawing.Color.Transparent;
+            this.button65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button65.FlatAppearance.BorderSize = 0;
+            this.button65.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button65.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button65.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button65.ForeColor = System.Drawing.Color.Silver;
+            this.button65.Image = global::ElectricProject.Properties.Resources._22_congtac;
+            this.button65.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button65.Location = new System.Drawing.Point(151, 287);
+            this.button65.Name = "button65";
+            this.button65.Size = new System.Drawing.Size(50, 72);
+            this.button65.TabIndex = 56;
+            this.button65.Text = "TB12";
+            this.button65.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button65.UseVisualStyleBackColor = false;
+            // 
+            // button66
+            // 
+            this.button66.BackColor = System.Drawing.Color.Transparent;
+            this.button66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button66.FlatAppearance.BorderSize = 0;
+            this.button66.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button66.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button66.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button66.ForeColor = System.Drawing.Color.Silver;
+            this.button66.Image = global::ElectricProject.Properties.Resources._4_aptomat_1_pha1;
+            this.button66.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button66.Location = new System.Drawing.Point(15, 441);
+            this.button66.Name = "button66";
+            this.button66.Size = new System.Drawing.Size(50, 72);
+            this.button66.TabIndex = 60;
+            this.button66.Text = "TB16";
+            this.button66.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button66.UseVisualStyleBackColor = false;
+            // 
+            // button67
+            // 
+            this.button67.BackColor = System.Drawing.Color.Transparent;
+            this.button67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button67.FlatAppearance.BorderSize = 0;
+            this.button67.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button67.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button67.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button67.ForeColor = System.Drawing.Color.Silver;
+            this.button67.Image = global::ElectricProject.Properties.Resources._13_RoLE1;
+            this.button67.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button67.Location = new System.Drawing.Point(15, 128);
+            this.button67.Name = "button67";
+            this.button67.Size = new System.Drawing.Size(50, 72);
+            this.button67.TabIndex = 48;
+            this.button67.Text = "TB4";
+            this.button67.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button67.UseVisualStyleBackColor = false;
+            // 
+            // button68
+            // 
+            this.button68.BackColor = System.Drawing.Color.Transparent;
+            this.button68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button68.FlatAppearance.BorderSize = 0;
+            this.button68.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button68.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button68.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button68.ForeColor = System.Drawing.Color.Silver;
+            this.button68.Image = global::ElectricProject.Properties.Resources._12_ro_le_thoi_gian1;
+            this.button68.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button68.Location = new System.Drawing.Point(151, 47);
+            this.button68.Name = "button68";
+            this.button68.Size = new System.Drawing.Size(50, 72);
+            this.button68.TabIndex = 47;
+            this.button68.Text = "TB3";
+            this.button68.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button68.UseVisualStyleBackColor = false;
+            // 
+            // button69
+            // 
+            this.button69.BackColor = System.Drawing.Color.Transparent;
+            this.button69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button69.FlatAppearance.BorderSize = 0;
+            this.button69.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button69.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button69.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button69.ForeColor = System.Drawing.Color.Silver;
+            this.button69.Image = global::ElectricProject.Properties.Resources._231;
+            this.button69.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button69.Location = new System.Drawing.Point(15, 363);
+            this.button69.Name = "button69";
+            this.button69.Size = new System.Drawing.Size(50, 72);
+            this.button69.TabIndex = 57;
+            this.button69.Text = "TB13";
+            this.button69.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button69.UseVisualStyleBackColor = false;
+            // 
+            // button70
+            // 
+            this.button70.BackColor = System.Drawing.Color.Transparent;
+            this.button70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button70.FlatAppearance.BorderSize = 0;
+            this.button70.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button70.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button70.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button70.ForeColor = System.Drawing.Color.Silver;
+            this.button70.Image = global::ElectricProject.Properties.Resources._251;
+            this.button70.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button70.Location = new System.Drawing.Point(151, 363);
+            this.button70.Name = "button70";
+            this.button70.Size = new System.Drawing.Size(50, 72);
+            this.button70.TabIndex = 59;
+            this.button70.Text = "TB15";
+            this.button70.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button70.UseVisualStyleBackColor = false;
+            // 
+            // button71
+            // 
+            this.button71.BackColor = System.Drawing.Color.Transparent;
+            this.button71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button71.FlatAppearance.BorderSize = 0;
+            this.button71.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button71.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button71.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button71.ForeColor = System.Drawing.Color.Silver;
+            this.button71.Image = global::ElectricProject.Properties.Resources._11_CoNG_TaC_To1;
+            this.button71.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button71.Location = new System.Drawing.Point(83, 47);
+            this.button71.Name = "button71";
+            this.button71.Size = new System.Drawing.Size(50, 72);
+            this.button71.TabIndex = 46;
+            this.button71.Text = "TB2";
+            this.button71.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button71.UseVisualStyleBackColor = false;
+            this.button71.Click += new System.EventHandler(this.button71_Click);
+            // 
+            // button72
+            // 
+            this.button72.BackColor = System.Drawing.Color.Transparent;
+            this.button72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button72.FlatAppearance.BorderSize = 0;
+            this.button72.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button72.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button72.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button72.ForeColor = System.Drawing.Color.Silver;
+            this.button72.Image = global::ElectricProject.Properties.Resources._241;
+            this.button72.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button72.Location = new System.Drawing.Point(83, 363);
+            this.button72.Name = "button72";
+            this.button72.Size = new System.Drawing.Size(50, 72);
+            this.button72.TabIndex = 58;
+            this.button72.Text = "TB14";
+            this.button72.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button72.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.Silver;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.Location = new System.Drawing.Point(151, 541);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(50, 72);
+            this.button2.TabIndex = 43;
+            this.button2.Text = "TB21";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.Silver;
+            this.button3.Image = global::ElectricProject.Properties.Resources._1_nguon_mot_chieu1;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button3.Location = new System.Drawing.Point(15, 67);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(50, 72);
+            this.button3.TabIndex = 23;
+            this.button3.Text = "TB 1";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button33
+            // 
+            this.button33.BackColor = System.Drawing.Color.Transparent;
+            this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button33.FlatAppearance.BorderSize = 0;
+            this.button33.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button33.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button33.ForeColor = System.Drawing.Color.Silver;
+            this.button33.Image = ((System.Drawing.Image)(resources.GetObject("button33.Image")));
+            this.button33.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button33.Location = new System.Drawing.Point(83, 541);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(50, 72);
+            this.button33.TabIndex = 42;
+            this.button33.Text = "TB20";
+            this.button33.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button33.UseVisualStyleBackColor = false;
+            // 
+            // button34
+            // 
+            this.button34.BackColor = System.Drawing.Color.Transparent;
+            this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button34.FlatAppearance.BorderSize = 0;
+            this.button34.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button34.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button34.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button34.ForeColor = System.Drawing.Color.Silver;
+            this.button34.Image = global::ElectricProject.Properties.Resources._18_role_bao_ve_dien_ap1;
+            this.button34.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button34.Location = new System.Drawing.Point(83, 228);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(50, 72);
+            this.button34.TabIndex = 30;
+            this.button34.Text = "TB8";
+            this.button34.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button34.UseVisualStyleBackColor = false;
+            // 
+            // button35
+            // 
+            this.button35.BackColor = System.Drawing.Color.Transparent;
+            this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button35.FlatAppearance.BorderSize = 0;
+            this.button35.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button35.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button35.ForeColor = System.Drawing.Color.Silver;
+            this.button35.Image = global::ElectricProject.Properties.Resources._19_cau_dau_8_chan1;
+            this.button35.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button35.Location = new System.Drawing.Point(151, 228);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(50, 72);
+            this.button35.TabIndex = 31;
+            this.button35.Text = "TB9";
+            this.button35.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button35.UseVisualStyleBackColor = false;
+            // 
+            // button36
+            // 
+            this.button36.BackColor = System.Drawing.Color.Transparent;
+            this.button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button36.FlatAppearance.BorderSize = 0;
+            this.button36.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button36.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button36.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button36.ForeColor = System.Drawing.Color.Silver;
+            this.button36.Image = ((System.Drawing.Image)(resources.GetObject("button36.Image")));
+            this.button36.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button36.Location = new System.Drawing.Point(15, 541);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(50, 72);
+            this.button36.TabIndex = 41;
+            this.button36.Text = "TB19";
+            this.button36.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button36.UseVisualStyleBackColor = false;
+            // 
+            // button37
+            // 
+            this.button37.BackColor = System.Drawing.Color.Transparent;
+            this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button37.FlatAppearance.BorderSize = 0;
+            this.button37.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.ForeColor = System.Drawing.Color.Silver;
+            this.button37.Image = global::ElectricProject.Properties.Resources._17_role_bao_ve_mat_pha1;
+            this.button37.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button37.Location = new System.Drawing.Point(15, 228);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(50, 72);
+            this.button37.TabIndex = 29;
+            this.button37.Text = "TB7";
+            this.button37.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button37.UseVisualStyleBackColor = false;
+            // 
+            // button38
+            // 
+            this.button38.BackColor = System.Drawing.Color.Transparent;
+            this.button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button38.FlatAppearance.BorderSize = 0;
+            this.button38.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button38.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button38.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button38.ForeColor = System.Drawing.Color.Silver;
+            this.button38.Image = global::ElectricProject.Properties.Resources._20_cau_dau_20_chan1;
+            this.button38.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button38.Location = new System.Drawing.Point(15, 307);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(50, 72);
+            this.button38.TabIndex = 32;
+            this.button38.Text = "TB10";
+            this.button38.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button38.UseVisualStyleBackColor = false;
+            // 
+            // button39
+            // 
+            this.button39.BackColor = System.Drawing.Color.Transparent;
+            this.button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button39.FlatAppearance.BorderSize = 0;
+            this.button39.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button39.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button39.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.ForeColor = System.Drawing.Color.Silver;
+            this.button39.Image = global::ElectricProject.Properties.Resources._6_APTOMAT_3_cong_suat_lon1;
+            this.button39.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button39.Location = new System.Drawing.Point(151, 461);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(50, 72);
+            this.button39.TabIndex = 40;
+            this.button39.Text = "TB18";
+            this.button39.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button39.UseVisualStyleBackColor = false;
+            // 
+            // button40
+            // 
+            this.button40.BackColor = System.Drawing.Color.Transparent;
+            this.button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button40.FlatAppearance.BorderSize = 0;
+            this.button40.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button40.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.ForeColor = System.Drawing.Color.Silver;
+            this.button40.Image = global::ElectricProject.Properties.Resources._16_role_bao_ve_qua_dong1;
+            this.button40.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button40.Location = new System.Drawing.Point(151, 148);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(50, 72);
+            this.button40.TabIndex = 28;
+            this.button40.Text = "TB6";
+            this.button40.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button40.UseVisualStyleBackColor = false;
+            // 
+            // button41
+            // 
+            this.button41.BackColor = System.Drawing.Color.Transparent;
+            this.button41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button41.FlatAppearance.BorderSize = 0;
+            this.button41.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button41.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button41.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button41.ForeColor = System.Drawing.Color.Silver;
+            this.button41.Image = global::ElectricProject.Properties.Resources._211;
+            this.button41.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button41.Location = new System.Drawing.Point(83, 307);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(50, 72);
+            this.button41.TabIndex = 33;
+            this.button41.Text = "TB11";
+            this.button41.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button41.UseVisualStyleBackColor = false;
+            // 
+            // button42
+            // 
+            this.button42.BackColor = System.Drawing.Color.Transparent;
+            this.button42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button42.FlatAppearance.BorderSize = 0;
+            this.button42.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button42.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button42.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button42.ForeColor = System.Drawing.Color.Silver;
+            this.button42.Image = global::ElectricProject.Properties.Resources._5_aptomat_3_pha1;
+            this.button42.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button42.Location = new System.Drawing.Point(83, 461);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(50, 72);
+            this.button42.TabIndex = 39;
+            this.button42.Text = "TB17";
+            this.button42.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button42.UseVisualStyleBackColor = false;
+            // 
+            // button43
+            // 
+            this.button43.BackColor = System.Drawing.Color.Transparent;
+            this.button43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button43.FlatAppearance.BorderSize = 0;
+            this.button43.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button43.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button43.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button43.ForeColor = System.Drawing.Color.Silver;
+            this.button43.Image = global::ElectricProject.Properties.Resources._15_RoLE_NHIeT1;
+            this.button43.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button43.Location = new System.Drawing.Point(83, 148);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(50, 72);
+            this.button43.TabIndex = 27;
+            this.button43.Text = "TB5";
+            this.button43.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button43.UseVisualStyleBackColor = false;
+            // 
+            // button44
+            // 
+            this.button44.BackColor = System.Drawing.Color.Transparent;
+            this.button44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button44.FlatAppearance.BorderSize = 0;
+            this.button44.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button44.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button44.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button44.ForeColor = System.Drawing.Color.Silver;
+            this.button44.Image = global::ElectricProject.Properties.Resources._22_congtac;
+            this.button44.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button44.Location = new System.Drawing.Point(151, 307);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(50, 72);
+            this.button44.TabIndex = 34;
+            this.button44.Text = "TB12";
+            this.button44.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button44.UseVisualStyleBackColor = false;
+            // 
+            // button45
+            // 
+            this.button45.BackColor = System.Drawing.Color.Transparent;
+            this.button45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button45.FlatAppearance.BorderSize = 0;
+            this.button45.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button45.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button45.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button45.ForeColor = System.Drawing.Color.Silver;
+            this.button45.Image = global::ElectricProject.Properties.Resources._4_aptomat_1_pha1;
+            this.button45.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button45.Location = new System.Drawing.Point(15, 461);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(50, 72);
+            this.button45.TabIndex = 38;
+            this.button45.Text = "TB16";
+            this.button45.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button45.UseVisualStyleBackColor = false;
+            // 
+            // button46
+            // 
+            this.button46.BackColor = System.Drawing.Color.Transparent;
+            this.button46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button46.FlatAppearance.BorderSize = 0;
+            this.button46.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button46.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button46.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button46.ForeColor = System.Drawing.Color.Silver;
+            this.button46.Image = global::ElectricProject.Properties.Resources._13_RoLE1;
+            this.button46.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button46.Location = new System.Drawing.Point(15, 148);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(50, 72);
+            this.button46.TabIndex = 26;
+            this.button46.Text = "TB4";
+            this.button46.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button46.UseVisualStyleBackColor = false;
+            // 
+            // button47
+            // 
+            this.button47.BackColor = System.Drawing.Color.Transparent;
+            this.button47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button47.FlatAppearance.BorderSize = 0;
+            this.button47.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button47.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button47.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button47.ForeColor = System.Drawing.Color.Silver;
+            this.button47.Image = global::ElectricProject.Properties.Resources._12_ro_le_thoi_gian1;
+            this.button47.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button47.Location = new System.Drawing.Point(151, 67);
+            this.button47.Name = "button47";
+            this.button47.Size = new System.Drawing.Size(50, 72);
+            this.button47.TabIndex = 25;
+            this.button47.Text = "TB3";
+            this.button47.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button47.UseVisualStyleBackColor = false;
+            // 
+            // button48
+            // 
+            this.button48.BackColor = System.Drawing.Color.Transparent;
+            this.button48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button48.FlatAppearance.BorderSize = 0;
+            this.button48.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button48.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button48.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button48.ForeColor = System.Drawing.Color.Silver;
+            this.button48.Image = global::ElectricProject.Properties.Resources._231;
+            this.button48.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button48.Location = new System.Drawing.Point(15, 383);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(50, 72);
+            this.button48.TabIndex = 35;
+            this.button48.Text = "TB13";
+            this.button48.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button48.UseVisualStyleBackColor = false;
+            // 
+            // button49
+            // 
+            this.button49.BackColor = System.Drawing.Color.Transparent;
+            this.button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button49.FlatAppearance.BorderSize = 0;
+            this.button49.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button49.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button49.ForeColor = System.Drawing.Color.Silver;
+            this.button49.Image = global::ElectricProject.Properties.Resources._251;
+            this.button49.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button49.Location = new System.Drawing.Point(151, 383);
+            this.button49.Name = "button49";
+            this.button49.Size = new System.Drawing.Size(50, 72);
+            this.button49.TabIndex = 37;
+            this.button49.Text = "TB15";
+            this.button49.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button49.UseVisualStyleBackColor = false;
+            // 
+            // button50
+            // 
+            this.button50.BackColor = System.Drawing.Color.Transparent;
+            this.button50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button50.FlatAppearance.BorderSize = 0;
+            this.button50.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button50.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button50.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button50.ForeColor = System.Drawing.Color.Silver;
+            this.button50.Image = global::ElectricProject.Properties.Resources._11_CoNG_TaC_To1;
+            this.button50.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button50.Location = new System.Drawing.Point(83, 67);
+            this.button50.Name = "button50";
+            this.button50.Size = new System.Drawing.Size(50, 72);
+            this.button50.TabIndex = 24;
+            this.button50.Text = "TB2";
+            this.button50.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button50.UseVisualStyleBackColor = false;
+            // 
+            // button51
+            // 
+            this.button51.BackColor = System.Drawing.Color.Transparent;
+            this.button51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button51.FlatAppearance.BorderSize = 0;
+            this.button51.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button51.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button51.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button51.ForeColor = System.Drawing.Color.Silver;
+            this.button51.Image = global::ElectricProject.Properties.Resources._241;
+            this.button51.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button51.Location = new System.Drawing.Point(83, 383);
+            this.button51.Name = "button51";
+            this.button51.Size = new System.Drawing.Size(50, 72);
+            this.button51.TabIndex = 36;
+            this.button51.Text = "TB14";
+            this.button51.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button51.UseVisualStyleBackColor = false;
+            // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.Color.Transparent;
+            this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button25.FlatAppearance.BorderSize = 0;
+            this.button25.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.ForeColor = System.Drawing.Color.Silver;
+            this.button25.Image = ((System.Drawing.Image)(resources.GetObject("button25.Image")));
+            this.button25.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button25.Location = new System.Drawing.Point(151, 518);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(50, 72);
+            this.button25.TabIndex = 21;
+            this.button25.Text = "TB21";
+            this.button25.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button25.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Transparent;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.ForeColor = System.Drawing.Color.Silver;
+            this.button7.Image = global::ElectricProject.Properties.Resources._1_nguon_mot_chieu1;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button7.Location = new System.Drawing.Point(15, 44);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(50, 72);
+            this.button7.TabIndex = 1;
+            this.button7.Text = "TB 1";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.Transparent;
+            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button26.FlatAppearance.BorderSize = 0;
+            this.button26.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button26.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.ForeColor = System.Drawing.Color.Silver;
+            this.button26.Image = ((System.Drawing.Image)(resources.GetObject("button26.Image")));
+            this.button26.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button26.Location = new System.Drawing.Point(83, 518);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(50, 72);
+            this.button26.TabIndex = 20;
+            this.button26.Text = "TB20";
+            this.button26.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button26.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.Transparent;
+            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.ForeColor = System.Drawing.Color.Silver;
+            this.button14.Image = global::ElectricProject.Properties.Resources._18_role_bao_ve_dien_ap1;
+            this.button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button14.Location = new System.Drawing.Point(83, 205);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(50, 72);
+            this.button14.TabIndex = 8;
+            this.button14.Text = "TB8";
+            this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.Transparent;
+            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.ForeColor = System.Drawing.Color.Silver;
+            this.button13.Image = global::ElectricProject.Properties.Resources._19_cau_dau_8_chan1;
+            this.button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button13.Location = new System.Drawing.Point(151, 205);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(50, 72);
+            this.button13.TabIndex = 9;
+            this.button13.Text = "TB9";
+            this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button27
+            // 
+            this.button27.BackColor = System.Drawing.Color.Transparent;
+            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button27.FlatAppearance.BorderSize = 0;
+            this.button27.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.ForeColor = System.Drawing.Color.Silver;
+            this.button27.Image = ((System.Drawing.Image)(resources.GetObject("button27.Image")));
+            this.button27.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button27.Location = new System.Drawing.Point(15, 518);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(50, 72);
+            this.button27.TabIndex = 19;
+            this.button27.Text = "TB19";
+            this.button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button27.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.Transparent;
+            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.ForeColor = System.Drawing.Color.Silver;
+            this.button15.Image = global::ElectricProject.Properties.Resources._17_role_bao_ve_mat_pha1;
+            this.button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button15.Location = new System.Drawing.Point(15, 205);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(50, 72);
+            this.button15.TabIndex = 7;
+            this.button15.Text = "TB7";
+            this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.Transparent;
+            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.ForeColor = System.Drawing.Color.Silver;
+            this.button18.Image = global::ElectricProject.Properties.Resources._20_cau_dau_20_chan1;
+            this.button18.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button18.Location = new System.Drawing.Point(15, 284);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(50, 72);
+            this.button18.TabIndex = 10;
+            this.button18.Text = "TB10";
+            this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button18.UseVisualStyleBackColor = false;
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.Transparent;
+            this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button22.FlatAppearance.BorderSize = 0;
+            this.button22.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.ForeColor = System.Drawing.Color.Silver;
+            this.button22.Image = global::ElectricProject.Properties.Resources._6_APTOMAT_3_cong_suat_lon1;
+            this.button22.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button22.Location = new System.Drawing.Point(151, 438);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(50, 72);
+            this.button22.TabIndex = 18;
+            this.button22.Text = "TB18";
+            this.button22.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button22.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Transparent;
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.Color.Silver;
+            this.button10.Image = global::ElectricProject.Properties.Resources._16_role_bao_ve_qua_dong1;
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button10.Location = new System.Drawing.Point(151, 125);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(50, 72);
+            this.button10.TabIndex = 6;
+            this.button10.Text = "TB6";
+            this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.Transparent;
+            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button17.FlatAppearance.BorderSize = 0;
+            this.button17.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.ForeColor = System.Drawing.Color.Silver;
+            this.button17.Image = global::ElectricProject.Properties.Resources._211;
+            this.button17.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button17.Location = new System.Drawing.Point(83, 284);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(50, 72);
+            this.button17.TabIndex = 11;
+            this.button17.Text = "TB11";
+            this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button17.UseVisualStyleBackColor = false;
+            // 
+            // button23
+            // 
+            this.button23.BackColor = System.Drawing.Color.Transparent;
+            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button23.FlatAppearance.BorderSize = 0;
+            this.button23.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.ForeColor = System.Drawing.Color.Silver;
+            this.button23.Image = global::ElectricProject.Properties.Resources._5_aptomat_3_pha1;
+            this.button23.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button23.Location = new System.Drawing.Point(83, 438);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(50, 72);
+            this.button23.TabIndex = 17;
+            this.button23.Text = "TB17";
+            this.button23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button23.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.Transparent;
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.ForeColor = System.Drawing.Color.Silver;
+            this.button11.Image = global::ElectricProject.Properties.Resources._15_RoLE_NHIeT1;
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button11.Location = new System.Drawing.Point(83, 125);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(50, 72);
+            this.button11.TabIndex = 5;
+            this.button11.Text = "TB5";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.Transparent;
+            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.ForeColor = System.Drawing.Color.Silver;
+            this.button16.Image = global::ElectricProject.Properties.Resources._22_congtac;
+            this.button16.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button16.Location = new System.Drawing.Point(151, 284);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(50, 72);
+            this.button16.TabIndex = 12;
+            this.button16.Text = "TB12";
+            this.button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.Transparent;
+            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button24.FlatAppearance.BorderSize = 0;
+            this.button24.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.ForeColor = System.Drawing.Color.Silver;
+            this.button24.Image = global::ElectricProject.Properties.Resources._4_aptomat_1_pha1;
+            this.button24.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button24.Location = new System.Drawing.Point(15, 438);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(50, 72);
+            this.button24.TabIndex = 16;
+            this.button24.Text = "TB16";
+            this.button24.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button24.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.Transparent;
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.ForeColor = System.Drawing.Color.Silver;
+            this.button12.Image = global::ElectricProject.Properties.Resources._13_RoLE1;
+            this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button12.Location = new System.Drawing.Point(15, 125);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(50, 72);
+            this.button12.TabIndex = 4;
+            this.button12.Text = "TB4";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Transparent;
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.ForeColor = System.Drawing.Color.Silver;
+            this.button9.Image = global::ElectricProject.Properties.Resources._12_ro_le_thoi_gian1;
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button9.Location = new System.Drawing.Point(151, 44);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(50, 72);
+            this.button9.TabIndex = 3;
+            this.button9.Text = "TB3";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.Transparent;
+            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button21.FlatAppearance.BorderSize = 0;
+            this.button21.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.ForeColor = System.Drawing.Color.Silver;
+            this.button21.Image = global::ElectricProject.Properties.Resources._231;
+            this.button21.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button21.Location = new System.Drawing.Point(15, 360);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(50, 72);
+            this.button21.TabIndex = 13;
+            this.button21.Text = "TB13";
+            this.button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button21.UseVisualStyleBackColor = false;
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.Transparent;
+            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button19.FlatAppearance.BorderSize = 0;
+            this.button19.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.ForeColor = System.Drawing.Color.Silver;
+            this.button19.Image = global::ElectricProject.Properties.Resources._251;
+            this.button19.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button19.Location = new System.Drawing.Point(151, 360);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(50, 72);
+            this.button19.TabIndex = 15;
+            this.button19.Text = "TB15";
+            this.button19.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button19.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Transparent;
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.ForeColor = System.Drawing.Color.Silver;
+            this.button8.Image = global::ElectricProject.Properties.Resources._11_CoNG_TaC_To1;
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button8.Location = new System.Drawing.Point(83, 44);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(50, 72);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "TB2";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.Transparent;
+            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.ForeColor = System.Drawing.Color.Silver;
+            this.button20.Image = global::ElectricProject.Properties.Resources._241;
+            this.button20.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button20.Location = new System.Drawing.Point(83, 360);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(50, 72);
+            this.button20.TabIndex = 14;
+            this.button20.Text = "TB14";
+            this.button20.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button20.UseVisualStyleBackColor = false;
+            // 
+            // btn_Lythuyetdien2
+            // 
+            this.btn_Lythuyetdien2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Lythuyetdien2.FlatAppearance.BorderSize = 0;
+            this.btn_Lythuyetdien2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Lythuyetdien2.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_Lythuyetdien2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Lythuyetdien2.Image = global::ElectricProject.Properties.Resources.electric2;
+            this.btn_Lythuyetdien2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Lythuyetdien2.Location = new System.Drawing.Point(0, 225);
+            this.btn_Lythuyetdien2.Name = "btn_Lythuyetdien2";
+            this.btn_Lythuyetdien2.Size = new System.Drawing.Size(217, 47);
+            this.btn_Lythuyetdien2.TabIndex = 3;
+            this.btn_Lythuyetdien2.Text = "Lý thuyết điện 2";
+            this.btn_Lythuyetdien2.UseVisualStyleBackColor = true;
+            this.btn_Lythuyetdien2.Click += new System.EventHandler(this.btn_Lythuyetdien2_Click);
+            // 
+            // btn_Lythuyetdien1
+            // 
+            this.btn_Lythuyetdien1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Lythuyetdien1.FlatAppearance.BorderSize = 0;
+            this.btn_Lythuyetdien1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Lythuyetdien1.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_Lythuyetdien1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Lythuyetdien1.Image = global::ElectricProject.Properties.Resources.electric;
+            this.btn_Lythuyetdien1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Lythuyetdien1.Location = new System.Drawing.Point(0, 76);
+            this.btn_Lythuyetdien1.Name = "btn_Lythuyetdien1";
+            this.btn_Lythuyetdien1.Size = new System.Drawing.Size(217, 46);
+            this.btn_Lythuyetdien1.TabIndex = 2;
+            this.btn_Lythuyetdien1.Text = "Lý thuyết điện 1";
+            this.btn_Lythuyetdien1.UseVisualStyleBackColor = true;
+            this.btn_Lythuyetdien1.Click += new System.EventHandler(this.btn_Lythuyetdien1_Click);
+            // 
+            // btn_Option
+            // 
+            this.btn_Option.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Option.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Option.FlatAppearance.BorderSize = 0;
+            this.btn_Option.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Option.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Option.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Option.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Option.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Option.Image = global::ElectricProject.Properties.Resources.OPTION;
+            this.btn_Option.Location = new System.Drawing.Point(0, 290);
+            this.btn_Option.Name = "btn_Option";
+            this.btn_Option.Size = new System.Drawing.Size(50, 58);
+            this.btn_Option.TabIndex = 5;
+            this.btn_Option.UseVisualStyleBackColor = false;
+            this.btn_Option.Click += new System.EventHandler(this.btn_Option_Click);
+            // 
+            // btn_Help
+            // 
+            this.btn_Help.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Help.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Help.FlatAppearance.BorderSize = 0;
+            this.btn_Help.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Help.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Help.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Help.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Help.Image = global::ElectricProject.Properties.Resources.HELP;
+            this.btn_Help.Location = new System.Drawing.Point(0, 232);
+            this.btn_Help.Name = "btn_Help";
+            this.btn_Help.Size = new System.Drawing.Size(50, 58);
+            this.btn_Help.TabIndex = 4;
+            this.btn_Help.UseVisualStyleBackColor = false;
+            this.btn_Help.Click += new System.EventHandler(this.btn_Help_Click);
+            // 
+            // btb_Simulate
+            // 
+            this.btb_Simulate.BackColor = System.Drawing.Color.Transparent;
+            this.btb_Simulate.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btb_Simulate.FlatAppearance.BorderSize = 0;
+            this.btb_Simulate.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btb_Simulate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btb_Simulate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btb_Simulate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btb_Simulate.ForeColor = System.Drawing.Color.Transparent;
+            this.btb_Simulate.Image = global::ElectricProject.Properties.Resources.Editor;
+            this.btb_Simulate.Location = new System.Drawing.Point(0, 174);
+            this.btb_Simulate.Name = "btb_Simulate";
+            this.btb_Simulate.Size = new System.Drawing.Size(50, 58);
+            this.btb_Simulate.TabIndex = 3;
+            this.btb_Simulate.UseVisualStyleBackColor = false;
+            this.btb_Simulate.Click += new System.EventHandler(this.btb_Simulate_Click);
+            // 
+            // btn_3D
+            // 
+            this.btn_3D.BackColor = System.Drawing.Color.Transparent;
+            this.btn_3D.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_3D.FlatAppearance.BorderSize = 0;
+            this.btn_3D.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_3D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_3D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_3D.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_3D.Image = global::ElectricProject.Properties.Resources._3D;
+            this.btn_3D.Location = new System.Drawing.Point(0, 116);
+            this.btn_3D.Name = "btn_3D";
+            this.btn_3D.Size = new System.Drawing.Size(50, 58);
+            this.btn_3D.TabIndex = 2;
+            this.btn_3D.UseVisualStyleBackColor = false;
+            this.btn_3D.Click += new System.EventHandler(this.btn_3D_Click);
+            // 
+            // btn_2D
+            // 
+            this.btn_2D.BackColor = System.Drawing.Color.Transparent;
+            this.btn_2D.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_2D.FlatAppearance.BorderSize = 0;
+            this.btn_2D.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_2D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_2D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_2D.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_2D.Image = global::ElectricProject.Properties.Resources.BACKGROUND;
+            this.btn_2D.Location = new System.Drawing.Point(0, 58);
+            this.btn_2D.Name = "btn_2D";
+            this.btn_2D.Size = new System.Drawing.Size(50, 58);
+            this.btn_2D.TabIndex = 1;
+            this.btn_2D.UseVisualStyleBackColor = false;
+            this.btn_2D.Click += new System.EventHandler(this.btn_2D_Click);
+            // 
+            // btn_Document
+            // 
+            this.btn_Document.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Document.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Document.FlatAppearance.BorderSize = 0;
+            this.btn_Document.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Document.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Document.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Document.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Document.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Document.Image = global::ElectricProject.Properties.Resources.DOCUMENT;
+            this.btn_Document.Location = new System.Drawing.Point(0, 0);
+            this.btn_Document.Name = "btn_Document";
+            this.btn_Document.Size = new System.Drawing.Size(50, 58);
+            this.btn_Document.TabIndex = 0;
+            this.btn_Document.UseVisualStyleBackColor = false;
+            this.btn_Document.Click += new System.EventHandler(this.btn_Document_Click);
+            // 
+            // button28
+            // 
+            this.button28.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button28.FlatAppearance.BorderSize = 0;
+            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
+            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.button28.ForeColor = System.Drawing.Color.Transparent;
+            this.button28.Image = global::ElectricProject.Properties.Resources.BTN_BACK;
+            this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button28.Location = new System.Drawing.Point(0, 0);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(96, 51);
+            this.button28.TabIndex = 0;
+            this.button28.Text = "Home";
+            this.button28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button28.UseVisualStyleBackColor = true;
+            // 
+            // btn_Minimized
+            // 
+            this.btn_Minimized.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Minimized.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Minimized.FlatAppearance.BorderSize = 0;
+            this.btn_Minimized.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Minimized.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Minimized.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Minimized.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Minimized.Image = global::ElectricProject.Properties.Resources.MINIMIZE1;
+            this.btn_Minimized.Location = new System.Drawing.Point(1246, 0);
+            this.btn_Minimized.Name = "btn_Minimized";
+            this.btn_Minimized.Size = new System.Drawing.Size(35, 35);
+            this.btn_Minimized.TabIndex = 3;
+            this.btn_Minimized.UseVisualStyleBackColor = false;
+            this.btn_Minimized.Click += new System.EventHandler(this.btn_Minimized_Click);
+            // 
+            // btn_Fullscreen
+            // 
+            this.btn_Fullscreen.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Fullscreen.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Fullscreen.FlatAppearance.BorderSize = 0;
+            this.btn_Fullscreen.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Fullscreen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Fullscreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Fullscreen.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Fullscreen.Image = global::ElectricProject.Properties.Resources.FULLSCREEN;
+            this.btn_Fullscreen.Location = new System.Drawing.Point(1281, 0);
+            this.btn_Fullscreen.Name = "btn_Fullscreen";
+            this.btn_Fullscreen.Size = new System.Drawing.Size(35, 35);
+            this.btn_Fullscreen.TabIndex = 2;
+            this.btn_Fullscreen.UseVisualStyleBackColor = false;
+            this.btn_Fullscreen.Click += new System.EventHandler(this.btn_Fullscreen_Click);
+            // 
+            // btn_Restoredown
+            // 
+            this.btn_Restoredown.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Restoredown.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Restoredown.FlatAppearance.BorderSize = 0;
+            this.btn_Restoredown.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Restoredown.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Restoredown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Restoredown.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Restoredown.Image = global::ElectricProject.Properties.Resources.RESTORE_DOWN1;
+            this.btn_Restoredown.Location = new System.Drawing.Point(1316, 0);
+            this.btn_Restoredown.Name = "btn_Restoredown";
+            this.btn_Restoredown.Size = new System.Drawing.Size(35, 35);
+            this.btn_Restoredown.TabIndex = 1;
+            this.btn_Restoredown.UseVisualStyleBackColor = false;
+            this.btn_Restoredown.Click += new System.EventHandler(this.btn_Restoredown_Click);
+            // 
+            // btn_Exit
+            // 
+            this.btn_Exit.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Exit.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Exit.FlatAppearance.BorderSize = 0;
+            this.btn_Exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Exit.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Exit.Image = global::ElectricProject.Properties.Resources.EXIT1;
+            this.btn_Exit.Location = new System.Drawing.Point(1351, 0);
+            this.btn_Exit.Name = "btn_Exit";
+            this.btn_Exit.Size = new System.Drawing.Size(35, 35);
+            this.btn_Exit.TabIndex = 0;
+            this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
+            // 
+            // eLECTRICSIMULATIONToolStripMenuItem
+            // 
+            this.eLECTRICSIMULATIONToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.eLECTRICSIMULATIONToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
+            this.eLECTRICSIMULATIONToolStripMenuItem.Image = global::ElectricProject.Properties.Resources.LOGO2;
+            this.eLECTRICSIMULATIONToolStripMenuItem.Name = "eLECTRICSIMULATIONToolStripMenuItem";
+            this.eLECTRICSIMULATIONToolStripMenuItem.Size = new System.Drawing.Size(162, 20);
+            this.eLECTRICSIMULATIONToolStripMenuItem.Text = "ELECTRIC SIMULATION";
             // 
             // Form1
             // 

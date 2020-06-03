@@ -476,6 +476,27 @@
     <Content Include="icudt.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\1_nguon_mot_chieu1.png" />
+    <None Include="Resources\3_nguon xoay chieu 3 pha.png" />
+    <None Include="Resources\4_aptomat_1_pha1.png" />
+    <None Include="Resources\5_aptomat_3_pha1.png" />
+    <None Include="Resources\6_APTOMAT_3_cong_suat_lon1.png" />
+    <None Include="Resources\7_Cau_dao_1_pha1.png" />
+    <None Include="Resources\8_cau_dao_1_pha_dao_chieu1.png" />
+    <None Include="Resources\11_CoNG_TaC_To1.png" />
+    <None Include="Resources\12_ro_le_thoi_gian1.png" />
+    <None Include="Resources\13_RoLE1.png" />
+    <None Include="Resources\15_RoLE_NHIeT1.png" />
+    <None Include="Resources\16_role_bao_ve_qua_dong1.png" />
+    <None Include="Resources\17_role_bao_ve_mat_pha1.png" />
+    <None Include="Resources\18_role_bao_ve_dien_ap1.png" />
+    <None Include="Resources\19_cau_dau_8_chan1.png" />
+    <None Include="Resources\20_cau_dau_20_chan1.png" />
+    <None Include="Resources\21.CAU_CHI1.png" />
+    <None Include="Resources\22.congtac.png" />
+    <None Include="Resources\23.chuyenmach1.png" />
+    <None Include="Resources\24.Chuyen_mach_7_vi_tri1.png" />
+    <None Include="Resources\25.Cong_tac_gat1.png" />
     <Content Include="x64\pdfium.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

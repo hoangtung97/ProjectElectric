@@ -139,6 +139,9 @@
   <data name="FULLSCREEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FULLSCREEN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="electric2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\electric2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="12_ro_le_thoi_gian" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\12_ro_le_thoi_gian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -313,7 +316,67 @@
   <data name="MINIMIZE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MINIMIZE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="electric2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\electric2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1_nguon_mot_chieu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_nguon_mot_chieu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3_nguon xoay chieu 3 pha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3_nguon xoay chieu 3 pha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4_aptomat_1_pha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4_aptomat_1_pha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5_aptomat_3_pha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5_aptomat_3_pha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6_APTOMAT_3_cong_suat_lon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6_APTOMAT_3_cong_suat_lon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7_Cau_dao_1_pha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7_Cau_dao_1_pha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8_cau_dao_1_pha_dao_chieu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_cau_dao_1_pha_dao_chieu1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11_CoNG_TaC_To1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11_CoNG_TaC_To1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12_ro_le_thoi_gian1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12_ro_le_thoi_gian1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13_RoLE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13_RoLE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15_RoLE_NHIeT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15_RoLE_NHIeT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16_role_bao_ve_qua_dong1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16_role_bao_ve_qua_dong1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17_role_bao_ve_mat_pha1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17_role_bao_ve_mat_pha1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18_role_bao_ve_dien_ap1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18_role_bao_ve_dien_ap1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19_cau_dau_8_chan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19_cau_dau_8_chan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20_cau_dau_20_chan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20_cau_dau_20_chan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21.CAU_CHI1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22.congtac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22.congtac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23.chuyenmach1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24.Chuyen_mach_7_vi_tri1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25.Cong_tac_gat1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
