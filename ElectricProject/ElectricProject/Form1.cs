@@ -23,9 +23,9 @@ namespace ElectricProject
             panel5.Visible = false;
             panel10.Visible = false;
             panel6.Visible = false;
-
+            panel_display3d.Visible = false;
         }
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        private void panel_Menubar_MouseDown(object sender, MouseEventArgs e)
         {
             mov = 1;
             movX = e.X;
@@ -223,10 +223,12 @@ namespace ElectricProject
 
         private void button53_Click(object sender, EventArgs e)
         {
+            
             View3DForm view3d = new View3DForm();
-            panel_display3d.Controls.Add(view3d);
-            panel_display3d.BringToFront();
-            panel_display3d.Visible = true;
+            view3d.TopLevel = false;
+            panel7.Controls.Add(view3d);
+            panel7.BringToFront();
+            panel7.Visible = true;
             view3d.Dock = DockStyle.Fill;
             view3d.FormBorderStyle = FormBorderStyle.None;
             view3d.Show();
@@ -400,6 +402,11 @@ namespace ElectricProject
             PDFViewerForm pdf = new PDFViewerForm();
             pdf.Loadpdf(@"D:\Project\BGChinhTri\giáo dục quốc phòng - an ninh 10.pdf");
             
+        }
+
+        private void panel_Menubar_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

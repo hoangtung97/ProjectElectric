@@ -29,16 +29,28 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel_Menubar = new System.Windows.Forms.Panel();
+            this.btn_Minimized = new System.Windows.Forms.Button();
+            this.btn_Fullscreen = new System.Windows.Forms.Button();
+            this.btn_Restoredown = new System.Windows.Forms.Button();
+            this.btn_Exit = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.eLECTRICSIMULATIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_Option = new System.Windows.Forms.Button();
+            this.btn_Help = new System.Windows.Forms.Button();
+            this.btb_Simulate = new System.Windows.Forms.Button();
+            this.btn_3D = new System.Windows.Forms.Button();
+            this.btn_2D = new System.Windows.Forms.Button();
+            this.btn_Document = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -51,30 +63,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel_3D = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel_2D = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel_Thuchanh = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel_lythuyet = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panelView = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel_display3d = new System.Windows.Forms.Panel();
-            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.view3D_XAML1 = new ElectricProject.View3D_XAML();
-            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
-            this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
-            this.diagram1 = new MindFusion.Diagramming.Diagram();
-            this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
             this.button52 = new System.Windows.Forms.Button();
             this.button_device3d_1 = new System.Windows.Forms.Button();
             this.button54 = new System.Windows.Forms.Button();
@@ -96,6 +84,8 @@
             this.button70 = new System.Windows.Forms.Button();
             this.button71 = new System.Windows.Forms.Button();
             this.button72 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel_2D = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
@@ -117,7 +107,10 @@
             this.button49 = new System.Windows.Forms.Button();
             this.button50 = new System.Windows.Forms.Button();
             this.button51 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel_Thuchanh = new System.Windows.Forms.Panel();
             this.button25 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -138,21 +131,28 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
+            this.panel_lythuyet = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
             this.btn_Lythuyetdien2 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.btn_Lythuyetdien1 = new System.Windows.Forms.Button();
-            this.btn_Option = new System.Windows.Forms.Button();
-            this.btn_Help = new System.Windows.Forms.Button();
-            this.btb_Simulate = new System.Windows.Forms.Button();
-            this.btn_3D = new System.Windows.Forms.Button();
-            this.btn_2D = new System.Windows.Forms.Button();
-            this.btn_Document = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.btn_Minimized = new System.Windows.Forms.Button();
-            this.btn_Fullscreen = new System.Windows.Forms.Button();
-            this.btn_Restoredown = new System.Windows.Forms.Button();
-            this.btn_Exit = new System.Windows.Forms.Button();
-            this.eLECTRICSIMULATIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1.SuspendLayout();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panelView = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel_display3d = new System.Windows.Forms.Panel();
+            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
+            this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
+            this.diagram1 = new MindFusion.Diagramming.Diagram();
+            this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
+            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
+            this.view3D_XAML1 = new ElectricProject.View3D_XAML();
+            this.panel_Menubar.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -172,22 +172,91 @@
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // panel_Menubar
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(30)))));
-            this.panel1.Controls.Add(this.btn_Minimized);
-            this.panel1.Controls.Add(this.btn_Fullscreen);
-            this.panel1.Controls.Add(this.btn_Restoredown);
-            this.panel1.Controls.Add(this.btn_Exit);
-            this.panel1.Controls.Add(this.menuStrip1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1386, 35);
-            this.panel1.TabIndex = 0;
-            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
-            this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            this.panel_Menubar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(30)))));
+            this.panel_Menubar.Controls.Add(this.btn_Minimized);
+            this.panel_Menubar.Controls.Add(this.btn_Fullscreen);
+            this.panel_Menubar.Controls.Add(this.btn_Restoredown);
+            this.panel_Menubar.Controls.Add(this.btn_Exit);
+            this.panel_Menubar.Controls.Add(this.menuStrip1);
+            this.panel_Menubar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_Menubar.Location = new System.Drawing.Point(0, 0);
+            this.panel_Menubar.Name = "panel_Menubar";
+            this.panel_Menubar.Size = new System.Drawing.Size(1386, 35);
+            this.panel_Menubar.TabIndex = 0;
+            this.panel_Menubar.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_Menubar_Paint);
+            this.panel_Menubar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.panel_Menubar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            this.panel_Menubar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            // 
+            // btn_Minimized
+            // 
+            this.btn_Minimized.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Minimized.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Minimized.FlatAppearance.BorderSize = 0;
+            this.btn_Minimized.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Minimized.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Minimized.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Minimized.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Minimized.Image = global::ElectricProject.Properties.Resources.MINIMIZE1;
+            this.btn_Minimized.Location = new System.Drawing.Point(1246, 0);
+            this.btn_Minimized.Name = "btn_Minimized";
+            this.btn_Minimized.Size = new System.Drawing.Size(35, 35);
+            this.btn_Minimized.TabIndex = 3;
+            this.btn_Minimized.UseVisualStyleBackColor = false;
+            this.btn_Minimized.Click += new System.EventHandler(this.btn_Minimized_Click);
+            // 
+            // btn_Fullscreen
+            // 
+            this.btn_Fullscreen.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Fullscreen.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Fullscreen.FlatAppearance.BorderSize = 0;
+            this.btn_Fullscreen.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Fullscreen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Fullscreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Fullscreen.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Fullscreen.Image = global::ElectricProject.Properties.Resources.FULLSCREEN;
+            this.btn_Fullscreen.Location = new System.Drawing.Point(1281, 0);
+            this.btn_Fullscreen.Name = "btn_Fullscreen";
+            this.btn_Fullscreen.Size = new System.Drawing.Size(35, 35);
+            this.btn_Fullscreen.TabIndex = 2;
+            this.btn_Fullscreen.UseVisualStyleBackColor = false;
+            this.btn_Fullscreen.Click += new System.EventHandler(this.btn_Fullscreen_Click);
+            // 
+            // btn_Restoredown
+            // 
+            this.btn_Restoredown.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Restoredown.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Restoredown.FlatAppearance.BorderSize = 0;
+            this.btn_Restoredown.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Restoredown.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Restoredown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Restoredown.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Restoredown.Image = global::ElectricProject.Properties.Resources.RESTORE_DOWN1;
+            this.btn_Restoredown.Location = new System.Drawing.Point(1316, 0);
+            this.btn_Restoredown.Name = "btn_Restoredown";
+            this.btn_Restoredown.Size = new System.Drawing.Size(35, 35);
+            this.btn_Restoredown.TabIndex = 1;
+            this.btn_Restoredown.UseVisualStyleBackColor = false;
+            this.btn_Restoredown.Click += new System.EventHandler(this.btn_Restoredown_Click);
+            // 
+            // btn_Exit
+            // 
+            this.btn_Exit.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Exit.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Exit.FlatAppearance.BorderSize = 0;
+            this.btn_Exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
+            this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Exit.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Exit.Image = global::ElectricProject.Properties.Resources.EXIT1;
+            this.btn_Exit.Location = new System.Drawing.Point(1351, 0);
+            this.btn_Exit.Name = "btn_Exit";
+            this.btn_Exit.Size = new System.Drawing.Size(35, 35);
+            this.btn_Exit.TabIndex = 0;
+            this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // menuStrip1
             // 
@@ -203,6 +272,15 @@
             this.menuStrip1.Size = new System.Drawing.Size(293, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // eLECTRICSIMULATIONToolStripMenuItem
+            // 
+            this.eLECTRICSIMULATIONToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.eLECTRICSIMULATIONToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
+            this.eLECTRICSIMULATIONToolStripMenuItem.Image = global::ElectricProject.Properties.Resources.LOGO2;
+            this.eLECTRICSIMULATIONToolStripMenuItem.Name = "eLECTRICSIMULATIONToolStripMenuItem";
+            this.eLECTRICSIMULATIONToolStripMenuItem.Size = new System.Drawing.Size(162, 20);
+            this.eLECTRICSIMULATIONToolStripMenuItem.Text = "ELECTRIC SIMULATION";
             // 
             // editToolStripMenuItem
             // 
@@ -242,6 +320,114 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(50, 681);
             this.panel2.TabIndex = 1;
+            // 
+            // btn_Option
+            // 
+            this.btn_Option.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Option.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Option.FlatAppearance.BorderSize = 0;
+            this.btn_Option.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Option.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Option.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Option.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Option.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Option.Image = global::ElectricProject.Properties.Resources.OPTION;
+            this.btn_Option.Location = new System.Drawing.Point(0, 290);
+            this.btn_Option.Name = "btn_Option";
+            this.btn_Option.Size = new System.Drawing.Size(50, 58);
+            this.btn_Option.TabIndex = 5;
+            this.btn_Option.UseVisualStyleBackColor = false;
+            this.btn_Option.Click += new System.EventHandler(this.btn_Option_Click);
+            // 
+            // btn_Help
+            // 
+            this.btn_Help.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Help.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Help.FlatAppearance.BorderSize = 0;
+            this.btn_Help.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Help.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Help.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Help.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Help.Image = global::ElectricProject.Properties.Resources.HELP;
+            this.btn_Help.Location = new System.Drawing.Point(0, 232);
+            this.btn_Help.Name = "btn_Help";
+            this.btn_Help.Size = new System.Drawing.Size(50, 58);
+            this.btn_Help.TabIndex = 4;
+            this.btn_Help.UseVisualStyleBackColor = false;
+            this.btn_Help.Click += new System.EventHandler(this.btn_Help_Click);
+            // 
+            // btb_Simulate
+            // 
+            this.btb_Simulate.BackColor = System.Drawing.Color.Transparent;
+            this.btb_Simulate.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btb_Simulate.FlatAppearance.BorderSize = 0;
+            this.btb_Simulate.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btb_Simulate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btb_Simulate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btb_Simulate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btb_Simulate.ForeColor = System.Drawing.Color.Transparent;
+            this.btb_Simulate.Image = global::ElectricProject.Properties.Resources.Editor;
+            this.btb_Simulate.Location = new System.Drawing.Point(0, 174);
+            this.btb_Simulate.Name = "btb_Simulate";
+            this.btb_Simulate.Size = new System.Drawing.Size(50, 58);
+            this.btb_Simulate.TabIndex = 3;
+            this.btb_Simulate.UseVisualStyleBackColor = false;
+            this.btb_Simulate.Click += new System.EventHandler(this.btb_Simulate_Click);
+            // 
+            // btn_3D
+            // 
+            this.btn_3D.BackColor = System.Drawing.Color.Transparent;
+            this.btn_3D.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_3D.FlatAppearance.BorderSize = 0;
+            this.btn_3D.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_3D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_3D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_3D.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_3D.Image = global::ElectricProject.Properties.Resources._3D;
+            this.btn_3D.Location = new System.Drawing.Point(0, 116);
+            this.btn_3D.Name = "btn_3D";
+            this.btn_3D.Size = new System.Drawing.Size(50, 58);
+            this.btn_3D.TabIndex = 2;
+            this.btn_3D.UseVisualStyleBackColor = false;
+            this.btn_3D.Click += new System.EventHandler(this.btn_3D_Click);
+            // 
+            // btn_2D
+            // 
+            this.btn_2D.BackColor = System.Drawing.Color.Transparent;
+            this.btn_2D.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_2D.FlatAppearance.BorderSize = 0;
+            this.btn_2D.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_2D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_2D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_2D.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_2D.Image = global::ElectricProject.Properties.Resources.BACKGROUND;
+            this.btn_2D.Location = new System.Drawing.Point(0, 58);
+            this.btn_2D.Name = "btn_2D";
+            this.btn_2D.Size = new System.Drawing.Size(50, 58);
+            this.btn_2D.TabIndex = 1;
+            this.btn_2D.UseVisualStyleBackColor = false;
+            this.btn_2D.Click += new System.EventHandler(this.btn_2D_Click);
+            // 
+            // btn_Document
+            // 
+            this.btn_Document.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Document.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Document.FlatAppearance.BorderSize = 0;
+            this.btn_Document.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Document.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Document.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.btn_Document.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Document.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_Document.Image = global::ElectricProject.Properties.Resources.DOCUMENT;
+            this.btn_Document.Location = new System.Drawing.Point(0, 0);
+            this.btn_Document.Name = "btn_Document";
+            this.btn_Document.Size = new System.Drawing.Size(50, 58);
+            this.btn_Document.TabIndex = 0;
+            this.btn_Document.UseVisualStyleBackColor = false;
+            this.btn_Document.Click += new System.EventHandler(this.btn_Document_Click);
             // 
             // panel3
             // 
@@ -294,6 +480,25 @@
             this.button29.TabIndex = 1;
             this.button29.Text = "Simulate";
             this.button29.UseVisualStyleBackColor = false;
+            // 
+            // button28
+            // 
+            this.button28.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button28.FlatAppearance.BorderSize = 0;
+            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
+            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.button28.ForeColor = System.Drawing.Color.Transparent;
+            this.button28.Image = global::ElectricProject.Properties.Resources.BTN_BACK;
+            this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button28.Location = new System.Drawing.Point(0, 0);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(96, 51);
+            this.button28.TabIndex = 0;
+            this.button28.Text = "Home";
+            this.button28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button28.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -448,331 +653,6 @@
             this.panel_3D.Name = "panel_3D";
             this.panel_3D.Size = new System.Drawing.Size(217, 527);
             this.panel_3D.TabIndex = 4;
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Silver;
-            this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(217, 47);
-            this.label4.TabIndex = 44;
-            this.label4.Text = "CẤU TẠO 3D";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // panel_2D
-            // 
-            this.panel_2D.Controls.Add(this.button2);
-            this.panel_2D.Controls.Add(this.button3);
-            this.panel_2D.Controls.Add(this.button33);
-            this.panel_2D.Controls.Add(this.button34);
-            this.panel_2D.Controls.Add(this.button35);
-            this.panel_2D.Controls.Add(this.button36);
-            this.panel_2D.Controls.Add(this.button37);
-            this.panel_2D.Controls.Add(this.button38);
-            this.panel_2D.Controls.Add(this.button39);
-            this.panel_2D.Controls.Add(this.button40);
-            this.panel_2D.Controls.Add(this.button41);
-            this.panel_2D.Controls.Add(this.button42);
-            this.panel_2D.Controls.Add(this.button43);
-            this.panel_2D.Controls.Add(this.button44);
-            this.panel_2D.Controls.Add(this.button45);
-            this.panel_2D.Controls.Add(this.button46);
-            this.panel_2D.Controls.Add(this.button47);
-            this.panel_2D.Controls.Add(this.button48);
-            this.panel_2D.Controls.Add(this.button49);
-            this.panel_2D.Controls.Add(this.button50);
-            this.panel_2D.Controls.Add(this.button51);
-            this.panel_2D.Controls.Add(this.label3);
-            this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_2D.Location = new System.Drawing.Point(0, 907);
-            this.panel_2D.Name = "panel_2D";
-            this.panel_2D.Size = new System.Drawing.Size(217, 550);
-            this.panel_2D.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Silver;
-            this.label3.Location = new System.Drawing.Point(10, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(204, 61);
-            this.label3.TabIndex = 22;
-            this.label3.Text = "2D VÀ NGUYÊN LÝ HOẠT ĐỘNG";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // panel_Thuchanh
-            // 
-            this.panel_Thuchanh.Controls.Add(this.button25);
-            this.panel_Thuchanh.Controls.Add(this.label1);
-            this.panel_Thuchanh.Controls.Add(this.button7);
-            this.panel_Thuchanh.Controls.Add(this.button26);
-            this.panel_Thuchanh.Controls.Add(this.button14);
-            this.panel_Thuchanh.Controls.Add(this.button13);
-            this.panel_Thuchanh.Controls.Add(this.button27);
-            this.panel_Thuchanh.Controls.Add(this.button15);
-            this.panel_Thuchanh.Controls.Add(this.button18);
-            this.panel_Thuchanh.Controls.Add(this.button22);
-            this.panel_Thuchanh.Controls.Add(this.button10);
-            this.panel_Thuchanh.Controls.Add(this.button17);
-            this.panel_Thuchanh.Controls.Add(this.button23);
-            this.panel_Thuchanh.Controls.Add(this.button11);
-            this.panel_Thuchanh.Controls.Add(this.button16);
-            this.panel_Thuchanh.Controls.Add(this.button24);
-            this.panel_Thuchanh.Controls.Add(this.button12);
-            this.panel_Thuchanh.Controls.Add(this.button9);
-            this.panel_Thuchanh.Controls.Add(this.button21);
-            this.panel_Thuchanh.Controls.Add(this.button19);
-            this.panel_Thuchanh.Controls.Add(this.button8);
-            this.panel_Thuchanh.Controls.Add(this.button20);
-            this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 384);
-            this.panel_Thuchanh.Name = "panel_Thuchanh";
-            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 523);
-            this.panel_Thuchanh.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(42, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "THỰC HÀNH";
-            // 
-            // panel_lythuyet
-            // 
-            this.panel_lythuyet.Controls.Add(this.panel9);
-            this.panel_lythuyet.Controls.Add(this.btn_Lythuyetdien2);
-            this.panel_lythuyet.Controls.Add(this.panel8);
-            this.panel_lythuyet.Controls.Add(this.btn_Lythuyetdien1);
-            this.panel_lythuyet.Controls.Add(this.label2);
-            this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
-            this.panel_lythuyet.Name = "panel_lythuyet";
-            this.panel_lythuyet.Size = new System.Drawing.Size(217, 384);
-            this.panel_lythuyet.TabIndex = 2;
-            this.panel_lythuyet.Visible = false;
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.button30);
-            this.panel9.Controls.Add(this.button31);
-            this.panel9.Controls.Add(this.button32);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 272);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(217, 107);
-            this.panel9.TabIndex = 5;
-            // 
-            // button30
-            // 
-            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button30.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button30.FlatAppearance.BorderSize = 0;
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
-            this.button30.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button30.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button30.Location = new System.Drawing.Point(0, 70);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(217, 35);
-            this.button30.TabIndex = 11;
-            this.button30.Text = "Phần 3";
-            this.button30.UseVisualStyleBackColor = false;
-            // 
-            // button31
-            // 
-            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button31.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button31.FlatAppearance.BorderSize = 0;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
-            this.button31.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button31.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button31.Location = new System.Drawing.Point(0, 35);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(217, 35);
-            this.button31.TabIndex = 10;
-            this.button31.Text = "Phần 2";
-            this.button31.UseVisualStyleBackColor = false;
-            // 
-            // button32
-            // 
-            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button32.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button32.FlatAppearance.BorderSize = 0;
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
-            this.button32.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button32.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button32.Location = new System.Drawing.Point(0, 0);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(217, 35);
-            this.button32.TabIndex = 9;
-            this.button32.Text = "Phần 1";
-            this.button32.UseVisualStyleBackColor = false;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.button6);
-            this.panel8.Controls.Add(this.button5);
-            this.panel8.Controls.Add(this.button4);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 122);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(217, 103);
-            this.panel8.TabIndex = 4;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
-            this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 70);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(217, 35);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "Phần 3";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 35);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(217, 35);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Phần 2";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(217, 35);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Phần 1";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // label2
-            // 
-            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Silver;
-            this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 76);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "LÝ THUYẾT";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // panelView
-            // 
-            this.panelView.Controls.Add(this.panel7);
-            this.panelView.Controls.Add(this.diagramView1);
-            this.panelView.Controls.Add(this.ruler1);
-            this.panelView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelView.Location = new System.Drawing.Point(267, 132);
-            this.panelView.Name = "panelView";
-            this.panelView.Size = new System.Drawing.Size(1119, 635);
-            this.panelView.TabIndex = 5;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.panel_display3d);
-            this.panel7.Controls.Add(this.axShockwaveFlash1);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1119, 635);
-            this.panel7.TabIndex = 2;
-            // 
-            // panel_display3d
-            // 
-            this.panel_display3d.Controls.Add(this.elementHost1);
-            this.panel_display3d.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_display3d.Location = new System.Drawing.Point(0, 0);
-            this.panel_display3d.Name = "panel_display3d";
-            this.panel_display3d.Size = new System.Drawing.Size(1119, 635);
-            this.panel_display3d.TabIndex = 2;
-            // 
-            // elementHost1
-            // 
-            this.elementHost1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.elementHost1.Location = new System.Drawing.Point(0, 0);
-            this.elementHost1.Name = "elementHost1";
-            this.elementHost1.Size = new System.Drawing.Size(1119, 635);
-            this.elementHost1.TabIndex = 0;
-            this.elementHost1.Text = "elementHost1";
-            this.elementHost1.Child = this.view3D_XAML1;
-            // 
-            // axShockwaveFlash1
-            // 
-            this.axShockwaveFlash1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.axShockwaveFlash1.Enabled = true;
-            this.axShockwaveFlash1.Location = new System.Drawing.Point(8, 9);
-            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
-            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
-            this.axShockwaveFlash1.Size = new System.Drawing.Size(1102, 616);
-            this.axShockwaveFlash1.TabIndex = 1;
-            // 
-            // diagramView1
-            // 
-            this.diagramView1.BackColor = System.Drawing.Color.Black;
-            this.diagramView1.Diagram = this.diagram1;
-            this.diagramView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diagramView1.LicenseKey = null;
-            this.diagramView1.Location = new System.Drawing.Point(0, 0);
-            this.diagramView1.MagnifierFrameColor = System.Drawing.Color.DimGray;
-            this.diagramView1.Name = "diagramView1";
-            this.diagramView1.Size = new System.Drawing.Size(1119, 635);
-            this.diagramView1.TabIndex = 1;
-            this.diagramView1.Text = "diagramView1";
-            // 
-            // diagram1
-            // 
-            this.diagram1.LinkHeadShape = null;
-            this.diagram1.LinkPen = new MindFusion.Drawing.Pen("0/#FFFF0000/0/0/0//0/0/10/");
-            this.diagram1.RouteLinks = true;
-            this.diagram1.TouchThreshold = 0F;
-            this.diagram1.LinkCreated += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkCreated);
-            this.diagram1.LinkSelected += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkSelected);
-            // 
-            // ruler1
-            // 
-            this.ruler1.AllowDrop = true;
-            this.ruler1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ruler1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ruler1.Location = new System.Drawing.Point(0, 0);
-            this.ruler1.Name = "ruler1";
-            this.ruler1.Size = new System.Drawing.Size(1119, 635);
-            this.ruler1.TabIndex = 0;
-            this.ruler1.Text = "ruler1";
-            this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
             // 
             // button52
             // 
@@ -1196,6 +1076,47 @@
             this.button72.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button72.UseVisualStyleBackColor = false;
             // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Silver;
+            this.label4.Location = new System.Drawing.Point(0, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(217, 47);
+            this.label4.TabIndex = 44;
+            this.label4.Text = "CẤU TẠO 3D";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel_2D
+            // 
+            this.panel_2D.Controls.Add(this.button2);
+            this.panel_2D.Controls.Add(this.button3);
+            this.panel_2D.Controls.Add(this.button33);
+            this.panel_2D.Controls.Add(this.button34);
+            this.panel_2D.Controls.Add(this.button35);
+            this.panel_2D.Controls.Add(this.button36);
+            this.panel_2D.Controls.Add(this.button37);
+            this.panel_2D.Controls.Add(this.button38);
+            this.panel_2D.Controls.Add(this.button39);
+            this.panel_2D.Controls.Add(this.button40);
+            this.panel_2D.Controls.Add(this.button41);
+            this.panel_2D.Controls.Add(this.button42);
+            this.panel_2D.Controls.Add(this.button43);
+            this.panel_2D.Controls.Add(this.button44);
+            this.panel_2D.Controls.Add(this.button45);
+            this.panel_2D.Controls.Add(this.button46);
+            this.panel_2D.Controls.Add(this.button47);
+            this.panel_2D.Controls.Add(this.button48);
+            this.panel_2D.Controls.Add(this.button49);
+            this.panel_2D.Controls.Add(this.button50);
+            this.panel_2D.Controls.Add(this.button51);
+            this.panel_2D.Controls.Add(this.label3);
+            this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_2D.Location = new System.Drawing.Point(0, 907);
+            this.panel_2D.Name = "panel_2D";
+            this.panel_2D.Size = new System.Drawing.Size(217, 550);
+            this.panel_2D.TabIndex = 3;
+            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
@@ -1617,6 +1538,47 @@
             this.button51.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button51.UseVisualStyleBackColor = false;
             // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Silver;
+            this.label3.Location = new System.Drawing.Point(10, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(204, 61);
+            this.label3.TabIndex = 22;
+            this.label3.Text = "2D VÀ NGUYÊN LÝ HOẠT ĐỘNG";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel_Thuchanh
+            // 
+            this.panel_Thuchanh.Controls.Add(this.button25);
+            this.panel_Thuchanh.Controls.Add(this.label1);
+            this.panel_Thuchanh.Controls.Add(this.button7);
+            this.panel_Thuchanh.Controls.Add(this.button26);
+            this.panel_Thuchanh.Controls.Add(this.button14);
+            this.panel_Thuchanh.Controls.Add(this.button13);
+            this.panel_Thuchanh.Controls.Add(this.button27);
+            this.panel_Thuchanh.Controls.Add(this.button15);
+            this.panel_Thuchanh.Controls.Add(this.button18);
+            this.panel_Thuchanh.Controls.Add(this.button22);
+            this.panel_Thuchanh.Controls.Add(this.button10);
+            this.panel_Thuchanh.Controls.Add(this.button17);
+            this.panel_Thuchanh.Controls.Add(this.button23);
+            this.panel_Thuchanh.Controls.Add(this.button11);
+            this.panel_Thuchanh.Controls.Add(this.button16);
+            this.panel_Thuchanh.Controls.Add(this.button24);
+            this.panel_Thuchanh.Controls.Add(this.button12);
+            this.panel_Thuchanh.Controls.Add(this.button9);
+            this.panel_Thuchanh.Controls.Add(this.button21);
+            this.panel_Thuchanh.Controls.Add(this.button19);
+            this.panel_Thuchanh.Controls.Add(this.button8);
+            this.panel_Thuchanh.Controls.Add(this.button20);
+            this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 384);
+            this.panel_Thuchanh.Name = "panel_Thuchanh";
+            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 523);
+            this.panel_Thuchanh.TabIndex = 1;
+            // 
             // button25
             // 
             this.button25.BackColor = System.Drawing.Color.Transparent;
@@ -1636,6 +1598,17 @@
             this.button25.Text = "TB21";
             this.button25.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button25.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Silver;
+            this.label1.Location = new System.Drawing.Point(42, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(123, 28);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "THỰC HÀNH";
             // 
             // button7
             // 
@@ -2038,6 +2011,79 @@
             this.button20.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button20.UseVisualStyleBackColor = false;
             // 
+            // panel_lythuyet
+            // 
+            this.panel_lythuyet.Controls.Add(this.panel9);
+            this.panel_lythuyet.Controls.Add(this.btn_Lythuyetdien2);
+            this.panel_lythuyet.Controls.Add(this.panel8);
+            this.panel_lythuyet.Controls.Add(this.btn_Lythuyetdien1);
+            this.panel_lythuyet.Controls.Add(this.label2);
+            this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
+            this.panel_lythuyet.Name = "panel_lythuyet";
+            this.panel_lythuyet.Size = new System.Drawing.Size(217, 384);
+            this.panel_lythuyet.TabIndex = 2;
+            this.panel_lythuyet.Visible = false;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.button30);
+            this.panel9.Controls.Add(this.button31);
+            this.panel9.Controls.Add(this.button32);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(0, 272);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(217, 107);
+            this.panel9.TabIndex = 5;
+            // 
+            // button30
+            // 
+            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button30.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button30.FlatAppearance.BorderSize = 0;
+            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button30.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.button30.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button30.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button30.Location = new System.Drawing.Point(0, 70);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(217, 35);
+            this.button30.TabIndex = 11;
+            this.button30.Text = "Phần 3";
+            this.button30.UseVisualStyleBackColor = false;
+            // 
+            // button31
+            // 
+            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button31.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button31.FlatAppearance.BorderSize = 0;
+            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button31.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.button31.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button31.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button31.Location = new System.Drawing.Point(0, 35);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(217, 35);
+            this.button31.TabIndex = 10;
+            this.button31.Text = "Phần 2";
+            this.button31.UseVisualStyleBackColor = false;
+            // 
+            // button32
+            // 
+            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button32.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button32.FlatAppearance.BorderSize = 0;
+            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button32.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.button32.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button32.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button32.Location = new System.Drawing.Point(0, 0);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(217, 35);
+            this.button32.TabIndex = 9;
+            this.button32.Text = "Phần 1";
+            this.button32.UseVisualStyleBackColor = false;
+            // 
             // btn_Lythuyetdien2
             // 
             this.btn_Lythuyetdien2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -2054,6 +2100,66 @@
             this.btn_Lythuyetdien2.Text = "Lý thuyết điện 2";
             this.btn_Lythuyetdien2.UseVisualStyleBackColor = true;
             this.btn_Lythuyetdien2.Click += new System.EventHandler(this.btn_Lythuyetdien2_Click);
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.button6);
+            this.panel8.Controls.Add(this.button5);
+            this.panel8.Controls.Add(this.button4);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 122);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(217, 103);
+            this.panel8.TabIndex = 4;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(0, 70);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(217, 35);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "Phần 3";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(0, 35);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(217, 35);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Phần 2";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(217, 35);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "Phần 1";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btn_Lythuyetdien1
             // 
@@ -2072,209 +2178,104 @@
             this.btn_Lythuyetdien1.UseVisualStyleBackColor = true;
             this.btn_Lythuyetdien1.Click += new System.EventHandler(this.btn_Lythuyetdien1_Click);
             // 
-            // btn_Option
+            // label2
             // 
-            this.btn_Option.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Option.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Option.FlatAppearance.BorderSize = 0;
-            this.btn_Option.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Option.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Option.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Option.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Option.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Option.Image = global::ElectricProject.Properties.Resources.OPTION;
-            this.btn_Option.Location = new System.Drawing.Point(0, 290);
-            this.btn_Option.Name = "btn_Option";
-            this.btn_Option.Size = new System.Drawing.Size(50, 58);
-            this.btn_Option.TabIndex = 5;
-            this.btn_Option.UseVisualStyleBackColor = false;
-            this.btn_Option.Click += new System.EventHandler(this.btn_Option_Click);
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Silver;
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(217, 76);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "LÝ THUYẾT";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // btn_Help
+            // panelView
             // 
-            this.btn_Help.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Help.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Help.FlatAppearance.BorderSize = 0;
-            this.btn_Help.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Help.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Help.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Help.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Help.Image = global::ElectricProject.Properties.Resources.HELP;
-            this.btn_Help.Location = new System.Drawing.Point(0, 232);
-            this.btn_Help.Name = "btn_Help";
-            this.btn_Help.Size = new System.Drawing.Size(50, 58);
-            this.btn_Help.TabIndex = 4;
-            this.btn_Help.UseVisualStyleBackColor = false;
-            this.btn_Help.Click += new System.EventHandler(this.btn_Help_Click);
+            this.panelView.Controls.Add(this.panel7);
+            this.panelView.Controls.Add(this.diagramView1);
+            this.panelView.Controls.Add(this.ruler1);
+            this.panelView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelView.Location = new System.Drawing.Point(267, 132);
+            this.panelView.Name = "panelView";
+            this.panelView.Size = new System.Drawing.Size(1119, 635);
+            this.panelView.TabIndex = 5;
             // 
-            // btb_Simulate
+            // panel7
             // 
-            this.btb_Simulate.BackColor = System.Drawing.Color.Transparent;
-            this.btb_Simulate.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btb_Simulate.FlatAppearance.BorderSize = 0;
-            this.btb_Simulate.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btb_Simulate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btb_Simulate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btb_Simulate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btb_Simulate.ForeColor = System.Drawing.Color.Transparent;
-            this.btb_Simulate.Image = global::ElectricProject.Properties.Resources.Editor;
-            this.btb_Simulate.Location = new System.Drawing.Point(0, 174);
-            this.btb_Simulate.Name = "btb_Simulate";
-            this.btb_Simulate.Size = new System.Drawing.Size(50, 58);
-            this.btb_Simulate.TabIndex = 3;
-            this.btb_Simulate.UseVisualStyleBackColor = false;
-            this.btb_Simulate.Click += new System.EventHandler(this.btb_Simulate_Click);
+            this.panel7.Controls.Add(this.panel_display3d);
+            this.panel7.Controls.Add(this.axShockwaveFlash1);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1119, 635);
+            this.panel7.TabIndex = 2;
             // 
-            // btn_3D
+            // panel_display3d
             // 
-            this.btn_3D.BackColor = System.Drawing.Color.Transparent;
-            this.btn_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_3D.FlatAppearance.BorderSize = 0;
-            this.btn_3D.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_3D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_3D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_3D.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_3D.Image = global::ElectricProject.Properties.Resources._3D;
-            this.btn_3D.Location = new System.Drawing.Point(0, 116);
-            this.btn_3D.Name = "btn_3D";
-            this.btn_3D.Size = new System.Drawing.Size(50, 58);
-            this.btn_3D.TabIndex = 2;
-            this.btn_3D.UseVisualStyleBackColor = false;
-            this.btn_3D.Click += new System.EventHandler(this.btn_3D_Click);
+            this.panel_display3d.Controls.Add(this.elementHost1);
+            this.panel_display3d.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_display3d.Location = new System.Drawing.Point(0, 0);
+            this.panel_display3d.Name = "panel_display3d";
+            this.panel_display3d.Size = new System.Drawing.Size(1119, 635);
+            this.panel_display3d.TabIndex = 2;
             // 
-            // btn_2D
+            // axShockwaveFlash1
             // 
-            this.btn_2D.BackColor = System.Drawing.Color.Transparent;
-            this.btn_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_2D.FlatAppearance.BorderSize = 0;
-            this.btn_2D.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_2D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_2D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_2D.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_2D.Image = global::ElectricProject.Properties.Resources.BACKGROUND;
-            this.btn_2D.Location = new System.Drawing.Point(0, 58);
-            this.btn_2D.Name = "btn_2D";
-            this.btn_2D.Size = new System.Drawing.Size(50, 58);
-            this.btn_2D.TabIndex = 1;
-            this.btn_2D.UseVisualStyleBackColor = false;
-            this.btn_2D.Click += new System.EventHandler(this.btn_2D_Click);
+            this.axShockwaveFlash1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.axShockwaveFlash1.Enabled = true;
+            this.axShockwaveFlash1.Location = new System.Drawing.Point(8, 9);
+            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
+            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
+            this.axShockwaveFlash1.Size = new System.Drawing.Size(1102, 616);
+            this.axShockwaveFlash1.TabIndex = 1;
             // 
-            // btn_Document
+            // diagramView1
             // 
-            this.btn_Document.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Document.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Document.FlatAppearance.BorderSize = 0;
-            this.btn_Document.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Document.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Document.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.btn_Document.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Document.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Document.Image = global::ElectricProject.Properties.Resources.DOCUMENT;
-            this.btn_Document.Location = new System.Drawing.Point(0, 0);
-            this.btn_Document.Name = "btn_Document";
-            this.btn_Document.Size = new System.Drawing.Size(50, 58);
-            this.btn_Document.TabIndex = 0;
-            this.btn_Document.UseVisualStyleBackColor = false;
-            this.btn_Document.Click += new System.EventHandler(this.btn_Document_Click);
+            this.diagramView1.BackColor = System.Drawing.Color.Black;
+            this.diagramView1.Diagram = this.diagram1;
+            this.diagramView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.diagramView1.LicenseKey = null;
+            this.diagramView1.Location = new System.Drawing.Point(0, 0);
+            this.diagramView1.MagnifierFrameColor = System.Drawing.Color.DimGray;
+            this.diagramView1.Name = "diagramView1";
+            this.diagramView1.Size = new System.Drawing.Size(1119, 635);
+            this.diagramView1.TabIndex = 1;
+            this.diagramView1.Text = "diagramView1";
             // 
-            // button28
+            // diagram1
             // 
-            this.button28.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
-            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(39)))));
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.button28.ForeColor = System.Drawing.Color.Transparent;
-            this.button28.Image = global::ElectricProject.Properties.Resources.BTN_BACK;
-            this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button28.Location = new System.Drawing.Point(0, 0);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(96, 51);
-            this.button28.TabIndex = 0;
-            this.button28.Text = "Home";
-            this.button28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button28.UseVisualStyleBackColor = true;
+            this.diagram1.LinkHeadShape = null;
+            this.diagram1.LinkPen = new MindFusion.Drawing.Pen("0/#FFFF0000/0/0/0//0/0/10/");
+            this.diagram1.RouteLinks = true;
+            this.diagram1.TouchThreshold = 0F;
+            this.diagram1.LinkCreated += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkCreated);
+            this.diagram1.LinkSelected += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkSelected);
             // 
-            // btn_Minimized
+            // ruler1
             // 
-            this.btn_Minimized.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Minimized.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Minimized.FlatAppearance.BorderSize = 0;
-            this.btn_Minimized.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Minimized.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Minimized.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Minimized.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Minimized.Image = global::ElectricProject.Properties.Resources.MINIMIZE1;
-            this.btn_Minimized.Location = new System.Drawing.Point(1246, 0);
-            this.btn_Minimized.Name = "btn_Minimized";
-            this.btn_Minimized.Size = new System.Drawing.Size(35, 35);
-            this.btn_Minimized.TabIndex = 3;
-            this.btn_Minimized.UseVisualStyleBackColor = false;
-            this.btn_Minimized.Click += new System.EventHandler(this.btn_Minimized_Click);
+            this.ruler1.AllowDrop = true;
+            this.ruler1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ruler1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ruler1.Location = new System.Drawing.Point(0, 0);
+            this.ruler1.Name = "ruler1";
+            this.ruler1.Size = new System.Drawing.Size(1119, 635);
+            this.ruler1.TabIndex = 0;
+            this.ruler1.Text = "ruler1";
+            this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
             // 
-            // btn_Fullscreen
+            // elementHost1
             // 
-            this.btn_Fullscreen.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Fullscreen.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Fullscreen.FlatAppearance.BorderSize = 0;
-            this.btn_Fullscreen.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Fullscreen.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Fullscreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Fullscreen.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Fullscreen.Image = global::ElectricProject.Properties.Resources.FULLSCREEN;
-            this.btn_Fullscreen.Location = new System.Drawing.Point(1281, 0);
-            this.btn_Fullscreen.Name = "btn_Fullscreen";
-            this.btn_Fullscreen.Size = new System.Drawing.Size(35, 35);
-            this.btn_Fullscreen.TabIndex = 2;
-            this.btn_Fullscreen.UseVisualStyleBackColor = false;
-            this.btn_Fullscreen.Click += new System.EventHandler(this.btn_Fullscreen_Click);
-            // 
-            // btn_Restoredown
-            // 
-            this.btn_Restoredown.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Restoredown.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Restoredown.FlatAppearance.BorderSize = 0;
-            this.btn_Restoredown.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Restoredown.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Restoredown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Restoredown.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Restoredown.Image = global::ElectricProject.Properties.Resources.RESTORE_DOWN1;
-            this.btn_Restoredown.Location = new System.Drawing.Point(1316, 0);
-            this.btn_Restoredown.Name = "btn_Restoredown";
-            this.btn_Restoredown.Size = new System.Drawing.Size(35, 35);
-            this.btn_Restoredown.TabIndex = 1;
-            this.btn_Restoredown.UseVisualStyleBackColor = false;
-            this.btn_Restoredown.Click += new System.EventHandler(this.btn_Restoredown_Click);
-            // 
-            // btn_Exit
-            // 
-            this.btn_Exit.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Exit.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Exit.FlatAppearance.BorderSize = 0;
-            this.btn_Exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(43)))), ((int)(((byte)(64)))));
-            this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Exit.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_Exit.Image = global::ElectricProject.Properties.Resources.EXIT1;
-            this.btn_Exit.Location = new System.Drawing.Point(1351, 0);
-            this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(35, 35);
-            this.btn_Exit.TabIndex = 0;
-            this.btn_Exit.UseVisualStyleBackColor = false;
-            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
-            // 
-            // eLECTRICSIMULATIONToolStripMenuItem
-            // 
-            this.eLECTRICSIMULATIONToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.eLECTRICSIMULATIONToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
-            this.eLECTRICSIMULATIONToolStripMenuItem.Image = global::ElectricProject.Properties.Resources.LOGO2;
-            this.eLECTRICSIMULATIONToolStripMenuItem.Name = "eLECTRICSIMULATIONToolStripMenuItem";
-            this.eLECTRICSIMULATIONToolStripMenuItem.Size = new System.Drawing.Size(162, 20);
-            this.eLECTRICSIMULATIONToolStripMenuItem.Text = "ELECTRIC SIMULATION";
+            this.elementHost1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.elementHost1.Location = new System.Drawing.Point(0, 0);
+            this.elementHost1.Name = "elementHost1";
+            this.elementHost1.Size = new System.Drawing.Size(1119, 635);
+            this.elementHost1.TabIndex = 0;
+            this.elementHost1.Text = "elementHost1";
+            this.elementHost1.Child = this.view3D_XAML1;
             // 
             // Form1
             // 
@@ -2287,15 +2288,15 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel_Menubar);
             this.ForeColor = System.Drawing.Color.Chocolate;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel_Menubar.ResumeLayout(false);
+            this.panel_Menubar.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -2322,7 +2323,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel_Menubar;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
