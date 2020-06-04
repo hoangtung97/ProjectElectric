@@ -23,7 +23,7 @@ namespace ElectricProject
             panel_Menu.Visible = false;
             panel_Simulate.Visible = false;
             panel_LineProperties1.Visible = false;
-            panel_display3d.Visible = false;
+            //panel_display3d.Visible = false;
         }
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
@@ -85,104 +85,111 @@ namespace ElectricProject
             this.WindowState = FormWindowState.Normal;
         }
 
-        private void btb_Simulate_Click(object sender, EventArgs e)
+        private void InvisibleWork()
         {
-            panel_lythuyet.Visible = false;
+            panel_work2d.Visible = false;
+            panel_work3d.Visible = false;
+            panel_workdocument.Visible = false;
+            panel_workSimulate.Visible = false;
+        }
+
+        private void InvisibleMenu()
+        {
+            panel_Menu.Visible = false;
             panel_2D.Visible = false;
             panel_3D.Visible = false;
-            panel_DisplayArea.Visible = false;
-            axShockwaveFlash1.Visible = false;
-            diagramView1.Visible = true;
-            panel_Simulate.Visible = true;
-            panel_LineProperties1.Visible = true;
+            panel_lythuyet.Visible = false;
+            panel_Thuchanh.Visible = false;
+            //displaypanel.Visible = true;
 
+
+        }
+
+        private void btb_Simulate_Click(object sender, EventArgs e)
+        {
             if (panel_Thuchanh.Visible == true)
             {
-                panel_Thuchanh.Visible = false;
+                InvisibleMenu();
+                return;
             }
             else
             {
+
+                InvisibleWork();
+                InvisibleMenu();
+                panel_Menu.Visible = true;
                 panel_Thuchanh.Visible = true;
+                panel_workSimulate.Visible = true;
             }
-            panel_Menu.Visible = true;
+
 
         }
 
         private void btn_Document_Click(object sender, EventArgs e)
         {
-            panel_Thuchanh.Visible = false;
-            panel_SubmenuDoccument1.Visible = false;
-            panel_SubmenuDoccument2.Visible = false;
-            panel_2D.Visible = false;
-            panel_3D.Visible = false;
-            axShockwaveFlash1.Visible = false;
-            diagramView1.Visible = false;
-            panel_Simulate.Visible = false;
-            panel_LineProperties1.Visible = false;
-            panel_Menu.Visible = true;
+            if (panel_lythuyet.Visible == true)
+            {
+                InvisibleMenu();
+                return;
+            }
+            else
+            {
+                
+                InvisibleWork();
+                InvisibleMenu();
+                panel_Menu.Visible = true;
+                panel_lythuyet.Visible = true;
+                panel_workdocument.Visible = true;
+
+            }
+            
+
             //fill form
             PDFViewerForm objForm = new PDFViewerForm();
-            
             objForm.TopLevel = false;
-            panel_DisplayArea.Controls.Add(objForm);
+            panel_workdocument.Controls.Add(objForm);
             objForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             objForm.Dock = DockStyle.Fill;
             objForm.Show();
 
-            if (panel_lythuyet.Visible == true)
-            {
-                panel_lythuyet.Visible = false;
-                panel_Menu.Visible = false;
-
-            }
-            else
-            {
-                panel_lythuyet.Visible = true;
-            }
-            
         }
 
         private void btn_2D_Click(object sender, EventArgs e)
         {
-            panel_lythuyet.Visible = false;
-            panel_Thuchanh.Visible = false;
-            panel_3D.Visible = false;
-            diagramView1.Visible = false;
-            panel_DisplayArea.Visible = true;
-            panel_Simulate.Visible = false;
-            panel_LineProperties1.Visible = false;
-
-
-            if ( panel_2D.Visible == true)
+             if (panel_2D.Visible == true)
             {
-                panel_2D.Visible = false;
+                InvisibleMenu();
+                return;
             }
             else
             {
+                
+                InvisibleWork();
+                InvisibleMenu();
+                panel_Menu.Visible = true;
                 panel_2D.Visible = true;
+                panel_work2d.Visible = true;
             }
-            panel_Menu.Visible = true;
+           
         }
 
         private void btn_3D_Click(object sender, EventArgs e)
         {
-            panel_2D.Visible = false;
-            panel_lythuyet.Visible = false;
-            panel_Thuchanh.Visible = false;
-            axShockwaveFlash1.Visible = false;
-            diagramView1.Visible = false;
-            panel_Simulate.Visible = false;
-            panel_LineProperties1.Visible = false;
-            panel_DisplayArea.Visible = false;
             if (panel_3D.Visible == true)
             {
-                panel_3D.Visible = false;
+                InvisibleMenu();
+                return;
             }
             else
             {
+
+                InvisibleWork();
+                InvisibleMenu();
+                panel_Menu.Visible = true;
                 panel_3D.Visible = true;
+                panel_work3d.Visible = true;
             }
-            panel_Menu.Visible = true;
+
         }
 
         private void btn_Help_Click(object sender, EventArgs e)
@@ -221,17 +228,22 @@ namespace ElectricProject
             panel_SubmenuDoccument1.Visible = false;
         }
 
-        private void button53_Click(object sender, EventArgs e)
+        private void Display3d()
         {
-            
             View3DForm view3d = new View3DForm();
             view3d.TopLevel = false;
-            panel_DisplayArea.Controls.Add(view3d);
-            panel_DisplayArea.BringToFront();
-            panel_DisplayArea.Visible = true;
+            panel_work3d.Controls.Add(view3d);
+            panel_work3d.BringToFront();
+            panel_work3d.Visible = true;
             view3d.Dock = DockStyle.Fill;
             view3d.FormBorderStyle = FormBorderStyle.None;
             view3d.Show();
+        }
+
+        private void button53_Click(object sender, EventArgs e)
+        {
+            Display3d();
+
         }
 
         private void button71_Click(object sender, EventArgs e)

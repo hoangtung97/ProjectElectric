@@ -143,15 +143,14 @@
             this.button4 = new System.Windows.Forms.Button();
             this.btn_Lythuyetdien1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.panelView = new System.Windows.Forms.Panel();
-            this.panel_DisplayArea = new System.Windows.Forms.Panel();
-            this.panel_display3d = new System.Windows.Forms.Panel();
-            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.view3D_XAML1 = new ElectricProject.View3D_XAML();
-            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
-            this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
             this.diagram1 = new MindFusion.Diagramming.Diagram();
+            this.workpanel = new System.Windows.Forms.Panel();
+            this.panel_work2d = new System.Windows.Forms.Panel();
             this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
+            this.panel_workSimulate = new System.Windows.Forms.Panel();
+            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
+            this.panel_work3d = new System.Windows.Forms.Panel();
+            this.panel_workdocument = new System.Windows.Forms.Panel();
             this.panel_Menubar.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel_Sidebar.SuspendLayout();
@@ -166,9 +165,9 @@
             this.panel_lythuyet.SuspendLayout();
             this.panel_SubmenuDoccument2.SuspendLayout();
             this.panel_SubmenuDoccument1.SuspendLayout();
-            this.panelView.SuspendLayout();
-            this.panel_DisplayArea.SuspendLayout();
-            this.panel_display3d.SuspendLayout();
+            this.workpanel.SuspendLayout();
+            this.panel_work2d.SuspendLayout();
+            this.panel_workSimulate.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -612,6 +611,7 @@
             // 
             // panel_Menu
             // 
+            this.panel_Menu.AutoScroll = true;
             this.panel_Menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(50)))), ((int)(((byte)(71)))));
             this.panel_Menu.Controls.Add(this.panel_3D);
             this.panel_Menu.Controls.Add(this.panel_2D);
@@ -648,9 +648,9 @@
             this.panel_3D.Controls.Add(this.button72);
             this.panel_3D.Controls.Add(this.label4);
             this.panel_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_3D.Location = new System.Drawing.Point(0, 1457);
+            this.panel_3D.Location = new System.Drawing.Point(0, 1982);
             this.panel_3D.Name = "panel_3D";
-            this.panel_3D.Size = new System.Drawing.Size(217, 527);
+            this.panel_3D.Size = new System.Drawing.Size(200, 736);
             this.panel_3D.TabIndex = 4;
             // 
             // button52
@@ -1111,9 +1111,9 @@
             this.panel_2D.Controls.Add(this.button51);
             this.panel_2D.Controls.Add(this.label3);
             this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_2D.Location = new System.Drawing.Point(0, 907);
+            this.panel_2D.Location = new System.Drawing.Point(0, 1231);
             this.panel_2D.Name = "panel_2D";
-            this.panel_2D.Size = new System.Drawing.Size(217, 550);
+            this.panel_2D.Size = new System.Drawing.Size(200, 751);
             this.panel_2D.TabIndex = 3;
             // 
             // button2
@@ -1573,9 +1573,9 @@
             this.panel_Thuchanh.Controls.Add(this.button8);
             this.panel_Thuchanh.Controls.Add(this.button20);
             this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 384);
+            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 538);
             this.panel_Thuchanh.Name = "panel_Thuchanh";
-            this.panel_Thuchanh.Size = new System.Drawing.Size(217, 523);
+            this.panel_Thuchanh.Size = new System.Drawing.Size(200, 693);
             this.panel_Thuchanh.TabIndex = 1;
             // 
             // button25
@@ -2020,7 +2020,7 @@
             this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
             this.panel_lythuyet.Name = "panel_lythuyet";
-            this.panel_lythuyet.Size = new System.Drawing.Size(217, 384);
+            this.panel_lythuyet.Size = new System.Drawing.Size(200, 538);
             this.panel_lythuyet.TabIndex = 2;
             this.panel_lythuyet.Visible = false;
             // 
@@ -2030,9 +2030,9 @@
             this.panel_SubmenuDoccument2.Controls.Add(this.button31);
             this.panel_SubmenuDoccument2.Controls.Add(this.button32);
             this.panel_SubmenuDoccument2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_SubmenuDoccument2.Location = new System.Drawing.Point(0, 272);
+            this.panel_SubmenuDoccument2.Location = new System.Drawing.Point(0, 254);
             this.panel_SubmenuDoccument2.Name = "panel_SubmenuDoccument2";
-            this.panel_SubmenuDoccument2.Size = new System.Drawing.Size(217, 107);
+            this.panel_SubmenuDoccument2.Size = new System.Drawing.Size(200, 96);
             this.panel_SubmenuDoccument2.TabIndex = 5;
             // 
             // button30
@@ -2046,7 +2046,7 @@
             this.button30.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button30.Location = new System.Drawing.Point(0, 70);
             this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(217, 35);
+            this.button30.Size = new System.Drawing.Size(200, 35);
             this.button30.TabIndex = 11;
             this.button30.Text = "Phần 3";
             this.button30.UseVisualStyleBackColor = false;
@@ -2062,7 +2062,7 @@
             this.button31.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button31.Location = new System.Drawing.Point(0, 35);
             this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(217, 35);
+            this.button31.Size = new System.Drawing.Size(200, 35);
             this.button31.TabIndex = 10;
             this.button31.Text = "Phần 2";
             this.button31.UseVisualStyleBackColor = false;
@@ -2078,7 +2078,7 @@
             this.button32.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button32.Location = new System.Drawing.Point(0, 0);
             this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(217, 35);
+            this.button32.Size = new System.Drawing.Size(200, 35);
             this.button32.TabIndex = 9;
             this.button32.Text = "Phần 1";
             this.button32.UseVisualStyleBackColor = false;
@@ -2092,9 +2092,9 @@
             this.btn_Lythuyetdien2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Lythuyetdien2.Image = global::ElectricProject.Properties.Resources.electric2;
             this.btn_Lythuyetdien2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Lythuyetdien2.Location = new System.Drawing.Point(0, 225);
+            this.btn_Lythuyetdien2.Location = new System.Drawing.Point(0, 207);
             this.btn_Lythuyetdien2.Name = "btn_Lythuyetdien2";
-            this.btn_Lythuyetdien2.Size = new System.Drawing.Size(217, 47);
+            this.btn_Lythuyetdien2.Size = new System.Drawing.Size(200, 47);
             this.btn_Lythuyetdien2.TabIndex = 3;
             this.btn_Lythuyetdien2.Text = "Lý thuyết điện 2";
             this.btn_Lythuyetdien2.UseVisualStyleBackColor = true;
@@ -2106,9 +2106,9 @@
             this.panel_SubmenuDoccument1.Controls.Add(this.button5);
             this.panel_SubmenuDoccument1.Controls.Add(this.button4);
             this.panel_SubmenuDoccument1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_SubmenuDoccument1.Location = new System.Drawing.Point(0, 122);
+            this.panel_SubmenuDoccument1.Location = new System.Drawing.Point(0, 104);
             this.panel_SubmenuDoccument1.Name = "panel_SubmenuDoccument1";
-            this.panel_SubmenuDoccument1.Size = new System.Drawing.Size(217, 103);
+            this.panel_SubmenuDoccument1.Size = new System.Drawing.Size(200, 103);
             this.panel_SubmenuDoccument1.TabIndex = 4;
             // 
             // button6
@@ -2122,7 +2122,7 @@
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.Location = new System.Drawing.Point(0, 70);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(217, 35);
+            this.button6.Size = new System.Drawing.Size(200, 35);
             this.button6.TabIndex = 8;
             this.button6.Text = "Phần 3";
             this.button6.UseVisualStyleBackColor = false;
@@ -2138,7 +2138,7 @@
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(0, 35);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(217, 35);
+            this.button5.Size = new System.Drawing.Size(200, 35);
             this.button5.TabIndex = 7;
             this.button5.Text = "Phần 2";
             this.button5.UseVisualStyleBackColor = false;
@@ -2154,7 +2154,7 @@
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.Location = new System.Drawing.Point(0, 0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(217, 35);
+            this.button4.Size = new System.Drawing.Size(200, 35);
             this.button4.TabIndex = 6;
             this.button4.Text = "Phần 1";
             this.button4.UseVisualStyleBackColor = false;
@@ -2169,9 +2169,9 @@
             this.btn_Lythuyetdien1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Lythuyetdien1.Image = global::ElectricProject.Properties.Resources.electric;
             this.btn_Lythuyetdien1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Lythuyetdien1.Location = new System.Drawing.Point(0, 76);
+            this.btn_Lythuyetdien1.Location = new System.Drawing.Point(0, 58);
             this.btn_Lythuyetdien1.Name = "btn_Lythuyetdien1";
-            this.btn_Lythuyetdien1.Size = new System.Drawing.Size(217, 46);
+            this.btn_Lythuyetdien1.Size = new System.Drawing.Size(200, 46);
             this.btn_Lythuyetdien1.TabIndex = 2;
             this.btn_Lythuyetdien1.Text = "Lý thuyết điện 1";
             this.btn_Lythuyetdien1.UseVisualStyleBackColor = true;
@@ -2185,75 +2185,10 @@
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 76);
+            this.label2.Size = new System.Drawing.Size(200, 58);
             this.label2.TabIndex = 1;
             this.label2.Text = "LÝ THUYẾT";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // panelView
-            // 
-            this.panelView.Controls.Add(this.panel_DisplayArea);
-            this.panelView.Controls.Add(this.diagramView1);
-            this.panelView.Controls.Add(this.ruler1);
-            this.panelView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelView.Location = new System.Drawing.Point(267, 132);
-            this.panelView.Name = "panelView";
-            this.panelView.Size = new System.Drawing.Size(1119, 635);
-            this.panelView.TabIndex = 5;
-            // 
-            // panel_DisplayArea
-            // 
-            this.panel_DisplayArea.Controls.Add(this.panel_display3d);
-            this.panel_DisplayArea.Controls.Add(this.axShockwaveFlash1);
-            this.panel_DisplayArea.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_DisplayArea.Location = new System.Drawing.Point(0, 0);
-            this.panel_DisplayArea.Name = "panel_DisplayArea";
-            this.panel_DisplayArea.Size = new System.Drawing.Size(1119, 635);
-            this.panel_DisplayArea.TabIndex = 2;
-            // 
-            // panel_display3d
-            // 
-            this.panel_display3d.Controls.Add(this.elementHost1);
-            this.panel_display3d.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_display3d.Location = new System.Drawing.Point(0, 0);
-            this.panel_display3d.Name = "panel_display3d";
-            this.panel_display3d.Size = new System.Drawing.Size(1119, 635);
-            this.panel_display3d.TabIndex = 2;
-            // 
-            // elementHost1
-            // 
-            this.elementHost1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.elementHost1.Location = new System.Drawing.Point(0, 0);
-            this.elementHost1.Name = "elementHost1";
-            this.elementHost1.Size = new System.Drawing.Size(1119, 635);
-            this.elementHost1.TabIndex = 0;
-            this.elementHost1.Text = "elementHost1";
-            this.elementHost1.Child = this.view3D_XAML1;
-            // 
-            // axShockwaveFlash1
-            // 
-            this.axShockwaveFlash1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.axShockwaveFlash1.Enabled = true;
-            this.axShockwaveFlash1.Location = new System.Drawing.Point(8, 9);
-            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
-            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
-            this.axShockwaveFlash1.Size = new System.Drawing.Size(1102, 616);
-            this.axShockwaveFlash1.TabIndex = 1;
-            // 
-            // diagramView1
-            // 
-            this.diagramView1.BackColor = System.Drawing.Color.Black;
-            this.diagramView1.Diagram = this.diagram1;
-            this.diagramView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diagramView1.LicenseKey = null;
-            this.diagramView1.Location = new System.Drawing.Point(0, 0);
-            this.diagramView1.MagnifierFrameColor = System.Drawing.Color.DimGray;
-            this.diagramView1.Name = "diagramView1";
-            this.diagramView1.Size = new System.Drawing.Size(1119, 635);
-            this.diagramView1.TabIndex = 1;
-            this.diagramView1.Text = "diagramView1";
             // 
             // diagram1
             // 
@@ -2264,9 +2199,29 @@
             this.diagram1.LinkCreated += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkCreated);
             this.diagram1.LinkSelected += new System.EventHandler<MindFusion.Diagramming.LinkEventArgs>(this.diagram1_LinkSelected);
             // 
+            // workpanel
+            // 
+            this.workpanel.Controls.Add(this.panel_work2d);
+            this.workpanel.Controls.Add(this.panel_workSimulate);
+            this.workpanel.Controls.Add(this.panel_work3d);
+            this.workpanel.Controls.Add(this.panel_workdocument);
+            this.workpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.workpanel.Location = new System.Drawing.Point(267, 132);
+            this.workpanel.Name = "workpanel";
+            this.workpanel.Size = new System.Drawing.Size(1119, 635);
+            this.workpanel.TabIndex = 5;
+            // 
+            // panel_work2d
+            // 
+            this.panel_work2d.Controls.Add(this.ruler1);
+            this.panel_work2d.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_work2d.Location = new System.Drawing.Point(0, 0);
+            this.panel_work2d.Name = "panel_work2d";
+            this.panel_work2d.Size = new System.Drawing.Size(1119, 635);
+            this.panel_work2d.TabIndex = 3;
+            // 
             // ruler1
             // 
-            this.ruler1.AllowDrop = true;
             this.ruler1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ruler1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ruler1.Location = new System.Drawing.Point(0, 0);
@@ -2276,13 +2231,48 @@
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
             // 
+            // panel_workSimulate
+            // 
+            this.panel_workSimulate.Controls.Add(this.axShockwaveFlash1);
+            this.panel_workSimulate.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_workSimulate.Location = new System.Drawing.Point(0, 0);
+            this.panel_workSimulate.Name = "panel_workSimulate";
+            this.panel_workSimulate.Size = new System.Drawing.Size(1119, 635);
+            this.panel_workSimulate.TabIndex = 2;
+            // 
+            // axShockwaveFlash1
+            // 
+            this.axShockwaveFlash1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axShockwaveFlash1.Enabled = true;
+            this.axShockwaveFlash1.Location = new System.Drawing.Point(0, 0);
+            this.axShockwaveFlash1.Name = "axShockwaveFlash1";
+            this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
+            this.axShockwaveFlash1.Size = new System.Drawing.Size(1119, 635);
+            this.axShockwaveFlash1.TabIndex = 0;
+            // 
+            // panel_work3d
+            // 
+            this.panel_work3d.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_work3d.Location = new System.Drawing.Point(0, 0);
+            this.panel_work3d.Name = "panel_work3d";
+            this.panel_work3d.Size = new System.Drawing.Size(1119, 635);
+            this.panel_work3d.TabIndex = 1;
+            // 
+            // panel_workdocument
+            // 
+            this.panel_workdocument.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_workdocument.Location = new System.Drawing.Point(0, 0);
+            this.panel_workdocument.Name = "panel_workdocument";
+            this.panel_workdocument.Size = new System.Drawing.Size(1119, 635);
+            this.panel_workdocument.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(20)))), ((int)(((byte)(45)))));
             this.ClientSize = new System.Drawing.Size(1386, 767);
-            this.Controls.Add(this.panelView);
+            this.Controls.Add(this.workpanel);
             this.Controls.Add(this.panel_Lineproperties);
             this.Controls.Add(this.panel_Menu);
             this.Controls.Add(this.panel_Sidebar);
@@ -2312,9 +2302,9 @@
             this.panel_lythuyet.ResumeLayout(false);
             this.panel_SubmenuDoccument2.ResumeLayout(false);
             this.panel_SubmenuDoccument1.ResumeLayout(false);
-            this.panelView.ResumeLayout(false);
-            this.panel_DisplayArea.ResumeLayout(false);
-            this.panel_display3d.ResumeLayout(false);
+            this.workpanel.ResumeLayout(false);
+            this.panel_work2d.ResumeLayout(false);
+            this.panel_workSimulate.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).EndInit();
             this.ResumeLayout(false);
 
@@ -2426,9 +2416,6 @@
         private System.Windows.Forms.Button button71;
         private System.Windows.Forms.Button button72;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panelView;
-        private MindFusion.Diagramming.WinForms.Ruler ruler1;
-        private MindFusion.Diagramming.WinForms.DiagramView diagramView1;
         private MindFusion.Diagramming.Diagram diagram1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox TextboxLine;
@@ -2438,13 +2425,15 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Panel panel_LineProperties1;
-        private System.Windows.Forms.Panel panel_DisplayArea;
         private System.Windows.Forms.Panel panel_Simulate;
         private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel workpanel;
+        private System.Windows.Forms.Panel panel_work2d;
+        private MindFusion.Diagramming.WinForms.Ruler ruler1;
+        private System.Windows.Forms.Panel panel_workSimulate;
         private AxShockwaveFlashObjects.AxShockwaveFlash axShockwaveFlash1;
-        private System.Windows.Forms.Panel panel_display3d;
-        private System.Windows.Forms.Integration.ElementHost elementHost1;
-        private View3D_XAML view3D_XAML1;
+        private System.Windows.Forms.Panel panel_work3d;
+        private System.Windows.Forms.Panel panel_workdocument;
     }
 }
 
