@@ -20,12 +20,12 @@ namespace ElectricProject
         {
             InitializeComponent();
             btn_Restoredown.Visible = false;
-            panel5.Visible = false;
-            panel10.Visible = false;
-            panel6.Visible = false;
+            panel_Menu.Visible = false;
+            panel_Simulate.Visible = false;
+            panel_LineProperties1.Visible = false;
             panel_display3d.Visible = false;
         }
-        private void panel_Menubar_MouseDown(object sender, MouseEventArgs e)
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             mov = 1;
             movX = e.X;
@@ -90,11 +90,11 @@ namespace ElectricProject
             panel_lythuyet.Visible = false;
             panel_2D.Visible = false;
             panel_3D.Visible = false;
-            panel7.Visible = false;
+            panel_DisplayArea.Visible = false;
             axShockwaveFlash1.Visible = false;
             diagramView1.Visible = true;
-            panel10.Visible = true;
-            panel6.Visible = true;
+            panel_Simulate.Visible = true;
+            panel_LineProperties1.Visible = true;
 
             if (panel_Thuchanh.Visible == true)
             {
@@ -104,27 +104,27 @@ namespace ElectricProject
             {
                 panel_Thuchanh.Visible = true;
             }
-            panel5.Visible = true;
+            panel_Menu.Visible = true;
 
         }
 
         private void btn_Document_Click(object sender, EventArgs e)
         {
             panel_Thuchanh.Visible = false;
-            panel8.Visible = false;
-            panel9.Visible = false;
+            panel_SubmenuDoccument1.Visible = false;
+            panel_SubmenuDoccument2.Visible = false;
             panel_2D.Visible = false;
             panel_3D.Visible = false;
             axShockwaveFlash1.Visible = false;
             diagramView1.Visible = false;
-            panel10.Visible = false;
-            panel6.Visible = false;
-            panel5.Visible = true;
+            panel_Simulate.Visible = false;
+            panel_LineProperties1.Visible = false;
+            panel_Menu.Visible = true;
             //fill form
             PDFViewerForm objForm = new PDFViewerForm();
             
             objForm.TopLevel = false;
-            panel7.Controls.Add(objForm);
+            panel_DisplayArea.Controls.Add(objForm);
             objForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             objForm.Dock = DockStyle.Fill;
             objForm.Show();
@@ -132,7 +132,7 @@ namespace ElectricProject
             if (panel_lythuyet.Visible == true)
             {
                 panel_lythuyet.Visible = false;
-                panel5.Visible = false;
+                panel_Menu.Visible = false;
 
             }
             else
@@ -148,9 +148,9 @@ namespace ElectricProject
             panel_Thuchanh.Visible = false;
             panel_3D.Visible = false;
             diagramView1.Visible = false;
-            panel7.Visible = true;
-            panel10.Visible = false;
-            panel6.Visible = false;
+            panel_DisplayArea.Visible = true;
+            panel_Simulate.Visible = false;
+            panel_LineProperties1.Visible = false;
 
 
             if ( panel_2D.Visible == true)
@@ -161,7 +161,7 @@ namespace ElectricProject
             {
                 panel_2D.Visible = true;
             }
-            panel5.Visible = true;
+            panel_Menu.Visible = true;
         }
 
         private void btn_3D_Click(object sender, EventArgs e)
@@ -171,9 +171,9 @@ namespace ElectricProject
             panel_Thuchanh.Visible = false;
             axShockwaveFlash1.Visible = false;
             diagramView1.Visible = false;
-            panel10.Visible = false;
-            panel6.Visible = false;
-            panel7.Visible = false;
+            panel_Simulate.Visible = false;
+            panel_LineProperties1.Visible = false;
+            panel_DisplayArea.Visible = false;
             if (panel_3D.Visible == true)
             {
                 panel_3D.Visible = false;
@@ -182,7 +182,7 @@ namespace ElectricProject
             {
                 panel_3D.Visible = true;
             }
-            panel5.Visible = true;
+            panel_Menu.Visible = true;
         }
 
         private void btn_Help_Click(object sender, EventArgs e)
@@ -197,28 +197,28 @@ namespace ElectricProject
 
         private void btn_Lythuyetdien1_Click(object sender, EventArgs e)
         {
-            if (panel8.Visible == false)
+            if (panel_SubmenuDoccument1.Visible == false)
             {
-                panel8.Visible = true;
+                panel_SubmenuDoccument1.Visible = true;
             }
             else
             {
-                panel8.Visible = false;
+                panel_SubmenuDoccument1.Visible = false;
             }
-            panel9.Visible = false;
+            panel_SubmenuDoccument2.Visible = false;
         }
 
         private void btn_Lythuyetdien2_Click(object sender, EventArgs e)
         {
-            if (panel9.Visible == false)
+            if (panel_SubmenuDoccument2.Visible == false)
             {
-                panel9.Visible = true;
+                panel_SubmenuDoccument2.Visible = true;
             }
             else
             {
-                panel9.Visible = false;
+                panel_SubmenuDoccument2.Visible = false;
             }
-            panel8.Visible = false;
+            panel_SubmenuDoccument1.Visible = false;
         }
 
         private void button53_Click(object sender, EventArgs e)
@@ -226,9 +226,9 @@ namespace ElectricProject
             
             View3DForm view3d = new View3DForm();
             view3d.TopLevel = false;
-            panel7.Controls.Add(view3d);
-            panel7.BringToFront();
-            panel7.Visible = true;
+            panel_DisplayArea.Controls.Add(view3d);
+            panel_DisplayArea.BringToFront();
+            panel_DisplayArea.Visible = true;
             view3d.Dock = DockStyle.Fill;
             view3d.FormBorderStyle = FormBorderStyle.None;
             view3d.Show();
@@ -402,11 +402,6 @@ namespace ElectricProject
             PDFViewerForm pdf = new PDFViewerForm();
             pdf.Loadpdf(@"D:\Project\BGChinhTri\giáo dục quốc phòng - an ninh 10.pdf");
             
-        }
-
-        private void panel_Menubar_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
