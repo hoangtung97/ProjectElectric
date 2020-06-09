@@ -145,12 +145,34 @@
             this.label2 = new System.Windows.Forms.Label();
             this.diagram1 = new MindFusion.Diagramming.Diagram();
             this.workpanel = new System.Windows.Forms.Panel();
-            this.panel_work2d = new System.Windows.Forms.Panel();
+            this.panel_workthuchanh = new System.Windows.Forms.Panel();
+            this.diagramView1 = new MindFusion.Diagramming.WinForms.DiagramView();
             this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
-            this.panel_workSimulate = new System.Windows.Forms.Panel();
-            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
+            this.panel_worklythuyet = new System.Windows.Forms.Panel();
             this.panel_work3d = new System.Windows.Forms.Panel();
-            this.panel_workdocument = new System.Windows.Forms.Panel();
+            this.panel_work2d = new System.Windows.Forms.Panel();
+            this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
+            this.button53 = new System.Windows.Forms.Button();
+            this.button73 = new System.Windows.Forms.Button();
+            this.button74 = new System.Windows.Forms.Button();
+            this.button75 = new System.Windows.Forms.Button();
+            this.button76 = new System.Windows.Forms.Button();
+            this.button77 = new System.Windows.Forms.Button();
+            this.button78 = new System.Windows.Forms.Button();
+            this.button79 = new System.Windows.Forms.Button();
+            this.button80 = new System.Windows.Forms.Button();
+            this.button81 = new System.Windows.Forms.Button();
+            this.button82 = new System.Windows.Forms.Button();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button84 = new System.Windows.Forms.Button();
+            this.button85 = new System.Windows.Forms.Button();
+            this.button86 = new System.Windows.Forms.Button();
+            this.button87 = new System.Windows.Forms.Button();
+            this.button88 = new System.Windows.Forms.Button();
+            this.button89 = new System.Windows.Forms.Button();
+            this.button90 = new System.Windows.Forms.Button();
+            this.button91 = new System.Windows.Forms.Button();
+            this.button92 = new System.Windows.Forms.Button();
             this.panel_Menubar.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel_Sidebar.SuspendLayout();
@@ -166,8 +188,8 @@
             this.panel_SubmenuDoccument2.SuspendLayout();
             this.panel_SubmenuDoccument1.SuspendLayout();
             this.workpanel.SuspendLayout();
+            this.panel_workthuchanh.SuspendLayout();
             this.panel_work2d.SuspendLayout();
-            this.panel_workSimulate.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -504,15 +526,15 @@
             this.panel_Lineproperties.Controls.Add(this.panel11);
             this.panel_Lineproperties.Controls.Add(this.panel_LineProperties1);
             this.panel_Lineproperties.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Lineproperties.Location = new System.Drawing.Point(267, 86);
+            this.panel_Lineproperties.Location = new System.Drawing.Point(293, 86);
             this.panel_Lineproperties.Name = "panel_Lineproperties";
-            this.panel_Lineproperties.Size = new System.Drawing.Size(1119, 46);
+            this.panel_Lineproperties.Size = new System.Drawing.Size(1093, 46);
             this.panel_Lineproperties.TabIndex = 3;
             // 
             // panel11
             // 
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(603, 0);
+            this.panel11.Location = new System.Drawing.Point(577, 0);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(516, 46);
             this.panel11.TabIndex = 8;
@@ -620,7 +642,7 @@
             this.panel_Menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_Menu.Location = new System.Drawing.Point(50, 86);
             this.panel_Menu.Name = "panel_Menu";
-            this.panel_Menu.Size = new System.Drawing.Size(217, 681);
+            this.panel_Menu.Size = new System.Drawing.Size(243, 681);
             this.panel_Menu.TabIndex = 4;
             // 
             // panel_3D
@@ -648,9 +670,9 @@
             this.panel_3D.Controls.Add(this.button72);
             this.panel_3D.Controls.Add(this.label4);
             this.panel_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_3D.Location = new System.Drawing.Point(0, 1982);
+            this.panel_3D.Location = new System.Drawing.Point(0, 1997);
             this.panel_3D.Name = "panel_3D";
-            this.panel_3D.Size = new System.Drawing.Size(200, 736);
+            this.panel_3D.Size = new System.Drawing.Size(226, 526);
             this.panel_3D.TabIndex = 4;
             // 
             // button52
@@ -1111,9 +1133,9 @@
             this.panel_2D.Controls.Add(this.button51);
             this.panel_2D.Controls.Add(this.label3);
             this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_2D.Location = new System.Drawing.Point(0, 1231);
+            this.panel_2D.Location = new System.Drawing.Point(0, 1451);
             this.panel_2D.Name = "panel_2D";
-            this.panel_2D.Size = new System.Drawing.Size(200, 751);
+            this.panel_2D.Size = new System.Drawing.Size(226, 546);
             this.panel_2D.TabIndex = 3;
             // 
             // button2
@@ -1550,6 +1572,27 @@
             // 
             // panel_Thuchanh
             // 
+            this.panel_Thuchanh.Controls.Add(this.button92);
+            this.panel_Thuchanh.Controls.Add(this.button91);
+            this.panel_Thuchanh.Controls.Add(this.button87);
+            this.panel_Thuchanh.Controls.Add(this.button90);
+            this.panel_Thuchanh.Controls.Add(this.button88);
+            this.panel_Thuchanh.Controls.Add(this.button89);
+            this.panel_Thuchanh.Controls.Add(this.button84);
+            this.panel_Thuchanh.Controls.Add(this.button85);
+            this.panel_Thuchanh.Controls.Add(this.button86);
+            this.panel_Thuchanh.Controls.Add(this.button81);
+            this.panel_Thuchanh.Controls.Add(this.button82);
+            this.panel_Thuchanh.Controls.Add(this.button83);
+            this.panel_Thuchanh.Controls.Add(this.button78);
+            this.panel_Thuchanh.Controls.Add(this.button79);
+            this.panel_Thuchanh.Controls.Add(this.button80);
+            this.panel_Thuchanh.Controls.Add(this.button75);
+            this.panel_Thuchanh.Controls.Add(this.button76);
+            this.panel_Thuchanh.Controls.Add(this.button77);
+            this.panel_Thuchanh.Controls.Add(this.button53);
+            this.panel_Thuchanh.Controls.Add(this.button73);
+            this.panel_Thuchanh.Controls.Add(this.button74);
             this.panel_Thuchanh.Controls.Add(this.button25);
             this.panel_Thuchanh.Controls.Add(this.label1);
             this.panel_Thuchanh.Controls.Add(this.button7);
@@ -1573,10 +1616,11 @@
             this.panel_Thuchanh.Controls.Add(this.button8);
             this.panel_Thuchanh.Controls.Add(this.button20);
             this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 538);
+            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 374);
             this.panel_Thuchanh.Name = "panel_Thuchanh";
-            this.panel_Thuchanh.Size = new System.Drawing.Size(200, 693);
+            this.panel_Thuchanh.Size = new System.Drawing.Size(226, 1077);
             this.panel_Thuchanh.TabIndex = 1;
+            this.panel_Thuchanh.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_Thuchanh_Paint);
             // 
             // button25
             // 
@@ -1669,6 +1713,7 @@
             this.button14.Text = "TB8";
             this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button13
             // 
@@ -1729,6 +1774,7 @@
             this.button15.Text = "TB7";
             this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button18
             // 
@@ -1789,6 +1835,7 @@
             this.button10.Text = "TB6";
             this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button17
             // 
@@ -1849,6 +1896,7 @@
             this.button11.Text = "TB5";
             this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button16
             // 
@@ -1909,6 +1957,7 @@
             this.button12.Text = "TB4";
             this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button9
             // 
@@ -1929,6 +1978,7 @@
             this.button9.Text = "TB3";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button21
             // 
@@ -1989,6 +2039,7 @@
             this.button8.Text = "TB2";
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button20
             // 
@@ -2020,7 +2071,7 @@
             this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
             this.panel_lythuyet.Name = "panel_lythuyet";
-            this.panel_lythuyet.Size = new System.Drawing.Size(200, 538);
+            this.panel_lythuyet.Size = new System.Drawing.Size(226, 374);
             this.panel_lythuyet.TabIndex = 2;
             this.panel_lythuyet.Visible = false;
             // 
@@ -2032,7 +2083,7 @@
             this.panel_SubmenuDoccument2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_SubmenuDoccument2.Location = new System.Drawing.Point(0, 254);
             this.panel_SubmenuDoccument2.Name = "panel_SubmenuDoccument2";
-            this.panel_SubmenuDoccument2.Size = new System.Drawing.Size(200, 96);
+            this.panel_SubmenuDoccument2.Size = new System.Drawing.Size(226, 96);
             this.panel_SubmenuDoccument2.TabIndex = 5;
             // 
             // button30
@@ -2046,7 +2097,7 @@
             this.button30.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button30.Location = new System.Drawing.Point(0, 70);
             this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(200, 35);
+            this.button30.Size = new System.Drawing.Size(226, 35);
             this.button30.TabIndex = 11;
             this.button30.Text = "Phần 3";
             this.button30.UseVisualStyleBackColor = false;
@@ -2062,7 +2113,7 @@
             this.button31.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button31.Location = new System.Drawing.Point(0, 35);
             this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(200, 35);
+            this.button31.Size = new System.Drawing.Size(226, 35);
             this.button31.TabIndex = 10;
             this.button31.Text = "Phần 2";
             this.button31.UseVisualStyleBackColor = false;
@@ -2078,7 +2129,7 @@
             this.button32.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button32.Location = new System.Drawing.Point(0, 0);
             this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(200, 35);
+            this.button32.Size = new System.Drawing.Size(226, 35);
             this.button32.TabIndex = 9;
             this.button32.Text = "Phần 1";
             this.button32.UseVisualStyleBackColor = false;
@@ -2094,7 +2145,7 @@
             this.btn_Lythuyetdien2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Lythuyetdien2.Location = new System.Drawing.Point(0, 207);
             this.btn_Lythuyetdien2.Name = "btn_Lythuyetdien2";
-            this.btn_Lythuyetdien2.Size = new System.Drawing.Size(200, 47);
+            this.btn_Lythuyetdien2.Size = new System.Drawing.Size(226, 47);
             this.btn_Lythuyetdien2.TabIndex = 3;
             this.btn_Lythuyetdien2.Text = "Lý thuyết điện 2";
             this.btn_Lythuyetdien2.UseVisualStyleBackColor = true;
@@ -2108,7 +2159,7 @@
             this.panel_SubmenuDoccument1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_SubmenuDoccument1.Location = new System.Drawing.Point(0, 104);
             this.panel_SubmenuDoccument1.Name = "panel_SubmenuDoccument1";
-            this.panel_SubmenuDoccument1.Size = new System.Drawing.Size(200, 103);
+            this.panel_SubmenuDoccument1.Size = new System.Drawing.Size(226, 103);
             this.panel_SubmenuDoccument1.TabIndex = 4;
             // 
             // button6
@@ -2122,7 +2173,7 @@
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.Location = new System.Drawing.Point(0, 70);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(200, 35);
+            this.button6.Size = new System.Drawing.Size(226, 35);
             this.button6.TabIndex = 8;
             this.button6.Text = "Phần 3";
             this.button6.UseVisualStyleBackColor = false;
@@ -2138,7 +2189,7 @@
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(0, 35);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(200, 35);
+            this.button5.Size = new System.Drawing.Size(226, 35);
             this.button5.TabIndex = 7;
             this.button5.Text = "Phần 2";
             this.button5.UseVisualStyleBackColor = false;
@@ -2154,7 +2205,7 @@
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.Location = new System.Drawing.Point(0, 0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 35);
+            this.button4.Size = new System.Drawing.Size(226, 35);
             this.button4.TabIndex = 6;
             this.button4.Text = "Phần 1";
             this.button4.UseVisualStyleBackColor = false;
@@ -2171,7 +2222,7 @@
             this.btn_Lythuyetdien1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Lythuyetdien1.Location = new System.Drawing.Point(0, 58);
             this.btn_Lythuyetdien1.Name = "btn_Lythuyetdien1";
-            this.btn_Lythuyetdien1.Size = new System.Drawing.Size(200, 46);
+            this.btn_Lythuyetdien1.Size = new System.Drawing.Size(226, 46);
             this.btn_Lythuyetdien1.TabIndex = 2;
             this.btn_Lythuyetdien1.Text = "Lý thuyết điện 1";
             this.btn_Lythuyetdien1.UseVisualStyleBackColor = true;
@@ -2185,7 +2236,7 @@
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(200, 58);
+            this.label2.Size = new System.Drawing.Size(226, 58);
             this.label2.TabIndex = 1;
             this.label2.Text = "LÝ THUYẾT";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -2201,24 +2252,35 @@
             // 
             // workpanel
             // 
-            this.workpanel.Controls.Add(this.panel_work2d);
-            this.workpanel.Controls.Add(this.panel_workSimulate);
+            this.workpanel.Controls.Add(this.panel_workthuchanh);
+            this.workpanel.Controls.Add(this.panel_worklythuyet);
             this.workpanel.Controls.Add(this.panel_work3d);
-            this.workpanel.Controls.Add(this.panel_workdocument);
+            this.workpanel.Controls.Add(this.panel_work2d);
             this.workpanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.workpanel.Location = new System.Drawing.Point(267, 132);
+            this.workpanel.Location = new System.Drawing.Point(293, 132);
             this.workpanel.Name = "workpanel";
-            this.workpanel.Size = new System.Drawing.Size(1119, 635);
+            this.workpanel.Size = new System.Drawing.Size(1093, 635);
             this.workpanel.TabIndex = 5;
             // 
-            // panel_work2d
+            // panel_workthuchanh
             // 
-            this.panel_work2d.Controls.Add(this.ruler1);
-            this.panel_work2d.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_work2d.Location = new System.Drawing.Point(0, 0);
-            this.panel_work2d.Name = "panel_work2d";
-            this.panel_work2d.Size = new System.Drawing.Size(1119, 635);
-            this.panel_work2d.TabIndex = 3;
+            this.panel_workthuchanh.Controls.Add(this.diagramView1);
+            this.panel_workthuchanh.Controls.Add(this.ruler1);
+            this.panel_workthuchanh.Location = new System.Drawing.Point(289, 101);
+            this.panel_workthuchanh.Name = "panel_workthuchanh";
+            this.panel_workthuchanh.Size = new System.Drawing.Size(256, 203);
+            this.panel_workthuchanh.TabIndex = 2;
+            // 
+            // diagramView1
+            // 
+            this.diagramView1.Diagram = this.diagram1;
+            this.diagramView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.diagramView1.LicenseKey = null;
+            this.diagramView1.Location = new System.Drawing.Point(0, 0);
+            this.diagramView1.Name = "diagramView1";
+            this.diagramView1.Size = new System.Drawing.Size(256, 203);
+            this.diagramView1.TabIndex = 2;
+            this.diagramView1.Text = "diagramView1";
             // 
             // ruler1
             // 
@@ -2226,19 +2288,32 @@
             this.ruler1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ruler1.Location = new System.Drawing.Point(0, 0);
             this.ruler1.Name = "ruler1";
-            this.ruler1.Size = new System.Drawing.Size(1119, 635);
-            this.ruler1.TabIndex = 0;
+            this.ruler1.Size = new System.Drawing.Size(256, 203);
+            this.ruler1.TabIndex = 1;
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
             // 
-            // panel_workSimulate
+            // panel_worklythuyet
             // 
-            this.panel_workSimulate.Controls.Add(this.axShockwaveFlash1);
-            this.panel_workSimulate.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_workSimulate.Location = new System.Drawing.Point(0, 0);
-            this.panel_workSimulate.Name = "panel_workSimulate";
-            this.panel_workSimulate.Size = new System.Drawing.Size(1119, 635);
-            this.panel_workSimulate.TabIndex = 2;
+            this.panel_worklythuyet.Location = new System.Drawing.Point(694, 128);
+            this.panel_worklythuyet.Name = "panel_worklythuyet";
+            this.panel_worklythuyet.Size = new System.Drawing.Size(341, 244);
+            this.panel_worklythuyet.TabIndex = 0;
+            // 
+            // panel_work3d
+            // 
+            this.panel_work3d.Location = new System.Drawing.Point(42, 405);
+            this.panel_work3d.Name = "panel_work3d";
+            this.panel_work3d.Size = new System.Drawing.Size(228, 156);
+            this.panel_work3d.TabIndex = 1;
+            // 
+            // panel_work2d
+            // 
+            this.panel_work2d.Controls.Add(this.axShockwaveFlash1);
+            this.panel_work2d.Location = new System.Drawing.Point(53, 61);
+            this.panel_work2d.Name = "panel_work2d";
+            this.panel_work2d.Size = new System.Drawing.Size(158, 183);
+            this.panel_work2d.TabIndex = 3;
             // 
             // axShockwaveFlash1
             // 
@@ -2247,24 +2322,428 @@
             this.axShockwaveFlash1.Location = new System.Drawing.Point(0, 0);
             this.axShockwaveFlash1.Name = "axShockwaveFlash1";
             this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
-            this.axShockwaveFlash1.Size = new System.Drawing.Size(1119, 635);
+            this.axShockwaveFlash1.Size = new System.Drawing.Size(158, 183);
             this.axShockwaveFlash1.TabIndex = 0;
             // 
-            // panel_work3d
+            // button53
             // 
-            this.panel_work3d.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_work3d.Location = new System.Drawing.Point(0, 0);
-            this.panel_work3d.Name = "panel_work3d";
-            this.panel_work3d.Size = new System.Drawing.Size(1119, 635);
-            this.panel_work3d.TabIndex = 1;
+            this.button53.BackColor = System.Drawing.Color.Transparent;
+            this.button53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button53.FlatAppearance.BorderSize = 0;
+            this.button53.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button53.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button53.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button53.ForeColor = System.Drawing.Color.Silver;
+            this.button53.Image = ((System.Drawing.Image)(resources.GetObject("button53.Image")));
+            this.button53.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button53.Location = new System.Drawing.Point(151, 595);
+            this.button53.Name = "button53";
+            this.button53.Size = new System.Drawing.Size(50, 72);
+            this.button53.TabIndex = 24;
+            this.button53.Text = "TB21";
+            this.button53.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button53.UseVisualStyleBackColor = false;
             // 
-            // panel_workdocument
+            // button73
             // 
-            this.panel_workdocument.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_workdocument.Location = new System.Drawing.Point(0, 0);
-            this.panel_workdocument.Name = "panel_workdocument";
-            this.panel_workdocument.Size = new System.Drawing.Size(1119, 635);
-            this.panel_workdocument.TabIndex = 0;
+            this.button73.BackColor = System.Drawing.Color.Transparent;
+            this.button73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button73.FlatAppearance.BorderSize = 0;
+            this.button73.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button73.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button73.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button73.ForeColor = System.Drawing.Color.Silver;
+            this.button73.Image = ((System.Drawing.Image)(resources.GetObject("button73.Image")));
+            this.button73.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button73.Location = new System.Drawing.Point(83, 595);
+            this.button73.Name = "button73";
+            this.button73.Size = new System.Drawing.Size(50, 72);
+            this.button73.TabIndex = 23;
+            this.button73.Text = "TB20";
+            this.button73.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button73.UseVisualStyleBackColor = false;
+            // 
+            // button74
+            // 
+            this.button74.BackColor = System.Drawing.Color.Transparent;
+            this.button74.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button74.FlatAppearance.BorderSize = 0;
+            this.button74.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button74.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button74.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button74.ForeColor = System.Drawing.Color.Silver;
+            this.button74.Image = ((System.Drawing.Image)(resources.GetObject("button74.Image")));
+            this.button74.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button74.Location = new System.Drawing.Point(15, 595);
+            this.button74.Name = "button74";
+            this.button74.Size = new System.Drawing.Size(50, 72);
+            this.button74.TabIndex = 22;
+            this.button74.Text = "TB19";
+            this.button74.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button74.UseVisualStyleBackColor = false;
+            // 
+            // button75
+            // 
+            this.button75.BackColor = System.Drawing.Color.Transparent;
+            this.button75.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button75.FlatAppearance.BorderSize = 0;
+            this.button75.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button75.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button75.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button75.ForeColor = System.Drawing.Color.Silver;
+            this.button75.Image = ((System.Drawing.Image)(resources.GetObject("button75.Image")));
+            this.button75.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button75.Location = new System.Drawing.Point(151, 673);
+            this.button75.Name = "button75";
+            this.button75.Size = new System.Drawing.Size(50, 72);
+            this.button75.TabIndex = 27;
+            this.button75.Text = "TB21";
+            this.button75.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button75.UseVisualStyleBackColor = false;
+            // 
+            // button76
+            // 
+            this.button76.BackColor = System.Drawing.Color.Transparent;
+            this.button76.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button76.FlatAppearance.BorderSize = 0;
+            this.button76.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button76.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button76.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button76.ForeColor = System.Drawing.Color.Silver;
+            this.button76.Image = ((System.Drawing.Image)(resources.GetObject("button76.Image")));
+            this.button76.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button76.Location = new System.Drawing.Point(83, 673);
+            this.button76.Name = "button76";
+            this.button76.Size = new System.Drawing.Size(50, 72);
+            this.button76.TabIndex = 26;
+            this.button76.Text = "TB20";
+            this.button76.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button76.UseVisualStyleBackColor = false;
+            // 
+            // button77
+            // 
+            this.button77.BackColor = System.Drawing.Color.Transparent;
+            this.button77.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button77.FlatAppearance.BorderSize = 0;
+            this.button77.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button77.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button77.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button77.ForeColor = System.Drawing.Color.Silver;
+            this.button77.Image = ((System.Drawing.Image)(resources.GetObject("button77.Image")));
+            this.button77.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button77.Location = new System.Drawing.Point(15, 673);
+            this.button77.Name = "button77";
+            this.button77.Size = new System.Drawing.Size(50, 72);
+            this.button77.TabIndex = 25;
+            this.button77.Text = "TB19";
+            this.button77.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button77.UseVisualStyleBackColor = false;
+            // 
+            // button78
+            // 
+            this.button78.BackColor = System.Drawing.Color.Transparent;
+            this.button78.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button78.FlatAppearance.BorderSize = 0;
+            this.button78.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button78.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button78.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button78.ForeColor = System.Drawing.Color.Silver;
+            this.button78.Image = ((System.Drawing.Image)(resources.GetObject("button78.Image")));
+            this.button78.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button78.Location = new System.Drawing.Point(151, 751);
+            this.button78.Name = "button78";
+            this.button78.Size = new System.Drawing.Size(50, 72);
+            this.button78.TabIndex = 30;
+            this.button78.Text = "TB21";
+            this.button78.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button78.UseVisualStyleBackColor = false;
+            // 
+            // button79
+            // 
+            this.button79.BackColor = System.Drawing.Color.Transparent;
+            this.button79.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button79.FlatAppearance.BorderSize = 0;
+            this.button79.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button79.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button79.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button79.ForeColor = System.Drawing.Color.Silver;
+            this.button79.Image = ((System.Drawing.Image)(resources.GetObject("button79.Image")));
+            this.button79.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button79.Location = new System.Drawing.Point(83, 751);
+            this.button79.Name = "button79";
+            this.button79.Size = new System.Drawing.Size(50, 72);
+            this.button79.TabIndex = 29;
+            this.button79.Text = "TB20";
+            this.button79.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button79.UseVisualStyleBackColor = false;
+            // 
+            // button80
+            // 
+            this.button80.BackColor = System.Drawing.Color.Transparent;
+            this.button80.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button80.FlatAppearance.BorderSize = 0;
+            this.button80.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button80.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button80.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button80.ForeColor = System.Drawing.Color.Silver;
+            this.button80.Image = ((System.Drawing.Image)(resources.GetObject("button80.Image")));
+            this.button80.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button80.Location = new System.Drawing.Point(15, 751);
+            this.button80.Name = "button80";
+            this.button80.Size = new System.Drawing.Size(50, 72);
+            this.button80.TabIndex = 28;
+            this.button80.Text = "TB19";
+            this.button80.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button80.UseVisualStyleBackColor = false;
+            // 
+            // button81
+            // 
+            this.button81.BackColor = System.Drawing.Color.Transparent;
+            this.button81.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button81.FlatAppearance.BorderSize = 0;
+            this.button81.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button81.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button81.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button81.ForeColor = System.Drawing.Color.Silver;
+            this.button81.Image = ((System.Drawing.Image)(resources.GetObject("button81.Image")));
+            this.button81.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button81.Location = new System.Drawing.Point(151, 829);
+            this.button81.Name = "button81";
+            this.button81.Size = new System.Drawing.Size(50, 72);
+            this.button81.TabIndex = 33;
+            this.button81.Text = "TB21";
+            this.button81.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button81.UseVisualStyleBackColor = false;
+            // 
+            // button82
+            // 
+            this.button82.BackColor = System.Drawing.Color.Transparent;
+            this.button82.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button82.FlatAppearance.BorderSize = 0;
+            this.button82.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button82.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button82.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button82.ForeColor = System.Drawing.Color.Silver;
+            this.button82.Image = ((System.Drawing.Image)(resources.GetObject("button82.Image")));
+            this.button82.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button82.Location = new System.Drawing.Point(83, 829);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(50, 72);
+            this.button82.TabIndex = 32;
+            this.button82.Text = "TB20";
+            this.button82.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button82.UseVisualStyleBackColor = false;
+            // 
+            // button83
+            // 
+            this.button83.BackColor = System.Drawing.Color.Transparent;
+            this.button83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button83.FlatAppearance.BorderSize = 0;
+            this.button83.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button83.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button83.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button83.ForeColor = System.Drawing.Color.Silver;
+            this.button83.Image = ((System.Drawing.Image)(resources.GetObject("button83.Image")));
+            this.button83.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button83.Location = new System.Drawing.Point(15, 829);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(50, 72);
+            this.button83.TabIndex = 31;
+            this.button83.Text = "TB19";
+            this.button83.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button83.UseVisualStyleBackColor = false;
+            // 
+            // button84
+            // 
+            this.button84.BackColor = System.Drawing.Color.Transparent;
+            this.button84.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button84.FlatAppearance.BorderSize = 0;
+            this.button84.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button84.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button84.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button84.ForeColor = System.Drawing.Color.Silver;
+            this.button84.Image = ((System.Drawing.Image)(resources.GetObject("button84.Image")));
+            this.button84.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button84.Location = new System.Drawing.Point(151, 829);
+            this.button84.Name = "button84";
+            this.button84.Size = new System.Drawing.Size(50, 72);
+            this.button84.TabIndex = 36;
+            this.button84.Text = "TB21";
+            this.button84.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button84.UseVisualStyleBackColor = false;
+            // 
+            // button85
+            // 
+            this.button85.BackColor = System.Drawing.Color.Transparent;
+            this.button85.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button85.FlatAppearance.BorderSize = 0;
+            this.button85.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button85.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button85.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button85.ForeColor = System.Drawing.Color.Silver;
+            this.button85.Image = ((System.Drawing.Image)(resources.GetObject("button85.Image")));
+            this.button85.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button85.Location = new System.Drawing.Point(83, 829);
+            this.button85.Name = "button85";
+            this.button85.Size = new System.Drawing.Size(50, 72);
+            this.button85.TabIndex = 35;
+            this.button85.Text = "TB20";
+            this.button85.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button85.UseVisualStyleBackColor = false;
+            // 
+            // button86
+            // 
+            this.button86.BackColor = System.Drawing.Color.Transparent;
+            this.button86.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button86.FlatAppearance.BorderSize = 0;
+            this.button86.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button86.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button86.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button86.ForeColor = System.Drawing.Color.Silver;
+            this.button86.Image = ((System.Drawing.Image)(resources.GetObject("button86.Image")));
+            this.button86.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button86.Location = new System.Drawing.Point(15, 829);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(50, 72);
+            this.button86.TabIndex = 34;
+            this.button86.Text = "TB19";
+            this.button86.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button86.UseVisualStyleBackColor = false;
+            // 
+            // button87
+            // 
+            this.button87.BackColor = System.Drawing.Color.Transparent;
+            this.button87.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button87.FlatAppearance.BorderSize = 0;
+            this.button87.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button87.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button87.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button87.ForeColor = System.Drawing.Color.Silver;
+            this.button87.Image = ((System.Drawing.Image)(resources.GetObject("button87.Image")));
+            this.button87.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button87.Location = new System.Drawing.Point(151, 902);
+            this.button87.Name = "button87";
+            this.button87.Size = new System.Drawing.Size(50, 72);
+            this.button87.TabIndex = 39;
+            this.button87.Text = "TB21";
+            this.button87.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button87.UseVisualStyleBackColor = false;
+            // 
+            // button88
+            // 
+            this.button88.BackColor = System.Drawing.Color.Transparent;
+            this.button88.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button88.FlatAppearance.BorderSize = 0;
+            this.button88.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button88.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button88.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button88.ForeColor = System.Drawing.Color.Silver;
+            this.button88.Image = ((System.Drawing.Image)(resources.GetObject("button88.Image")));
+            this.button88.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button88.Location = new System.Drawing.Point(83, 902);
+            this.button88.Name = "button88";
+            this.button88.Size = new System.Drawing.Size(50, 72);
+            this.button88.TabIndex = 38;
+            this.button88.Text = "TB20";
+            this.button88.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button88.UseVisualStyleBackColor = false;
+            // 
+            // button89
+            // 
+            this.button89.BackColor = System.Drawing.Color.Transparent;
+            this.button89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button89.FlatAppearance.BorderSize = 0;
+            this.button89.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button89.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button89.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button89.ForeColor = System.Drawing.Color.Silver;
+            this.button89.Image = ((System.Drawing.Image)(resources.GetObject("button89.Image")));
+            this.button89.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button89.Location = new System.Drawing.Point(15, 902);
+            this.button89.Name = "button89";
+            this.button89.Size = new System.Drawing.Size(50, 72);
+            this.button89.TabIndex = 37;
+            this.button89.Text = "TB19";
+            this.button89.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button89.UseVisualStyleBackColor = false;
+            // 
+            // button90
+            // 
+            this.button90.BackColor = System.Drawing.Color.Transparent;
+            this.button90.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button90.FlatAppearance.BorderSize = 0;
+            this.button90.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button90.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button90.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button90.ForeColor = System.Drawing.Color.Silver;
+            this.button90.Image = ((System.Drawing.Image)(resources.GetObject("button90.Image")));
+            this.button90.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button90.Location = new System.Drawing.Point(15, 979);
+            this.button90.Name = "button90";
+            this.button90.Size = new System.Drawing.Size(50, 72);
+            this.button90.TabIndex = 37;
+            this.button90.Text = "TB19";
+            this.button90.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button90.UseVisualStyleBackColor = false;
+            // 
+            // button91
+            // 
+            this.button91.BackColor = System.Drawing.Color.Transparent;
+            this.button91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button91.FlatAppearance.BorderSize = 0;
+            this.button91.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button91.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button91.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button91.ForeColor = System.Drawing.Color.Silver;
+            this.button91.Image = ((System.Drawing.Image)(resources.GetObject("button91.Image")));
+            this.button91.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button91.Location = new System.Drawing.Point(83, 979);
+            this.button91.Name = "button91";
+            this.button91.Size = new System.Drawing.Size(50, 72);
+            this.button91.TabIndex = 38;
+            this.button91.Text = "TB20";
+            this.button91.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button91.UseVisualStyleBackColor = false;
+            // 
+            // button92
+            // 
+            this.button92.BackColor = System.Drawing.Color.Transparent;
+            this.button92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button92.FlatAppearance.BorderSize = 0;
+            this.button92.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button92.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button92.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
+            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button92.ForeColor = System.Drawing.Color.Silver;
+            this.button92.Image = ((System.Drawing.Image)(resources.GetObject("button92.Image")));
+            this.button92.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button92.Location = new System.Drawing.Point(151, 979);
+            this.button92.Name = "button92";
+            this.button92.Size = new System.Drawing.Size(50, 72);
+            this.button92.TabIndex = 39;
+            this.button92.Text = "TB21";
+            this.button92.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button92.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -2303,8 +2782,8 @@
             this.panel_SubmenuDoccument2.ResumeLayout(false);
             this.panel_SubmenuDoccument1.ResumeLayout(false);
             this.workpanel.ResumeLayout(false);
+            this.panel_workthuchanh.ResumeLayout(false);
             this.panel_work2d.ResumeLayout(false);
-            this.panel_workSimulate.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).EndInit();
             this.ResumeLayout(false);
 
@@ -2429,11 +2908,33 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel workpanel;
         private System.Windows.Forms.Panel panel_work2d;
-        private MindFusion.Diagramming.WinForms.Ruler ruler1;
-        private System.Windows.Forms.Panel panel_workSimulate;
+        private System.Windows.Forms.Panel panel_workthuchanh;
         private AxShockwaveFlashObjects.AxShockwaveFlash axShockwaveFlash1;
         private System.Windows.Forms.Panel panel_work3d;
-        private System.Windows.Forms.Panel panel_workdocument;
+        private System.Windows.Forms.Panel panel_worklythuyet;
+        private MindFusion.Diagramming.WinForms.DiagramView diagramView1;
+        private MindFusion.Diagramming.WinForms.Ruler ruler1;
+        private System.Windows.Forms.Button button81;
+        private System.Windows.Forms.Button button82;
+        private System.Windows.Forms.Button button83;
+        private System.Windows.Forms.Button button78;
+        private System.Windows.Forms.Button button79;
+        private System.Windows.Forms.Button button80;
+        private System.Windows.Forms.Button button75;
+        private System.Windows.Forms.Button button76;
+        private System.Windows.Forms.Button button77;
+        private System.Windows.Forms.Button button53;
+        private System.Windows.Forms.Button button73;
+        private System.Windows.Forms.Button button74;
+        private System.Windows.Forms.Button button92;
+        private System.Windows.Forms.Button button91;
+        private System.Windows.Forms.Button button87;
+        private System.Windows.Forms.Button button90;
+        private System.Windows.Forms.Button button88;
+        private System.Windows.Forms.Button button89;
+        private System.Windows.Forms.Button button84;
+        private System.Windows.Forms.Button button85;
+        private System.Windows.Forms.Button button86;
     }
 }
 

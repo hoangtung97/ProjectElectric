@@ -23,7 +23,7 @@ namespace ElectricProject
             panel_Menu.Visible = false;
             panel_Simulate.Visible = false;
             panel_LineProperties1.Visible = false;
-            //panel_display3d.Visible = false;
+         
         }
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
@@ -83,14 +83,28 @@ namespace ElectricProject
         {
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             this.WindowState = FormWindowState.Normal;
+
+            this.workpanel.Controls.Add(this.panel_work2d);        
+            this.workpanel.Controls.Add(this.panel_work3d);
+            this.workpanel.Controls.Add(this.panel_worklythuyet);
+            this.workpanel.Controls.Add(this.panel_workthuchanh);
+
+            this.panel_workthuchanh.Dock = DockStyle.Fill;
+            this.panel_worklythuyet.Dock = DockStyle.Fill;
+            this.panel_work3d.Dock = DockStyle.Fill;
+            this.panel_work2d.Dock = DockStyle.Fill;
+
+
         }
 
         private void InvisibleWork()
         {
             panel_work2d.Visible = false;
             panel_work3d.Visible = false;
-            panel_workdocument.Visible = false;
-            panel_workSimulate.Visible = false;
+            panel_worklythuyet.Visible = false;
+            panel_workthuchanh.Visible = false;
+            panel_LineProperties1.Visible = false ;
+            panel_Simulate.Visible = false;
         }
 
         private void InvisibleMenu()
@@ -119,7 +133,9 @@ namespace ElectricProject
                 InvisibleMenu();
                 panel_Menu.Visible = true;
                 panel_Thuchanh.Visible = true;
-                panel_workSimulate.Visible = true;
+                panel_workthuchanh.Visible = true;
+                panel_LineProperties1.Visible = true;
+                panel_Simulate.Visible = true;
             }
 
 
@@ -139,7 +155,7 @@ namespace ElectricProject
                 InvisibleMenu();
                 panel_Menu.Visible = true;
                 panel_lythuyet.Visible = true;
-                panel_workdocument.Visible = true;
+                panel_worklythuyet.Visible = true;
 
             }
             
@@ -147,7 +163,7 @@ namespace ElectricProject
             //fill form
             PDFViewerForm objForm = new PDFViewerForm();
             objForm.TopLevel = false;
-            panel_workdocument.Controls.Add(objForm);
+            panel_worklythuyet.Controls.Add(objForm);
             objForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             objForm.Dock = DockStyle.Fill;
             objForm.Show();
@@ -172,6 +188,7 @@ namespace ElectricProject
             }
            
         }
+         
 
         private void btn_3D_Click(object sender, EventArgs e)
         {
@@ -231,6 +248,7 @@ namespace ElectricProject
         private void Display3d()
         {
             View3DForm view3d = new View3DForm();
+            //view3d.view3D_XAML1.
             view3d.TopLevel = false;
             panel_work3d.Controls.Add(view3d);
             panel_work3d.BringToFront();
@@ -253,11 +271,77 @@ namespace ElectricProject
 
 
         #region thuc hanh
+        #region thuc hanh
         private void button7_Click(object sender, EventArgs e)
         {
             ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
-            node.Id = "Cau dao thuong";            
-            node.Image = Properties.Resources._7_Cau_dao_1_pha;
+            node.Id = "Nguon xoay chieu 1 pha";
+            node.Image = Properties.Resources._2_nguon_xoay_chieu_mot_pha;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        #endregion
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Cong tac to";
+            node.Image = Properties.Resources._11_CoNG_TaC_To;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role thoi gian";
+            node.Image = Properties.Resources._12_ro_le_thoi_gian;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role";
+            node.Image = Properties.Resources._13_RoLE;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role nhiet";
+            node.Image = Properties.Resources._15_RoLE_NHIeT;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role bao ve qua dong";
+            node.Image = Properties.Resources._16_role_bao_ve_qua_dong;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role bao ve mat pha";
+            node.Image = Properties.Resources._17_role_bao_ve_mat_pha;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role bao ve dien ap";
+            node.Image = Properties.Resources._18_role_bao_ve_dien_ap;
             node.Transparent = true;
             node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
         }
@@ -412,8 +496,13 @@ namespace ElectricProject
         private void button4_Click(object sender, EventArgs e)
         {
             PDFViewerForm pdf = new PDFViewerForm();
-            pdf.Loadpdf(@"D:\Project\BGChinhTri\giáo dục quốc phòng - an ninh 10.pdf");
-            
+            pdf.Loadpdf(@"D:\vidu.pdf");
+
+        }
+
+        private void panel_Thuchanh_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

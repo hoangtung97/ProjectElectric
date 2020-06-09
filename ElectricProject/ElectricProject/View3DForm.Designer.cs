@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.view3D_XAML1 = new ElectricProject.View3D_XAML();
             this.SuspendLayout();
             // 
             // elementHost1
             // 
+            this.elementHost1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.elementHost1.CausesValidation = false;
             this.elementHost1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.elementHost1.Location = new System.Drawing.Point(0, 0);
@@ -41,7 +41,7 @@
             this.elementHost1.Size = new System.Drawing.Size(423, 368);
             this.elementHost1.TabIndex = 0;
             this.elementHost1.Text = "elementHost1";
-            this.elementHost1.Child = this.view3D_XAML1;
+            this.elementHost1.Child = new View3D_XAML1();
             // 
             // View3DForm
             // 
@@ -59,6 +59,5 @@
         #endregion
 
         private System.Windows.Forms.Integration.ElementHost elementHost1;
-        private View3D_XAML view3D_XAML1;
     }
 }

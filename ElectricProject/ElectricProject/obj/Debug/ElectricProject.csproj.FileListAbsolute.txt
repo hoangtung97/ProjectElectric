@@ -58,7 +58,6 @@ D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFu
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML.g.cs
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.lref
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML.baml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
@@ -244,3 +243,6 @@ C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\
 C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
 C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
 C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML1.g.cs
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.lref
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML1.baml

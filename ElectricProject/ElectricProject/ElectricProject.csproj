@@ -208,6 +208,9 @@
     <Compile Include="View3D_XAML.xaml.cs">
       <DependentUpon>View3D_XAML.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View3D_XAML1.xaml.cs">
+      <DependentUpon>View3D_XAML1.xaml</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DocumentDisplayer.resx">
       <DependentUpon>DocumentDisplayer.cs</DependentUpon>
     </EmbeddedResource>
@@ -446,6 +449,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="View3D_XAML.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View3D_XAML1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
