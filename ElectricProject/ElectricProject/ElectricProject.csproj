@@ -199,17 +199,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View3DForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Resource3D\Aptomat.xaml.cs">
+      <DependentUpon>Aptomat.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View3DForm.Designer.cs">
-      <DependentUpon>View3DForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View3D_XAML.xaml.cs">
-      <DependentUpon>View3D_XAML.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View3D_XAML1.xaml.cs">
-      <DependentUpon>View3D_XAML1.xaml</DependentUpon>
+    <Compile Include="Resource3D\Mayphatdien.xaml.cs">
+      <DependentUpon>Mayphatdien.xaml</DependentUpon>
     </Compile>
     <EmbeddedResource Include="DocumentDisplayer.resx">
       <DependentUpon>DocumentDisplayer.cs</DependentUpon>
@@ -232,9 +226,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="View3DForm.resx">
-      <DependentUpon>View3DForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -448,17 +439,14 @@
     <None Include="Resources\electric2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="View3D_XAML.xaml">
+    <Page Include="Resource3D\Aptomat.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View3D_XAML1.xaml">
+    <Page Include="Resource3D\Mayphatdien.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="3DResource\" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxShockwaveFlashObjects">

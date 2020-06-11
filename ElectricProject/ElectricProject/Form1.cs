@@ -1,4 +1,5 @@
-﻿using MindFusion.Diagramming;
+﻿using ElectricProject.Resource3D;
+using MindFusion.Diagramming;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -245,30 +246,79 @@ namespace ElectricProject
             panel_SubmenuDoccument1.Visible = false;
         }
 
-        private void Display3d()
+    #region Cac cong cu 3d
+
+        private void Display3d(int DeviceIndex)
         {
-            View3DForm view3d = new View3DForm();
-            //view3d.view3D_XAML1.
-            view3d.TopLevel = false;
-            panel_work3d.Controls.Add(view3d);
-            panel_work3d.BringToFront();
-            panel_work3d.Visible = true;
-            view3d.Dock = DockStyle.Fill;
-            view3d.FormBorderStyle = FormBorderStyle.None;
-            view3d.Show();
+
+            switch (DeviceIndex)
+            {
+                case 1:
+                    {
+                        elementHost1.Child = new Mayphatdien();
+                        break;
+                    }
+                case 2:
+                    {
+                        elementHost1.Child = new Aptomat();
+                        break;
+                    }
+                case 3:
+                    {
+                        break;
+                    }
+                case 4:
+                    {
+                        elementHost1.Child = new Aptomat();
+                        break;
+                    }
+                case 5:
+                    {
+                        elementHost1.Child = new Aptomat();
+                        break;
+                    }
+                case 6:
+                    {
+                        elementHost1.Child = new Aptomat();
+                        break;
+                    }
+                case 7:
+                    {
+                        elementHost1.Child = new Aptomat();
+                        break;
+                    }
+                case 8:
+                    {
+                        elementHost1.Child = new Aptomat();
+                        break;
+                    }
+                case 9:
+                    {
+                        elementHost1.Child = new Aptomat();
+                        break;
+                    }
+                case 10:
+                    {
+                        elementHost1.Child = new Aptomat();
+                        break;
+                    }
+
+                default:
+                    break;
+            }
         }
 
         private void button53_Click(object sender, EventArgs e)
         {
-            Display3d();
+            Display3d(1);
 
         }
 
         private void button71_Click(object sender, EventArgs e)
         {
-            new View3DForm().Show();
+            Display3d(2);
         }
-
+#endregion
 
         #region thuc hanh
         #region thuc hanh
@@ -280,72 +330,6 @@ namespace ElectricProject
             node.Transparent = true;
             node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
         }
-
-        #endregion
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
-            node.Id = "Cong tac to";
-            node.Image = Properties.Resources._11_CoNG_TaC_To;
-            node.Transparent = true;
-            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
-            node.Id = "Role thoi gian";
-            node.Image = Properties.Resources._12_ro_le_thoi_gian;
-            node.Transparent = true;
-            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
-            node.Id = "Role";
-            node.Image = Properties.Resources._13_RoLE;
-            node.Transparent = true;
-            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
-            node.Id = "Role nhiet";
-            node.Image = Properties.Resources._15_RoLE_NHIeT;
-            node.Transparent = true;
-            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
-            node.Id = "Role bao ve qua dong";
-            node.Image = Properties.Resources._16_role_bao_ve_qua_dong;
-            node.Transparent = true;
-            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
-            node.Id = "Role bao ve mat pha";
-            node.Image = Properties.Resources._17_role_bao_ve_mat_pha;
-            node.Transparent = true;
-            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
-            node.Id = "Role bao ve dien ap";
-            node.Image = Properties.Resources._18_role_bao_ve_dien_ap;
-            node.Transparent = true;
-            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
-        }
-
 
         #endregion
 
@@ -484,6 +468,76 @@ namespace ElectricProject
         }
 
         #endregion
+
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Cong tac to";
+            node.Image = Properties.Resources._11_CoNG_TaC_To;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role thoi gian";
+            node.Image = Properties.Resources._12_ro_le_thoi_gian;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role";
+            node.Image = Properties.Resources._13_RoLE;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role nhiet";
+            node.Image = Properties.Resources._15_RoLE_NHIeT;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role bao ve qua dong";
+            node.Image = Properties.Resources._16_role_bao_ve_qua_dong;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role bao ve mat pha";
+            node.Image = Properties.Resources._17_role_bao_ve_mat_pha;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role bao ve dien ap";
+            node.Image = Properties.Resources._18_role_bao_ve_dien_ap;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+
+        #endregion
+
+
+        
 
         #region hiển thị flash
         private void button3_Click(object sender, EventArgs e)
