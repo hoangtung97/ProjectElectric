@@ -171,9 +171,9 @@
             this.ruler1 = new MindFusion.Diagramming.WinForms.Ruler();
             this.panel_worklythuyet = new System.Windows.Forms.Panel();
             this.panel_work3d = new System.Windows.Forms.Panel();
+            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
             this.panel_work2d = new System.Windows.Forms.Panel();
             this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
-            this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
             this.panel_Menubar.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel_Sidebar.SuspendLayout();
@@ -205,9 +205,8 @@
             this.panel_Menubar.Controls.Add(this.menuStrip1);
             this.panel_Menubar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_Menubar.Location = new System.Drawing.Point(0, 0);
-            this.panel_Menubar.Margin = new System.Windows.Forms.Padding(4);
             this.panel_Menubar.Name = "panel_Menubar";
-            this.panel_Menubar.Size = new System.Drawing.Size(1848, 43);
+            this.panel_Menubar.Size = new System.Drawing.Size(1386, 35);
             this.panel_Menubar.TabIndex = 0;
             this.panel_Menubar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel_Menubar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
@@ -223,10 +222,9 @@
             this.btn_Minimized.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Minimized.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Minimized.Image = global::ElectricProject.Properties.Resources.MINIMIZE1;
-            this.btn_Minimized.Location = new System.Drawing.Point(1660, 0);
-            this.btn_Minimized.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Minimized.Location = new System.Drawing.Point(1246, 0);
             this.btn_Minimized.Name = "btn_Minimized";
-            this.btn_Minimized.Size = new System.Drawing.Size(47, 43);
+            this.btn_Minimized.Size = new System.Drawing.Size(35, 35);
             this.btn_Minimized.TabIndex = 3;
             this.btn_Minimized.UseVisualStyleBackColor = false;
             this.btn_Minimized.Click += new System.EventHandler(this.btn_Minimized_Click);
@@ -241,10 +239,9 @@
             this.btn_Fullscreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Fullscreen.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Fullscreen.Image = global::ElectricProject.Properties.Resources.FULLSCREEN;
-            this.btn_Fullscreen.Location = new System.Drawing.Point(1707, 0);
-            this.btn_Fullscreen.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Fullscreen.Location = new System.Drawing.Point(1281, 0);
             this.btn_Fullscreen.Name = "btn_Fullscreen";
-            this.btn_Fullscreen.Size = new System.Drawing.Size(47, 43);
+            this.btn_Fullscreen.Size = new System.Drawing.Size(35, 35);
             this.btn_Fullscreen.TabIndex = 2;
             this.btn_Fullscreen.UseVisualStyleBackColor = false;
             this.btn_Fullscreen.Click += new System.EventHandler(this.btn_Fullscreen_Click);
@@ -259,10 +256,9 @@
             this.btn_Restoredown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Restoredown.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Restoredown.Image = global::ElectricProject.Properties.Resources.RESTORE_DOWN1;
-            this.btn_Restoredown.Location = new System.Drawing.Point(1754, 0);
-            this.btn_Restoredown.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Restoredown.Location = new System.Drawing.Point(1316, 0);
             this.btn_Restoredown.Name = "btn_Restoredown";
-            this.btn_Restoredown.Size = new System.Drawing.Size(47, 43);
+            this.btn_Restoredown.Size = new System.Drawing.Size(35, 35);
             this.btn_Restoredown.TabIndex = 1;
             this.btn_Restoredown.UseVisualStyleBackColor = false;
             this.btn_Restoredown.Click += new System.EventHandler(this.btn_Restoredown_Click);
@@ -277,10 +273,9 @@
             this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Exit.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Exit.Image = global::ElectricProject.Properties.Resources.EXIT1;
-            this.btn_Exit.Location = new System.Drawing.Point(1801, 0);
-            this.btn_Exit.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Exit.Location = new System.Drawing.Point(1351, 0);
             this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(47, 43);
+            this.btn_Exit.Size = new System.Drawing.Size(35, 35);
             this.btn_Exit.TabIndex = 0;
             this.btn_Exit.UseVisualStyleBackColor = false;
             this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
@@ -295,10 +290,9 @@
             this.editToolStripMenuItem,
             this.fileToolStripMenuItem,
             this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 10);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 8);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(360, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(297, 28);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -308,7 +302,7 @@
             this.eLECTRICSIMULATIONToolStripMenuItem.ForeColor = System.Drawing.Color.Silver;
             this.eLECTRICSIMULATIONToolStripMenuItem.Image = global::ElectricProject.Properties.Resources.LOGO2;
             this.eLECTRICSIMULATIONToolStripMenuItem.Name = "eLECTRICSIMULATIONToolStripMenuItem";
-            this.eLECTRICSIMULATIONToolStripMenuItem.Size = new System.Drawing.Size(204, 24);
+            this.eLECTRICSIMULATIONToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
             this.eLECTRICSIMULATIONToolStripMenuItem.Text = "ELECTRIC SIMULATION";
             // 
             // editToolStripMenuItem
@@ -316,7 +310,7 @@
             this.editToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.editToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(48, 24);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(40, 24);
             this.editToolStripMenuItem.Text = "Edit";
             // 
             // fileToolStripMenuItem
@@ -324,7 +318,7 @@
             this.fileToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(45, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(38, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // helpToolStripMenuItem
@@ -332,7 +326,7 @@
             this.helpToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.helpToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(45, 24);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // panel_Sidebar
@@ -345,10 +339,9 @@
             this.panel_Sidebar.Controls.Add(this.btn_2D);
             this.panel_Sidebar.Controls.Add(this.btn_Document);
             this.panel_Sidebar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel_Sidebar.Location = new System.Drawing.Point(0, 106);
-            this.panel_Sidebar.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_Sidebar.Location = new System.Drawing.Point(0, 86);
             this.panel_Sidebar.Name = "panel_Sidebar";
-            this.panel_Sidebar.Size = new System.Drawing.Size(67, 838);
+            this.panel_Sidebar.Size = new System.Drawing.Size(50, 681);
             this.panel_Sidebar.TabIndex = 1;
             // 
             // btn_Option
@@ -362,10 +355,9 @@
             this.btn_Option.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Option.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Option.Image = global::ElectricProject.Properties.Resources.OPTION;
-            this.btn_Option.Location = new System.Drawing.Point(0, 355);
-            this.btn_Option.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Option.Location = new System.Drawing.Point(0, 290);
             this.btn_Option.Name = "btn_Option";
-            this.btn_Option.Size = new System.Drawing.Size(67, 71);
+            this.btn_Option.Size = new System.Drawing.Size(50, 58);
             this.btn_Option.TabIndex = 5;
             this.btn_Option.UseVisualStyleBackColor = false;
             this.btn_Option.Click += new System.EventHandler(this.btn_Option_Click);
@@ -381,10 +373,9 @@
             this.btn_Help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Help.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Help.Image = global::ElectricProject.Properties.Resources.HELP;
-            this.btn_Help.Location = new System.Drawing.Point(0, 284);
-            this.btn_Help.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Help.Location = new System.Drawing.Point(0, 232);
             this.btn_Help.Name = "btn_Help";
-            this.btn_Help.Size = new System.Drawing.Size(67, 71);
+            this.btn_Help.Size = new System.Drawing.Size(50, 58);
             this.btn_Help.TabIndex = 4;
             this.btn_Help.UseVisualStyleBackColor = false;
             this.btn_Help.Click += new System.EventHandler(this.btn_Help_Click);
@@ -400,10 +391,9 @@
             this.btb_Simulate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btb_Simulate.ForeColor = System.Drawing.Color.Transparent;
             this.btb_Simulate.Image = global::ElectricProject.Properties.Resources.Editor;
-            this.btb_Simulate.Location = new System.Drawing.Point(0, 213);
-            this.btb_Simulate.Margin = new System.Windows.Forms.Padding(4);
+            this.btb_Simulate.Location = new System.Drawing.Point(0, 174);
             this.btb_Simulate.Name = "btb_Simulate";
-            this.btb_Simulate.Size = new System.Drawing.Size(67, 71);
+            this.btb_Simulate.Size = new System.Drawing.Size(50, 58);
             this.btb_Simulate.TabIndex = 3;
             this.btb_Simulate.UseVisualStyleBackColor = false;
             this.btb_Simulate.Click += new System.EventHandler(this.btb_Simulate_Click);
@@ -419,10 +409,9 @@
             this.btn_3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_3D.ForeColor = System.Drawing.Color.Transparent;
             this.btn_3D.Image = global::ElectricProject.Properties.Resources._3D;
-            this.btn_3D.Location = new System.Drawing.Point(0, 142);
-            this.btn_3D.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_3D.Location = new System.Drawing.Point(0, 116);
             this.btn_3D.Name = "btn_3D";
-            this.btn_3D.Size = new System.Drawing.Size(67, 71);
+            this.btn_3D.Size = new System.Drawing.Size(50, 58);
             this.btn_3D.TabIndex = 2;
             this.btn_3D.UseVisualStyleBackColor = false;
             this.btn_3D.Click += new System.EventHandler(this.btn_3D_Click);
@@ -438,10 +427,9 @@
             this.btn_2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_2D.ForeColor = System.Drawing.Color.Transparent;
             this.btn_2D.Image = global::ElectricProject.Properties.Resources.BACKGROUND;
-            this.btn_2D.Location = new System.Drawing.Point(0, 71);
-            this.btn_2D.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_2D.Location = new System.Drawing.Point(0, 58);
             this.btn_2D.Name = "btn_2D";
-            this.btn_2D.Size = new System.Drawing.Size(67, 71);
+            this.btn_2D.Size = new System.Drawing.Size(50, 58);
             this.btn_2D.TabIndex = 1;
             this.btn_2D.UseVisualStyleBackColor = false;
             this.btn_2D.Click += new System.EventHandler(this.btn_2D_Click);
@@ -458,9 +446,8 @@
             this.btn_Document.ForeColor = System.Drawing.Color.Transparent;
             this.btn_Document.Image = global::ElectricProject.Properties.Resources.DOCUMENT;
             this.btn_Document.Location = new System.Drawing.Point(0, 0);
-            this.btn_Document.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Document.Name = "btn_Document";
-            this.btn_Document.Size = new System.Drawing.Size(67, 71);
+            this.btn_Document.Size = new System.Drawing.Size(50, 58);
             this.btn_Document.TabIndex = 0;
             this.btn_Document.UseVisualStyleBackColor = false;
             this.btn_Document.Click += new System.EventHandler(this.btn_Document_Click);
@@ -471,10 +458,9 @@
             this.panel_Home.Controls.Add(this.panel_Simulate);
             this.panel_Home.Controls.Add(this.button28);
             this.panel_Home.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Home.Location = new System.Drawing.Point(0, 43);
-            this.panel_Home.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_Home.Location = new System.Drawing.Point(0, 35);
             this.panel_Home.Name = "panel_Home";
-            this.panel_Home.Size = new System.Drawing.Size(1848, 63);
+            this.panel_Home.Size = new System.Drawing.Size(1386, 51);
             this.panel_Home.TabIndex = 2;
             // 
             // panel_Simulate
@@ -482,10 +468,9 @@
             this.panel_Simulate.Controls.Add(this.button1);
             this.panel_Simulate.Controls.Add(this.button29);
             this.panel_Simulate.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel_Simulate.Location = new System.Drawing.Point(1521, 0);
-            this.panel_Simulate.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_Simulate.Location = new System.Drawing.Point(1141, 0);
             this.panel_Simulate.Name = "panel_Simulate";
-            this.panel_Simulate.Size = new System.Drawing.Size(327, 63);
+            this.panel_Simulate.Size = new System.Drawing.Size(245, 51);
             this.panel_Simulate.TabIndex = 3;
             // 
             // button1
@@ -497,10 +482,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(20, 14);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(15, 11);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(143, 38);
+            this.button1.Size = new System.Drawing.Size(107, 31);
             this.button1.TabIndex = 2;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = false;
@@ -513,10 +497,9 @@
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button29.ForeColor = System.Drawing.SystemColors.Control;
-            this.button29.Location = new System.Drawing.Point(171, 14);
-            this.button29.Margin = new System.Windows.Forms.Padding(4);
+            this.button29.Location = new System.Drawing.Point(128, 11);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(143, 38);
+            this.button29.Size = new System.Drawing.Size(107, 31);
             this.button29.TabIndex = 1;
             this.button29.Text = "Simulate";
             this.button29.UseVisualStyleBackColor = false;
@@ -533,9 +516,8 @@
             this.button28.Image = global::ElectricProject.Properties.Resources.BTN_BACK;
             this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button28.Location = new System.Drawing.Point(0, 0);
-            this.button28.Margin = new System.Windows.Forms.Padding(4);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(128, 63);
+            this.button28.Size = new System.Drawing.Size(96, 51);
             this.button28.TabIndex = 0;
             this.button28.Text = "Home";
             this.button28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -547,19 +529,17 @@
             this.panel_Lineproperties.Controls.Add(this.panel11);
             this.panel_Lineproperties.Controls.Add(this.panel_LineProperties1);
             this.panel_Lineproperties.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Lineproperties.Location = new System.Drawing.Point(391, 106);
-            this.panel_Lineproperties.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_Lineproperties.Location = new System.Drawing.Point(293, 86);
             this.panel_Lineproperties.Name = "panel_Lineproperties";
-            this.panel_Lineproperties.Size = new System.Drawing.Size(1457, 57);
+            this.panel_Lineproperties.Size = new System.Drawing.Size(1093, 46);
             this.panel_Lineproperties.TabIndex = 3;
             // 
             // panel11
             // 
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(769, 0);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4);
+            this.panel11.Location = new System.Drawing.Point(577, 0);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(688, 57);
+            this.panel11.Size = new System.Drawing.Size(516, 46);
             this.panel11.TabIndex = 8;
             // 
             // panel_LineProperties1
@@ -573,9 +553,8 @@
             this.panel_LineProperties1.Controls.Add(this.label7);
             this.panel_LineProperties1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_LineProperties1.Location = new System.Drawing.Point(0, 0);
-            this.panel_LineProperties1.Margin = new System.Windows.Forms.Padding(4);
             this.panel_LineProperties1.Name = "panel_LineProperties1";
-            this.panel_LineProperties1.Size = new System.Drawing.Size(796, 57);
+            this.panel_LineProperties1.Size = new System.Drawing.Size(597, 46);
             this.panel_LineProperties1.TabIndex = 7;
             // 
             // comboBox2
@@ -586,10 +565,9 @@
             this.comboBox2.Items.AddRange(new object[] {
             "RED",
             "BLUE"});
-            this.comboBox2.Location = new System.Drawing.Point(675, 17);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox2.Location = new System.Drawing.Point(506, 14);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(93, 24);
+            this.comboBox2.Size = new System.Drawing.Size(71, 21);
             this.comboBox2.TabIndex = 5;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
@@ -598,10 +576,9 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Silver;
-            this.label8.Location = new System.Drawing.Point(615, 20);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(461, 16);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(54, 20);
+            this.label8.Size = new System.Drawing.Size(45, 17);
             this.label8.TabIndex = 6;
             this.label8.Text = "Color:";
             // 
@@ -610,20 +587,18 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Silver;
-            this.label5.Location = new System.Drawing.Point(13, 15);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(10, 12);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(89, 26);
+            this.label5.Size = new System.Drawing.Size(72, 22);
             this.label5.TabIndex = 0;
             this.label5.Text = "Name : ";
             // 
             // TextboxLine
             // 
             this.TextboxLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.TextboxLine.Location = new System.Drawing.Point(361, 17);
-            this.TextboxLine.Margin = new System.Windows.Forms.Padding(4);
+            this.TextboxLine.Location = new System.Drawing.Point(271, 14);
             this.TextboxLine.Name = "TextboxLine";
-            this.TextboxLine.Size = new System.Drawing.Size(87, 22);
+            this.TextboxLine.Size = new System.Drawing.Size(66, 20);
             this.TextboxLine.TabIndex = 1;
             this.TextboxLine.Click += new System.EventHandler(this.TextboxLine_Click);
             this.TextboxLine.Leave += new System.EventHandler(this.TextboxLine_Leave);
@@ -631,10 +606,9 @@
             // TextboxWidth
             // 
             this.TextboxWidth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(39)))), ((int)(((byte)(55)))));
-            this.TextboxWidth.Location = new System.Drawing.Point(519, 18);
-            this.TextboxWidth.Margin = new System.Windows.Forms.Padding(4);
+            this.TextboxWidth.Location = new System.Drawing.Point(389, 15);
             this.TextboxWidth.Name = "TextboxWidth";
-            this.TextboxWidth.Size = new System.Drawing.Size(87, 22);
+            this.TextboxWidth.Size = new System.Drawing.Size(66, 20);
             this.TextboxWidth.TabIndex = 4;
             this.TextboxWidth.Leave += new System.EventHandler(this.TextboxWidth_Leave);
             // 
@@ -643,10 +617,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Silver;
-            this.label6.Location = new System.Drawing.Point(303, 18);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(227, 15);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 20);
+            this.label6.Size = new System.Drawing.Size(43, 17);
             this.label6.TabIndex = 2;
             this.label6.Text = "Text :";
             // 
@@ -655,10 +628,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Silver;
-            this.label7.Location = new System.Drawing.Point(455, 18);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(341, 15);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(57, 20);
+            this.label7.Size = new System.Drawing.Size(48, 17);
             this.label7.TabIndex = 3;
             this.label7.Text = "Width:";
             // 
@@ -671,10 +643,9 @@
             this.panel_Menu.Controls.Add(this.panel_Thuchanh);
             this.panel_Menu.Controls.Add(this.panel_lythuyet);
             this.panel_Menu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel_Menu.Location = new System.Drawing.Point(67, 106);
-            this.panel_Menu.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_Menu.Location = new System.Drawing.Point(50, 86);
             this.panel_Menu.Name = "panel_Menu";
-            this.panel_Menu.Size = new System.Drawing.Size(324, 838);
+            this.panel_Menu.Size = new System.Drawing.Size(243, 681);
             this.panel_Menu.TabIndex = 4;
             // 
             // panel_3D
@@ -702,10 +673,9 @@
             this.panel_3D.Controls.Add(this.button72);
             this.panel_3D.Controls.Add(this.label4);
             this.panel_3D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_3D.Location = new System.Drawing.Point(0, 2458);
-            this.panel_3D.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_3D.Location = new System.Drawing.Point(0, 1997);
             this.panel_3D.Name = "panel_3D";
-            this.panel_3D.Size = new System.Drawing.Size(303, 647);
+            this.panel_3D.Size = new System.Drawing.Size(226, 526);
             this.panel_3D.TabIndex = 4;
             // 
             // button52
@@ -720,10 +690,9 @@
             this.button52.ForeColor = System.Drawing.Color.Silver;
             this.button52.Image = ((System.Drawing.Image)(resources.GetObject("button52.Image")));
             this.button52.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button52.Location = new System.Drawing.Point(201, 641);
-            this.button52.Margin = new System.Windows.Forms.Padding(4);
+            this.button52.Location = new System.Drawing.Point(151, 521);
             this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(67, 89);
+            this.button52.Size = new System.Drawing.Size(50, 72);
             this.button52.TabIndex = 65;
             this.button52.Text = "TB21";
             this.button52.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -741,10 +710,9 @@
             this.button_device3d_1.ForeColor = System.Drawing.Color.Silver;
             this.button_device3d_1.Image = global::ElectricProject.Properties.Resources._1_nguon_mot_chieu1;
             this.button_device3d_1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button_device3d_1.Location = new System.Drawing.Point(20, 58);
-            this.button_device3d_1.Margin = new System.Windows.Forms.Padding(4);
+            this.button_device3d_1.Location = new System.Drawing.Point(15, 47);
             this.button_device3d_1.Name = "button_device3d_1";
-            this.button_device3d_1.Size = new System.Drawing.Size(67, 89);
+            this.button_device3d_1.Size = new System.Drawing.Size(50, 72);
             this.button_device3d_1.TabIndex = 45;
             this.button_device3d_1.Text = "TB 1";
             this.button_device3d_1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -763,10 +731,9 @@
             this.button54.ForeColor = System.Drawing.Color.Silver;
             this.button54.Image = ((System.Drawing.Image)(resources.GetObject("button54.Image")));
             this.button54.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button54.Location = new System.Drawing.Point(111, 641);
-            this.button54.Margin = new System.Windows.Forms.Padding(4);
+            this.button54.Location = new System.Drawing.Point(83, 521);
             this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(67, 89);
+            this.button54.Size = new System.Drawing.Size(50, 72);
             this.button54.TabIndex = 64;
             this.button54.Text = "TB20";
             this.button54.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -784,10 +751,9 @@
             this.button55.ForeColor = System.Drawing.Color.Silver;
             this.button55.Image = global::ElectricProject.Properties.Resources._18_role_bao_ve_dien_ap1;
             this.button55.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button55.Location = new System.Drawing.Point(111, 256);
-            this.button55.Margin = new System.Windows.Forms.Padding(4);
+            this.button55.Location = new System.Drawing.Point(83, 208);
             this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(67, 89);
+            this.button55.Size = new System.Drawing.Size(50, 72);
             this.button55.TabIndex = 52;
             this.button55.Text = "TB8";
             this.button55.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -805,10 +771,9 @@
             this.button56.ForeColor = System.Drawing.Color.Silver;
             this.button56.Image = global::ElectricProject.Properties.Resources._19_cau_dau_8_chan1;
             this.button56.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button56.Location = new System.Drawing.Point(201, 256);
-            this.button56.Margin = new System.Windows.Forms.Padding(4);
+            this.button56.Location = new System.Drawing.Point(151, 208);
             this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(67, 89);
+            this.button56.Size = new System.Drawing.Size(50, 72);
             this.button56.TabIndex = 53;
             this.button56.Text = "TB9";
             this.button56.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -826,10 +791,9 @@
             this.button57.ForeColor = System.Drawing.Color.Silver;
             this.button57.Image = ((System.Drawing.Image)(resources.GetObject("button57.Image")));
             this.button57.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button57.Location = new System.Drawing.Point(20, 641);
-            this.button57.Margin = new System.Windows.Forms.Padding(4);
+            this.button57.Location = new System.Drawing.Point(15, 521);
             this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(67, 89);
+            this.button57.Size = new System.Drawing.Size(50, 72);
             this.button57.TabIndex = 63;
             this.button57.Text = "TB19";
             this.button57.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -847,10 +811,9 @@
             this.button58.ForeColor = System.Drawing.Color.Silver;
             this.button58.Image = global::ElectricProject.Properties.Resources._17_role_bao_ve_mat_pha1;
             this.button58.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button58.Location = new System.Drawing.Point(20, 256);
-            this.button58.Margin = new System.Windows.Forms.Padding(4);
+            this.button58.Location = new System.Drawing.Point(15, 208);
             this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(67, 89);
+            this.button58.Size = new System.Drawing.Size(50, 72);
             this.button58.TabIndex = 51;
             this.button58.Text = "TB7";
             this.button58.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -868,10 +831,9 @@
             this.button59.ForeColor = System.Drawing.Color.Silver;
             this.button59.Image = global::ElectricProject.Properties.Resources._20_cau_dau_20_chan1;
             this.button59.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button59.Location = new System.Drawing.Point(20, 353);
-            this.button59.Margin = new System.Windows.Forms.Padding(4);
+            this.button59.Location = new System.Drawing.Point(15, 287);
             this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(67, 89);
+            this.button59.Size = new System.Drawing.Size(50, 72);
             this.button59.TabIndex = 54;
             this.button59.Text = "TB10";
             this.button59.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -889,10 +851,9 @@
             this.button60.ForeColor = System.Drawing.Color.Silver;
             this.button60.Image = global::ElectricProject.Properties.Resources._6_APTOMAT_3_cong_suat_lon1;
             this.button60.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button60.Location = new System.Drawing.Point(201, 543);
-            this.button60.Margin = new System.Windows.Forms.Padding(4);
+            this.button60.Location = new System.Drawing.Point(151, 441);
             this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(67, 89);
+            this.button60.Size = new System.Drawing.Size(50, 72);
             this.button60.TabIndex = 62;
             this.button60.Text = "TB18";
             this.button60.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -910,10 +871,9 @@
             this.button61.ForeColor = System.Drawing.Color.Silver;
             this.button61.Image = global::ElectricProject.Properties.Resources._16_role_bao_ve_qua_dong1;
             this.button61.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button61.Location = new System.Drawing.Point(201, 158);
-            this.button61.Margin = new System.Windows.Forms.Padding(4);
+            this.button61.Location = new System.Drawing.Point(151, 128);
             this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(67, 89);
+            this.button61.Size = new System.Drawing.Size(50, 72);
             this.button61.TabIndex = 50;
             this.button61.Text = "TB6";
             this.button61.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -931,10 +891,9 @@
             this.button62.ForeColor = System.Drawing.Color.Silver;
             this.button62.Image = global::ElectricProject.Properties.Resources._211;
             this.button62.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button62.Location = new System.Drawing.Point(111, 353);
-            this.button62.Margin = new System.Windows.Forms.Padding(4);
+            this.button62.Location = new System.Drawing.Point(83, 287);
             this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(67, 89);
+            this.button62.Size = new System.Drawing.Size(50, 72);
             this.button62.TabIndex = 55;
             this.button62.Text = "TB11";
             this.button62.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -952,10 +911,9 @@
             this.button63.ForeColor = System.Drawing.Color.Silver;
             this.button63.Image = global::ElectricProject.Properties.Resources._5_aptomat_3_pha1;
             this.button63.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button63.Location = new System.Drawing.Point(111, 543);
-            this.button63.Margin = new System.Windows.Forms.Padding(4);
+            this.button63.Location = new System.Drawing.Point(83, 441);
             this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(67, 89);
+            this.button63.Size = new System.Drawing.Size(50, 72);
             this.button63.TabIndex = 61;
             this.button63.Text = "TB17";
             this.button63.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -973,10 +931,9 @@
             this.button64.ForeColor = System.Drawing.Color.Silver;
             this.button64.Image = global::ElectricProject.Properties.Resources._15_RoLE_NHIeT1;
             this.button64.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button64.Location = new System.Drawing.Point(111, 158);
-            this.button64.Margin = new System.Windows.Forms.Padding(4);
+            this.button64.Location = new System.Drawing.Point(83, 128);
             this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(67, 89);
+            this.button64.Size = new System.Drawing.Size(50, 72);
             this.button64.TabIndex = 49;
             this.button64.Text = "TB5";
             this.button64.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -994,10 +951,9 @@
             this.button65.ForeColor = System.Drawing.Color.Silver;
             this.button65.Image = global::ElectricProject.Properties.Resources._22_congtac;
             this.button65.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button65.Location = new System.Drawing.Point(201, 353);
-            this.button65.Margin = new System.Windows.Forms.Padding(4);
+            this.button65.Location = new System.Drawing.Point(151, 287);
             this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(67, 89);
+            this.button65.Size = new System.Drawing.Size(50, 72);
             this.button65.TabIndex = 56;
             this.button65.Text = "TB12";
             this.button65.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1015,10 +971,9 @@
             this.button66.ForeColor = System.Drawing.Color.Silver;
             this.button66.Image = global::ElectricProject.Properties.Resources._4_aptomat_1_pha1;
             this.button66.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button66.Location = new System.Drawing.Point(20, 543);
-            this.button66.Margin = new System.Windows.Forms.Padding(4);
+            this.button66.Location = new System.Drawing.Point(15, 441);
             this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(67, 89);
+            this.button66.Size = new System.Drawing.Size(50, 72);
             this.button66.TabIndex = 60;
             this.button66.Text = "TB16";
             this.button66.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1036,10 +991,9 @@
             this.button67.ForeColor = System.Drawing.Color.Silver;
             this.button67.Image = global::ElectricProject.Properties.Resources._13_RoLE1;
             this.button67.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button67.Location = new System.Drawing.Point(20, 158);
-            this.button67.Margin = new System.Windows.Forms.Padding(4);
+            this.button67.Location = new System.Drawing.Point(15, 128);
             this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(67, 89);
+            this.button67.Size = new System.Drawing.Size(50, 72);
             this.button67.TabIndex = 48;
             this.button67.Text = "TB4";
             this.button67.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1057,10 +1011,9 @@
             this.button68.ForeColor = System.Drawing.Color.Silver;
             this.button68.Image = global::ElectricProject.Properties.Resources._12_ro_le_thoi_gian1;
             this.button68.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button68.Location = new System.Drawing.Point(201, 58);
-            this.button68.Margin = new System.Windows.Forms.Padding(4);
+            this.button68.Location = new System.Drawing.Point(151, 47);
             this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(67, 89);
+            this.button68.Size = new System.Drawing.Size(50, 72);
             this.button68.TabIndex = 47;
             this.button68.Text = "TB3";
             this.button68.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1078,10 +1031,9 @@
             this.button69.ForeColor = System.Drawing.Color.Silver;
             this.button69.Image = global::ElectricProject.Properties.Resources._231;
             this.button69.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button69.Location = new System.Drawing.Point(20, 447);
-            this.button69.Margin = new System.Windows.Forms.Padding(4);
+            this.button69.Location = new System.Drawing.Point(15, 363);
             this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(67, 89);
+            this.button69.Size = new System.Drawing.Size(50, 72);
             this.button69.TabIndex = 57;
             this.button69.Text = "TB13";
             this.button69.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1099,10 +1051,9 @@
             this.button70.ForeColor = System.Drawing.Color.Silver;
             this.button70.Image = global::ElectricProject.Properties.Resources._251;
             this.button70.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button70.Location = new System.Drawing.Point(201, 447);
-            this.button70.Margin = new System.Windows.Forms.Padding(4);
+            this.button70.Location = new System.Drawing.Point(151, 363);
             this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(67, 89);
+            this.button70.Size = new System.Drawing.Size(50, 72);
             this.button70.TabIndex = 59;
             this.button70.Text = "TB15";
             this.button70.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1120,10 +1071,9 @@
             this.Aptomat.ForeColor = System.Drawing.Color.Silver;
             this.Aptomat.Image = global::ElectricProject.Properties.Resources._11_CoNG_TaC_To1;
             this.Aptomat.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Aptomat.Location = new System.Drawing.Point(111, 58);
-            this.Aptomat.Margin = new System.Windows.Forms.Padding(4);
+            this.Aptomat.Location = new System.Drawing.Point(83, 47);
             this.Aptomat.Name = "Aptomat";
-            this.Aptomat.Size = new System.Drawing.Size(67, 89);
+            this.Aptomat.Size = new System.Drawing.Size(50, 72);
             this.Aptomat.TabIndex = 46;
             this.Aptomat.Text = "TB2";
             this.Aptomat.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1142,10 +1092,9 @@
             this.button72.ForeColor = System.Drawing.Color.Silver;
             this.button72.Image = global::ElectricProject.Properties.Resources._241;
             this.button72.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button72.Location = new System.Drawing.Point(111, 447);
-            this.button72.Margin = new System.Windows.Forms.Padding(4);
+            this.button72.Location = new System.Drawing.Point(83, 363);
             this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(67, 89);
+            this.button72.Size = new System.Drawing.Size(50, 72);
             this.button72.TabIndex = 58;
             this.button72.Text = "TB14";
             this.button72.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1156,9 +1105,8 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Silver;
             this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(289, 58);
+            this.label4.Size = new System.Drawing.Size(217, 47);
             this.label4.TabIndex = 44;
             this.label4.Text = "CẤU TẠO 3D";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -1188,10 +1136,9 @@
             this.panel_2D.Controls.Add(this.button51);
             this.panel_2D.Controls.Add(this.label3);
             this.panel_2D.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_2D.Location = new System.Drawing.Point(0, 1786);
-            this.panel_2D.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_2D.Location = new System.Drawing.Point(0, 1451);
             this.panel_2D.Name = "panel_2D";
-            this.panel_2D.Size = new System.Drawing.Size(303, 672);
+            this.panel_2D.Size = new System.Drawing.Size(226, 546);
             this.panel_2D.TabIndex = 3;
             // 
             // button2
@@ -1206,10 +1153,9 @@
             this.button2.ForeColor = System.Drawing.Color.Silver;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(201, 666);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(151, 541);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(67, 89);
+            this.button2.Size = new System.Drawing.Size(50, 72);
             this.button2.TabIndex = 43;
             this.button2.Text = "TB21";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1227,10 +1173,9 @@
             this.button3.ForeColor = System.Drawing.Color.Silver;
             this.button3.Image = global::ElectricProject.Properties.Resources._1_nguon_mot_chieu1;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.Location = new System.Drawing.Point(20, 82);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Location = new System.Drawing.Point(15, 67);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(67, 89);
+            this.button3.Size = new System.Drawing.Size(50, 72);
             this.button3.TabIndex = 23;
             this.button3.Text = "TB 1";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1249,10 +1194,9 @@
             this.button33.ForeColor = System.Drawing.Color.Silver;
             this.button33.Image = ((System.Drawing.Image)(resources.GetObject("button33.Image")));
             this.button33.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button33.Location = new System.Drawing.Point(111, 666);
-            this.button33.Margin = new System.Windows.Forms.Padding(4);
+            this.button33.Location = new System.Drawing.Point(83, 541);
             this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(67, 89);
+            this.button33.Size = new System.Drawing.Size(50, 72);
             this.button33.TabIndex = 42;
             this.button33.Text = "TB20";
             this.button33.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1270,10 +1214,9 @@
             this.button34.ForeColor = System.Drawing.Color.Silver;
             this.button34.Image = global::ElectricProject.Properties.Resources._18_role_bao_ve_dien_ap1;
             this.button34.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button34.Location = new System.Drawing.Point(111, 281);
-            this.button34.Margin = new System.Windows.Forms.Padding(4);
+            this.button34.Location = new System.Drawing.Point(83, 228);
             this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(67, 89);
+            this.button34.Size = new System.Drawing.Size(50, 72);
             this.button34.TabIndex = 30;
             this.button34.Text = "TB8";
             this.button34.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1291,10 +1234,9 @@
             this.button35.ForeColor = System.Drawing.Color.Silver;
             this.button35.Image = global::ElectricProject.Properties.Resources._19_cau_dau_8_chan1;
             this.button35.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button35.Location = new System.Drawing.Point(201, 281);
-            this.button35.Margin = new System.Windows.Forms.Padding(4);
+            this.button35.Location = new System.Drawing.Point(151, 228);
             this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(67, 89);
+            this.button35.Size = new System.Drawing.Size(50, 72);
             this.button35.TabIndex = 31;
             this.button35.Text = "TB9";
             this.button35.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1312,10 +1254,9 @@
             this.button36.ForeColor = System.Drawing.Color.Silver;
             this.button36.Image = ((System.Drawing.Image)(resources.GetObject("button36.Image")));
             this.button36.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button36.Location = new System.Drawing.Point(20, 666);
-            this.button36.Margin = new System.Windows.Forms.Padding(4);
+            this.button36.Location = new System.Drawing.Point(15, 541);
             this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(67, 89);
+            this.button36.Size = new System.Drawing.Size(50, 72);
             this.button36.TabIndex = 41;
             this.button36.Text = "TB19";
             this.button36.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1333,10 +1274,9 @@
             this.button37.ForeColor = System.Drawing.Color.Silver;
             this.button37.Image = global::ElectricProject.Properties.Resources._17_role_bao_ve_mat_pha1;
             this.button37.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button37.Location = new System.Drawing.Point(20, 281);
-            this.button37.Margin = new System.Windows.Forms.Padding(4);
+            this.button37.Location = new System.Drawing.Point(15, 228);
             this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(67, 89);
+            this.button37.Size = new System.Drawing.Size(50, 72);
             this.button37.TabIndex = 29;
             this.button37.Text = "TB7";
             this.button37.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1354,10 +1294,9 @@
             this.button38.ForeColor = System.Drawing.Color.Silver;
             this.button38.Image = global::ElectricProject.Properties.Resources._20_cau_dau_20_chan1;
             this.button38.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button38.Location = new System.Drawing.Point(20, 378);
-            this.button38.Margin = new System.Windows.Forms.Padding(4);
+            this.button38.Location = new System.Drawing.Point(15, 307);
             this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(67, 89);
+            this.button38.Size = new System.Drawing.Size(50, 72);
             this.button38.TabIndex = 32;
             this.button38.Text = "TB10";
             this.button38.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1375,10 +1314,9 @@
             this.button39.ForeColor = System.Drawing.Color.Silver;
             this.button39.Image = global::ElectricProject.Properties.Resources._6_APTOMAT_3_cong_suat_lon1;
             this.button39.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button39.Location = new System.Drawing.Point(201, 567);
-            this.button39.Margin = new System.Windows.Forms.Padding(4);
+            this.button39.Location = new System.Drawing.Point(151, 461);
             this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(67, 89);
+            this.button39.Size = new System.Drawing.Size(50, 72);
             this.button39.TabIndex = 40;
             this.button39.Text = "TB18";
             this.button39.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1396,10 +1334,9 @@
             this.button40.ForeColor = System.Drawing.Color.Silver;
             this.button40.Image = global::ElectricProject.Properties.Resources._16_role_bao_ve_qua_dong1;
             this.button40.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button40.Location = new System.Drawing.Point(201, 182);
-            this.button40.Margin = new System.Windows.Forms.Padding(4);
+            this.button40.Location = new System.Drawing.Point(151, 148);
             this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(67, 89);
+            this.button40.Size = new System.Drawing.Size(50, 72);
             this.button40.TabIndex = 28;
             this.button40.Text = "TB6";
             this.button40.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1417,10 +1354,9 @@
             this.button41.ForeColor = System.Drawing.Color.Silver;
             this.button41.Image = global::ElectricProject.Properties.Resources._211;
             this.button41.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button41.Location = new System.Drawing.Point(111, 378);
-            this.button41.Margin = new System.Windows.Forms.Padding(4);
+            this.button41.Location = new System.Drawing.Point(83, 307);
             this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(67, 89);
+            this.button41.Size = new System.Drawing.Size(50, 72);
             this.button41.TabIndex = 33;
             this.button41.Text = "TB11";
             this.button41.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1438,10 +1374,9 @@
             this.button42.ForeColor = System.Drawing.Color.Silver;
             this.button42.Image = global::ElectricProject.Properties.Resources._5_aptomat_3_pha1;
             this.button42.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button42.Location = new System.Drawing.Point(111, 567);
-            this.button42.Margin = new System.Windows.Forms.Padding(4);
+            this.button42.Location = new System.Drawing.Point(83, 461);
             this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(67, 89);
+            this.button42.Size = new System.Drawing.Size(50, 72);
             this.button42.TabIndex = 39;
             this.button42.Text = "TB17";
             this.button42.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1459,10 +1394,9 @@
             this.button43.ForeColor = System.Drawing.Color.Silver;
             this.button43.Image = global::ElectricProject.Properties.Resources._15_RoLE_NHIeT1;
             this.button43.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button43.Location = new System.Drawing.Point(111, 182);
-            this.button43.Margin = new System.Windows.Forms.Padding(4);
+            this.button43.Location = new System.Drawing.Point(83, 148);
             this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(67, 89);
+            this.button43.Size = new System.Drawing.Size(50, 72);
             this.button43.TabIndex = 27;
             this.button43.Text = "TB5";
             this.button43.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1480,10 +1414,9 @@
             this.button44.ForeColor = System.Drawing.Color.Silver;
             this.button44.Image = global::ElectricProject.Properties.Resources._22_congtac;
             this.button44.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button44.Location = new System.Drawing.Point(201, 378);
-            this.button44.Margin = new System.Windows.Forms.Padding(4);
+            this.button44.Location = new System.Drawing.Point(151, 307);
             this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(67, 89);
+            this.button44.Size = new System.Drawing.Size(50, 72);
             this.button44.TabIndex = 34;
             this.button44.Text = "TB12";
             this.button44.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1501,10 +1434,9 @@
             this.button45.ForeColor = System.Drawing.Color.Silver;
             this.button45.Image = global::ElectricProject.Properties.Resources._4_aptomat_1_pha1;
             this.button45.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button45.Location = new System.Drawing.Point(20, 567);
-            this.button45.Margin = new System.Windows.Forms.Padding(4);
+            this.button45.Location = new System.Drawing.Point(15, 461);
             this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(67, 89);
+            this.button45.Size = new System.Drawing.Size(50, 72);
             this.button45.TabIndex = 38;
             this.button45.Text = "TB16";
             this.button45.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1522,10 +1454,9 @@
             this.button46.ForeColor = System.Drawing.Color.Silver;
             this.button46.Image = global::ElectricProject.Properties.Resources._13_RoLE1;
             this.button46.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button46.Location = new System.Drawing.Point(20, 182);
-            this.button46.Margin = new System.Windows.Forms.Padding(4);
+            this.button46.Location = new System.Drawing.Point(15, 148);
             this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(67, 89);
+            this.button46.Size = new System.Drawing.Size(50, 72);
             this.button46.TabIndex = 26;
             this.button46.Text = "TB4";
             this.button46.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1543,10 +1474,9 @@
             this.button47.ForeColor = System.Drawing.Color.Silver;
             this.button47.Image = global::ElectricProject.Properties.Resources._12_ro_le_thoi_gian1;
             this.button47.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button47.Location = new System.Drawing.Point(201, 82);
-            this.button47.Margin = new System.Windows.Forms.Padding(4);
+            this.button47.Location = new System.Drawing.Point(151, 67);
             this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(67, 89);
+            this.button47.Size = new System.Drawing.Size(50, 72);
             this.button47.TabIndex = 25;
             this.button47.Text = "TB3";
             this.button47.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1564,10 +1494,9 @@
             this.button48.ForeColor = System.Drawing.Color.Silver;
             this.button48.Image = global::ElectricProject.Properties.Resources._231;
             this.button48.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button48.Location = new System.Drawing.Point(20, 471);
-            this.button48.Margin = new System.Windows.Forms.Padding(4);
+            this.button48.Location = new System.Drawing.Point(15, 383);
             this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(67, 89);
+            this.button48.Size = new System.Drawing.Size(50, 72);
             this.button48.TabIndex = 35;
             this.button48.Text = "TB13";
             this.button48.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1585,10 +1514,9 @@
             this.button49.ForeColor = System.Drawing.Color.Silver;
             this.button49.Image = global::ElectricProject.Properties.Resources._251;
             this.button49.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button49.Location = new System.Drawing.Point(201, 471);
-            this.button49.Margin = new System.Windows.Forms.Padding(4);
+            this.button49.Location = new System.Drawing.Point(151, 383);
             this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(67, 89);
+            this.button49.Size = new System.Drawing.Size(50, 72);
             this.button49.TabIndex = 37;
             this.button49.Text = "TB15";
             this.button49.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1606,10 +1534,9 @@
             this.button50.ForeColor = System.Drawing.Color.Silver;
             this.button50.Image = global::ElectricProject.Properties.Resources._11_CoNG_TaC_To1;
             this.button50.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button50.Location = new System.Drawing.Point(111, 82);
-            this.button50.Margin = new System.Windows.Forms.Padding(4);
+            this.button50.Location = new System.Drawing.Point(83, 67);
             this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(67, 89);
+            this.button50.Size = new System.Drawing.Size(50, 72);
             this.button50.TabIndex = 24;
             this.button50.Text = "TB2";
             this.button50.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1627,10 +1554,9 @@
             this.button51.ForeColor = System.Drawing.Color.Silver;
             this.button51.Image = global::ElectricProject.Properties.Resources._241;
             this.button51.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button51.Location = new System.Drawing.Point(111, 471);
-            this.button51.Margin = new System.Windows.Forms.Padding(4);
+            this.button51.Location = new System.Drawing.Point(83, 383);
             this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(67, 89);
+            this.button51.Size = new System.Drawing.Size(50, 72);
             this.button51.TabIndex = 36;
             this.button51.Text = "TB14";
             this.button51.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1640,10 +1566,9 @@
             // 
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Silver;
-            this.label3.Location = new System.Drawing.Point(13, 0);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(10, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(272, 75);
+            this.label3.Size = new System.Drawing.Size(204, 61);
             this.label3.TabIndex = 22;
             this.label3.Text = "2D VÀ NGUYÊN LÝ HOẠT ĐỘNG";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -1694,10 +1619,9 @@
             this.panel_Thuchanh.Controls.Add(this.button8);
             this.panel_Thuchanh.Controls.Add(this.button20);
             this.panel_Thuchanh.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 460);
-            this.panel_Thuchanh.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_Thuchanh.Location = new System.Drawing.Point(0, 374);
             this.panel_Thuchanh.Name = "panel_Thuchanh";
-            this.panel_Thuchanh.Size = new System.Drawing.Size(303, 1326);
+            this.panel_Thuchanh.Size = new System.Drawing.Size(226, 1077);
             this.panel_Thuchanh.TabIndex = 1;
             this.panel_Thuchanh.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_Thuchanh_Paint);
             // 
@@ -1713,10 +1637,9 @@
             this.button92.ForeColor = System.Drawing.Color.Silver;
             this.button92.Image = ((System.Drawing.Image)(resources.GetObject("button92.Image")));
             this.button92.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button92.Location = new System.Drawing.Point(201, 1205);
-            this.button92.Margin = new System.Windows.Forms.Padding(4);
+            this.button92.Location = new System.Drawing.Point(151, 979);
             this.button92.Name = "button92";
-            this.button92.Size = new System.Drawing.Size(67, 89);
+            this.button92.Size = new System.Drawing.Size(50, 72);
             this.button92.TabIndex = 39;
             this.button92.Text = "TB21";
             this.button92.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1734,10 +1657,9 @@
             this.button91.ForeColor = System.Drawing.Color.Silver;
             this.button91.Image = ((System.Drawing.Image)(resources.GetObject("button91.Image")));
             this.button91.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button91.Location = new System.Drawing.Point(111, 1205);
-            this.button91.Margin = new System.Windows.Forms.Padding(4);
+            this.button91.Location = new System.Drawing.Point(83, 979);
             this.button91.Name = "button91";
-            this.button91.Size = new System.Drawing.Size(67, 89);
+            this.button91.Size = new System.Drawing.Size(50, 72);
             this.button91.TabIndex = 38;
             this.button91.Text = "TB20";
             this.button91.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1755,10 +1677,9 @@
             this.button87.ForeColor = System.Drawing.Color.Silver;
             this.button87.Image = ((System.Drawing.Image)(resources.GetObject("button87.Image")));
             this.button87.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button87.Location = new System.Drawing.Point(201, 1110);
-            this.button87.Margin = new System.Windows.Forms.Padding(4);
+            this.button87.Location = new System.Drawing.Point(151, 902);
             this.button87.Name = "button87";
-            this.button87.Size = new System.Drawing.Size(67, 89);
+            this.button87.Size = new System.Drawing.Size(50, 72);
             this.button87.TabIndex = 39;
             this.button87.Text = "TB21";
             this.button87.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1776,10 +1697,9 @@
             this.button90.ForeColor = System.Drawing.Color.Silver;
             this.button90.Image = ((System.Drawing.Image)(resources.GetObject("button90.Image")));
             this.button90.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button90.Location = new System.Drawing.Point(20, 1205);
-            this.button90.Margin = new System.Windows.Forms.Padding(4);
+            this.button90.Location = new System.Drawing.Point(15, 979);
             this.button90.Name = "button90";
-            this.button90.Size = new System.Drawing.Size(67, 89);
+            this.button90.Size = new System.Drawing.Size(50, 72);
             this.button90.TabIndex = 37;
             this.button90.Text = "TB19";
             this.button90.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1797,10 +1717,9 @@
             this.button88.ForeColor = System.Drawing.Color.Silver;
             this.button88.Image = ((System.Drawing.Image)(resources.GetObject("button88.Image")));
             this.button88.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button88.Location = new System.Drawing.Point(111, 1110);
-            this.button88.Margin = new System.Windows.Forms.Padding(4);
+            this.button88.Location = new System.Drawing.Point(83, 902);
             this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(67, 89);
+            this.button88.Size = new System.Drawing.Size(50, 72);
             this.button88.TabIndex = 38;
             this.button88.Text = "TB20";
             this.button88.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1818,10 +1737,9 @@
             this.button89.ForeColor = System.Drawing.Color.Silver;
             this.button89.Image = ((System.Drawing.Image)(resources.GetObject("button89.Image")));
             this.button89.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button89.Location = new System.Drawing.Point(20, 1110);
-            this.button89.Margin = new System.Windows.Forms.Padding(4);
+            this.button89.Location = new System.Drawing.Point(15, 902);
             this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(67, 89);
+            this.button89.Size = new System.Drawing.Size(50, 72);
             this.button89.TabIndex = 37;
             this.button89.Text = "TB19";
             this.button89.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1839,10 +1757,9 @@
             this.button84.ForeColor = System.Drawing.Color.Silver;
             this.button84.Image = ((System.Drawing.Image)(resources.GetObject("button84.Image")));
             this.button84.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button84.Location = new System.Drawing.Point(201, 1020);
-            this.button84.Margin = new System.Windows.Forms.Padding(4);
+            this.button84.Location = new System.Drawing.Point(151, 829);
             this.button84.Name = "button84";
-            this.button84.Size = new System.Drawing.Size(67, 89);
+            this.button84.Size = new System.Drawing.Size(50, 72);
             this.button84.TabIndex = 36;
             this.button84.Text = "TB21";
             this.button84.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1860,10 +1777,9 @@
             this.button85.ForeColor = System.Drawing.Color.Silver;
             this.button85.Image = ((System.Drawing.Image)(resources.GetObject("button85.Image")));
             this.button85.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button85.Location = new System.Drawing.Point(111, 1020);
-            this.button85.Margin = new System.Windows.Forms.Padding(4);
+            this.button85.Location = new System.Drawing.Point(83, 829);
             this.button85.Name = "button85";
-            this.button85.Size = new System.Drawing.Size(67, 89);
+            this.button85.Size = new System.Drawing.Size(50, 72);
             this.button85.TabIndex = 35;
             this.button85.Text = "TB20";
             this.button85.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1881,10 +1797,9 @@
             this.button86.ForeColor = System.Drawing.Color.Silver;
             this.button86.Image = ((System.Drawing.Image)(resources.GetObject("button86.Image")));
             this.button86.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button86.Location = new System.Drawing.Point(20, 1020);
-            this.button86.Margin = new System.Windows.Forms.Padding(4);
+            this.button86.Location = new System.Drawing.Point(15, 829);
             this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(67, 89);
+            this.button86.Size = new System.Drawing.Size(50, 72);
             this.button86.TabIndex = 34;
             this.button86.Text = "TB19";
             this.button86.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1902,10 +1817,9 @@
             this.button81.ForeColor = System.Drawing.Color.Silver;
             this.button81.Image = ((System.Drawing.Image)(resources.GetObject("button81.Image")));
             this.button81.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button81.Location = new System.Drawing.Point(201, 1020);
-            this.button81.Margin = new System.Windows.Forms.Padding(4);
+            this.button81.Location = new System.Drawing.Point(151, 829);
             this.button81.Name = "button81";
-            this.button81.Size = new System.Drawing.Size(67, 89);
+            this.button81.Size = new System.Drawing.Size(50, 72);
             this.button81.TabIndex = 33;
             this.button81.Text = "TB21";
             this.button81.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1923,10 +1837,9 @@
             this.button82.ForeColor = System.Drawing.Color.Silver;
             this.button82.Image = ((System.Drawing.Image)(resources.GetObject("button82.Image")));
             this.button82.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button82.Location = new System.Drawing.Point(111, 1020);
-            this.button82.Margin = new System.Windows.Forms.Padding(4);
+            this.button82.Location = new System.Drawing.Point(83, 829);
             this.button82.Name = "button82";
-            this.button82.Size = new System.Drawing.Size(67, 89);
+            this.button82.Size = new System.Drawing.Size(50, 72);
             this.button82.TabIndex = 32;
             this.button82.Text = "TB20";
             this.button82.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1944,10 +1857,9 @@
             this.button83.ForeColor = System.Drawing.Color.Silver;
             this.button83.Image = ((System.Drawing.Image)(resources.GetObject("button83.Image")));
             this.button83.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button83.Location = new System.Drawing.Point(20, 1020);
-            this.button83.Margin = new System.Windows.Forms.Padding(4);
+            this.button83.Location = new System.Drawing.Point(15, 829);
             this.button83.Name = "button83";
-            this.button83.Size = new System.Drawing.Size(67, 89);
+            this.button83.Size = new System.Drawing.Size(50, 72);
             this.button83.TabIndex = 31;
             this.button83.Text = "TB19";
             this.button83.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1965,10 +1877,9 @@
             this.button78.ForeColor = System.Drawing.Color.Silver;
             this.button78.Image = ((System.Drawing.Image)(resources.GetObject("button78.Image")));
             this.button78.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button78.Location = new System.Drawing.Point(201, 924);
-            this.button78.Margin = new System.Windows.Forms.Padding(4);
+            this.button78.Location = new System.Drawing.Point(151, 751);
             this.button78.Name = "button78";
-            this.button78.Size = new System.Drawing.Size(67, 89);
+            this.button78.Size = new System.Drawing.Size(50, 72);
             this.button78.TabIndex = 30;
             this.button78.Text = "TB21";
             this.button78.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1986,10 +1897,9 @@
             this.button79.ForeColor = System.Drawing.Color.Silver;
             this.button79.Image = ((System.Drawing.Image)(resources.GetObject("button79.Image")));
             this.button79.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button79.Location = new System.Drawing.Point(111, 924);
-            this.button79.Margin = new System.Windows.Forms.Padding(4);
+            this.button79.Location = new System.Drawing.Point(83, 751);
             this.button79.Name = "button79";
-            this.button79.Size = new System.Drawing.Size(67, 89);
+            this.button79.Size = new System.Drawing.Size(50, 72);
             this.button79.TabIndex = 29;
             this.button79.Text = "TB20";
             this.button79.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2007,10 +1917,9 @@
             this.button80.ForeColor = System.Drawing.Color.Silver;
             this.button80.Image = ((System.Drawing.Image)(resources.GetObject("button80.Image")));
             this.button80.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button80.Location = new System.Drawing.Point(20, 924);
-            this.button80.Margin = new System.Windows.Forms.Padding(4);
+            this.button80.Location = new System.Drawing.Point(15, 751);
             this.button80.Name = "button80";
-            this.button80.Size = new System.Drawing.Size(67, 89);
+            this.button80.Size = new System.Drawing.Size(50, 72);
             this.button80.TabIndex = 28;
             this.button80.Text = "TB19";
             this.button80.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2028,10 +1937,9 @@
             this.button75.ForeColor = System.Drawing.Color.Silver;
             this.button75.Image = ((System.Drawing.Image)(resources.GetObject("button75.Image")));
             this.button75.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button75.Location = new System.Drawing.Point(201, 828);
-            this.button75.Margin = new System.Windows.Forms.Padding(4);
+            this.button75.Location = new System.Drawing.Point(151, 673);
             this.button75.Name = "button75";
-            this.button75.Size = new System.Drawing.Size(67, 89);
+            this.button75.Size = new System.Drawing.Size(50, 72);
             this.button75.TabIndex = 27;
             this.button75.Text = "TB21";
             this.button75.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2049,10 +1957,9 @@
             this.button76.ForeColor = System.Drawing.Color.Silver;
             this.button76.Image = ((System.Drawing.Image)(resources.GetObject("button76.Image")));
             this.button76.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button76.Location = new System.Drawing.Point(111, 828);
-            this.button76.Margin = new System.Windows.Forms.Padding(4);
+            this.button76.Location = new System.Drawing.Point(83, 673);
             this.button76.Name = "button76";
-            this.button76.Size = new System.Drawing.Size(67, 89);
+            this.button76.Size = new System.Drawing.Size(50, 72);
             this.button76.TabIndex = 26;
             this.button76.Text = "TB20";
             this.button76.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2070,10 +1977,9 @@
             this.button77.ForeColor = System.Drawing.Color.Silver;
             this.button77.Image = ((System.Drawing.Image)(resources.GetObject("button77.Image")));
             this.button77.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button77.Location = new System.Drawing.Point(20, 828);
-            this.button77.Margin = new System.Windows.Forms.Padding(4);
+            this.button77.Location = new System.Drawing.Point(15, 673);
             this.button77.Name = "button77";
-            this.button77.Size = new System.Drawing.Size(67, 89);
+            this.button77.Size = new System.Drawing.Size(50, 72);
             this.button77.TabIndex = 25;
             this.button77.Text = "TB19";
             this.button77.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2091,10 +1997,9 @@
             this.button53.ForeColor = System.Drawing.Color.Silver;
             this.button53.Image = ((System.Drawing.Image)(resources.GetObject("button53.Image")));
             this.button53.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button53.Location = new System.Drawing.Point(201, 732);
-            this.button53.Margin = new System.Windows.Forms.Padding(4);
+            this.button53.Location = new System.Drawing.Point(151, 595);
             this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(67, 89);
+            this.button53.Size = new System.Drawing.Size(50, 72);
             this.button53.TabIndex = 24;
             this.button53.Text = "TB21";
             this.button53.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2112,10 +2017,9 @@
             this.button73.ForeColor = System.Drawing.Color.Silver;
             this.button73.Image = ((System.Drawing.Image)(resources.GetObject("button73.Image")));
             this.button73.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button73.Location = new System.Drawing.Point(111, 732);
-            this.button73.Margin = new System.Windows.Forms.Padding(4);
+            this.button73.Location = new System.Drawing.Point(83, 595);
             this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(67, 89);
+            this.button73.Size = new System.Drawing.Size(50, 72);
             this.button73.TabIndex = 23;
             this.button73.Text = "TB20";
             this.button73.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2133,10 +2037,9 @@
             this.button74.ForeColor = System.Drawing.Color.Silver;
             this.button74.Image = ((System.Drawing.Image)(resources.GetObject("button74.Image")));
             this.button74.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button74.Location = new System.Drawing.Point(20, 732);
-            this.button74.Margin = new System.Windows.Forms.Padding(4);
+            this.button74.Location = new System.Drawing.Point(15, 595);
             this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(67, 89);
+            this.button74.Size = new System.Drawing.Size(50, 72);
             this.button74.TabIndex = 22;
             this.button74.Text = "TB19";
             this.button74.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2154,10 +2057,9 @@
             this.button25.ForeColor = System.Drawing.Color.Silver;
             this.button25.Image = ((System.Drawing.Image)(resources.GetObject("button25.Image")));
             this.button25.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button25.Location = new System.Drawing.Point(201, 638);
-            this.button25.Margin = new System.Windows.Forms.Padding(4);
+            this.button25.Location = new System.Drawing.Point(151, 518);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(67, 89);
+            this.button25.Size = new System.Drawing.Size(50, 72);
             this.button25.TabIndex = 21;
             this.button25.Text = "TB21";
             this.button25.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2168,10 +2070,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(56, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(42, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 35);
+            this.label1.Size = new System.Drawing.Size(123, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "THỰC HÀNH";
             // 
@@ -2187,10 +2088,9 @@
             this.button7.ForeColor = System.Drawing.Color.Silver;
             this.button7.Image = global::ElectricProject.Properties.Resources._1_nguon_mot_chieu1;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button7.Location = new System.Drawing.Point(20, 54);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
+            this.button7.Location = new System.Drawing.Point(15, 44);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(67, 89);
+            this.button7.Size = new System.Drawing.Size(50, 72);
             this.button7.TabIndex = 1;
             this.button7.Text = "TB 1";
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2209,10 +2109,9 @@
             this.button26.ForeColor = System.Drawing.Color.Silver;
             this.button26.Image = ((System.Drawing.Image)(resources.GetObject("button26.Image")));
             this.button26.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button26.Location = new System.Drawing.Point(111, 638);
-            this.button26.Margin = new System.Windows.Forms.Padding(4);
+            this.button26.Location = new System.Drawing.Point(83, 518);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(67, 89);
+            this.button26.Size = new System.Drawing.Size(50, 72);
             this.button26.TabIndex = 20;
             this.button26.Text = "TB20";
             this.button26.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2230,10 +2129,9 @@
             this.button14.ForeColor = System.Drawing.Color.Silver;
             this.button14.Image = global::ElectricProject.Properties.Resources._18_role_bao_ve_dien_ap1;
             this.button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button14.Location = new System.Drawing.Point(111, 252);
-            this.button14.Margin = new System.Windows.Forms.Padding(4);
+            this.button14.Location = new System.Drawing.Point(83, 205);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(67, 89);
+            this.button14.Size = new System.Drawing.Size(50, 72);
             this.button14.TabIndex = 8;
             this.button14.Text = "TB8";
             this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2252,10 +2150,9 @@
             this.button13.ForeColor = System.Drawing.Color.Silver;
             this.button13.Image = global::ElectricProject.Properties.Resources._19_cau_dau_8_chan1;
             this.button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button13.Location = new System.Drawing.Point(201, 252);
-            this.button13.Margin = new System.Windows.Forms.Padding(4);
+            this.button13.Location = new System.Drawing.Point(151, 205);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(67, 89);
+            this.button13.Size = new System.Drawing.Size(50, 72);
             this.button13.TabIndex = 9;
             this.button13.Text = "TB9";
             this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2273,10 +2170,9 @@
             this.button27.ForeColor = System.Drawing.Color.Silver;
             this.button27.Image = ((System.Drawing.Image)(resources.GetObject("button27.Image")));
             this.button27.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button27.Location = new System.Drawing.Point(20, 638);
-            this.button27.Margin = new System.Windows.Forms.Padding(4);
+            this.button27.Location = new System.Drawing.Point(15, 518);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(67, 89);
+            this.button27.Size = new System.Drawing.Size(50, 72);
             this.button27.TabIndex = 19;
             this.button27.Text = "TB19";
             this.button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2294,10 +2190,9 @@
             this.button15.ForeColor = System.Drawing.Color.Silver;
             this.button15.Image = global::ElectricProject.Properties.Resources._17_role_bao_ve_mat_pha1;
             this.button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button15.Location = new System.Drawing.Point(20, 252);
-            this.button15.Margin = new System.Windows.Forms.Padding(4);
+            this.button15.Location = new System.Drawing.Point(15, 205);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(67, 89);
+            this.button15.Size = new System.Drawing.Size(50, 72);
             this.button15.TabIndex = 7;
             this.button15.Text = "TB7";
             this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2316,10 +2211,9 @@
             this.button18.ForeColor = System.Drawing.Color.Silver;
             this.button18.Image = global::ElectricProject.Properties.Resources._20_cau_dau_20_chan1;
             this.button18.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button18.Location = new System.Drawing.Point(20, 350);
-            this.button18.Margin = new System.Windows.Forms.Padding(4);
+            this.button18.Location = new System.Drawing.Point(15, 284);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(67, 89);
+            this.button18.Size = new System.Drawing.Size(50, 72);
             this.button18.TabIndex = 10;
             this.button18.Text = "TB10";
             this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2337,10 +2231,9 @@
             this.button22.ForeColor = System.Drawing.Color.Silver;
             this.button22.Image = global::ElectricProject.Properties.Resources._6_APTOMAT_3_cong_suat_lon1;
             this.button22.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button22.Location = new System.Drawing.Point(201, 539);
-            this.button22.Margin = new System.Windows.Forms.Padding(4);
+            this.button22.Location = new System.Drawing.Point(151, 438);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(67, 89);
+            this.button22.Size = new System.Drawing.Size(50, 72);
             this.button22.TabIndex = 18;
             this.button22.Text = "TB18";
             this.button22.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2358,10 +2251,9 @@
             this.button10.ForeColor = System.Drawing.Color.Silver;
             this.button10.Image = global::ElectricProject.Properties.Resources._16_role_bao_ve_qua_dong1;
             this.button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button10.Location = new System.Drawing.Point(201, 154);
-            this.button10.Margin = new System.Windows.Forms.Padding(4);
+            this.button10.Location = new System.Drawing.Point(151, 125);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(67, 89);
+            this.button10.Size = new System.Drawing.Size(50, 72);
             this.button10.TabIndex = 6;
             this.button10.Text = "TB6";
             this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2380,10 +2272,9 @@
             this.button17.ForeColor = System.Drawing.Color.Silver;
             this.button17.Image = global::ElectricProject.Properties.Resources._211;
             this.button17.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button17.Location = new System.Drawing.Point(111, 350);
-            this.button17.Margin = new System.Windows.Forms.Padding(4);
+            this.button17.Location = new System.Drawing.Point(83, 284);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(67, 89);
+            this.button17.Size = new System.Drawing.Size(50, 72);
             this.button17.TabIndex = 11;
             this.button17.Text = "TB11";
             this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2401,10 +2292,9 @@
             this.button23.ForeColor = System.Drawing.Color.Silver;
             this.button23.Image = global::ElectricProject.Properties.Resources._5_aptomat_3_pha1;
             this.button23.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button23.Location = new System.Drawing.Point(111, 539);
-            this.button23.Margin = new System.Windows.Forms.Padding(4);
+            this.button23.Location = new System.Drawing.Point(83, 438);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(67, 89);
+            this.button23.Size = new System.Drawing.Size(50, 72);
             this.button23.TabIndex = 17;
             this.button23.Text = "TB17";
             this.button23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2422,10 +2312,9 @@
             this.button11.ForeColor = System.Drawing.Color.Silver;
             this.button11.Image = global::ElectricProject.Properties.Resources._15_RoLE_NHIeT1;
             this.button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button11.Location = new System.Drawing.Point(111, 154);
-            this.button11.Margin = new System.Windows.Forms.Padding(4);
+            this.button11.Location = new System.Drawing.Point(83, 125);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(67, 89);
+            this.button11.Size = new System.Drawing.Size(50, 72);
             this.button11.TabIndex = 5;
             this.button11.Text = "TB5";
             this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2444,10 +2333,9 @@
             this.button16.ForeColor = System.Drawing.Color.Silver;
             this.button16.Image = global::ElectricProject.Properties.Resources._22_congtac;
             this.button16.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button16.Location = new System.Drawing.Point(201, 350);
-            this.button16.Margin = new System.Windows.Forms.Padding(4);
+            this.button16.Location = new System.Drawing.Point(151, 284);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(67, 89);
+            this.button16.Size = new System.Drawing.Size(50, 72);
             this.button16.TabIndex = 12;
             this.button16.Text = "TB12";
             this.button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2465,10 +2353,9 @@
             this.button24.ForeColor = System.Drawing.Color.Silver;
             this.button24.Image = global::ElectricProject.Properties.Resources._4_aptomat_1_pha1;
             this.button24.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button24.Location = new System.Drawing.Point(20, 539);
-            this.button24.Margin = new System.Windows.Forms.Padding(4);
+            this.button24.Location = new System.Drawing.Point(15, 438);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(67, 89);
+            this.button24.Size = new System.Drawing.Size(50, 72);
             this.button24.TabIndex = 16;
             this.button24.Text = "TB16";
             this.button24.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2486,10 +2373,9 @@
             this.button12.ForeColor = System.Drawing.Color.Silver;
             this.button12.Image = global::ElectricProject.Properties.Resources._13_RoLE1;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button12.Location = new System.Drawing.Point(20, 154);
-            this.button12.Margin = new System.Windows.Forms.Padding(4);
+            this.button12.Location = new System.Drawing.Point(15, 125);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(67, 89);
+            this.button12.Size = new System.Drawing.Size(50, 72);
             this.button12.TabIndex = 4;
             this.button12.Text = "TB4";
             this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2508,10 +2394,9 @@
             this.button9.ForeColor = System.Drawing.Color.Silver;
             this.button9.Image = global::ElectricProject.Properties.Resources._12_ro_le_thoi_gian1;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button9.Location = new System.Drawing.Point(201, 54);
-            this.button9.Margin = new System.Windows.Forms.Padding(4);
+            this.button9.Location = new System.Drawing.Point(151, 44);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(67, 89);
+            this.button9.Size = new System.Drawing.Size(50, 72);
             this.button9.TabIndex = 3;
             this.button9.Text = "TB3";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2530,10 +2415,9 @@
             this.button21.ForeColor = System.Drawing.Color.Silver;
             this.button21.Image = global::ElectricProject.Properties.Resources._231;
             this.button21.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button21.Location = new System.Drawing.Point(20, 443);
-            this.button21.Margin = new System.Windows.Forms.Padding(4);
+            this.button21.Location = new System.Drawing.Point(15, 360);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(67, 89);
+            this.button21.Size = new System.Drawing.Size(50, 72);
             this.button21.TabIndex = 13;
             this.button21.Text = "TB13";
             this.button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2551,10 +2435,9 @@
             this.button19.ForeColor = System.Drawing.Color.Silver;
             this.button19.Image = global::ElectricProject.Properties.Resources._251;
             this.button19.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button19.Location = new System.Drawing.Point(201, 443);
-            this.button19.Margin = new System.Windows.Forms.Padding(4);
+            this.button19.Location = new System.Drawing.Point(151, 360);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(67, 89);
+            this.button19.Size = new System.Drawing.Size(50, 72);
             this.button19.TabIndex = 15;
             this.button19.Text = "TB15";
             this.button19.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2572,10 +2455,9 @@
             this.button8.ForeColor = System.Drawing.Color.Silver;
             this.button8.Image = global::ElectricProject.Properties.Resources._11_CoNG_TaC_To1;
             this.button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button8.Location = new System.Drawing.Point(111, 54);
-            this.button8.Margin = new System.Windows.Forms.Padding(4);
+            this.button8.Location = new System.Drawing.Point(83, 44);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(67, 89);
+            this.button8.Size = new System.Drawing.Size(50, 72);
             this.button8.TabIndex = 2;
             this.button8.Text = "TB2";
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2594,10 +2476,9 @@
             this.button20.ForeColor = System.Drawing.Color.Silver;
             this.button20.Image = global::ElectricProject.Properties.Resources._241;
             this.button20.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button20.Location = new System.Drawing.Point(111, 443);
-            this.button20.Margin = new System.Windows.Forms.Padding(4);
+            this.button20.Location = new System.Drawing.Point(83, 360);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(67, 89);
+            this.button20.Size = new System.Drawing.Size(50, 72);
             this.button20.TabIndex = 14;
             this.button20.Text = "TB14";
             this.button20.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -2612,9 +2493,8 @@
             this.panel_lythuyet.Controls.Add(this.label2);
             this.panel_lythuyet.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_lythuyet.Location = new System.Drawing.Point(0, 0);
-            this.panel_lythuyet.Margin = new System.Windows.Forms.Padding(4);
             this.panel_lythuyet.Name = "panel_lythuyet";
-            this.panel_lythuyet.Size = new System.Drawing.Size(303, 460);
+            this.panel_lythuyet.Size = new System.Drawing.Size(226, 374);
             this.panel_lythuyet.TabIndex = 2;
             this.panel_lythuyet.Visible = false;
             // 
@@ -2624,10 +2504,9 @@
             this.panel_SubmenuDoccument2.Controls.Add(this.button31);
             this.panel_SubmenuDoccument2.Controls.Add(this.button32);
             this.panel_SubmenuDoccument2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_SubmenuDoccument2.Location = new System.Drawing.Point(0, 313);
-            this.panel_SubmenuDoccument2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_SubmenuDoccument2.Location = new System.Drawing.Point(0, 254);
             this.panel_SubmenuDoccument2.Name = "panel_SubmenuDoccument2";
-            this.panel_SubmenuDoccument2.Size = new System.Drawing.Size(303, 118);
+            this.panel_SubmenuDoccument2.Size = new System.Drawing.Size(226, 96);
             this.panel_SubmenuDoccument2.TabIndex = 5;
             // 
             // button30
@@ -2639,10 +2518,9 @@
             this.button30.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.button30.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button30.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button30.Location = new System.Drawing.Point(0, 86);
-            this.button30.Margin = new System.Windows.Forms.Padding(4);
+            this.button30.Location = new System.Drawing.Point(0, 70);
             this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(303, 43);
+            this.button30.Size = new System.Drawing.Size(226, 35);
             this.button30.TabIndex = 11;
             this.button30.Text = "Phần 3";
             this.button30.UseVisualStyleBackColor = false;
@@ -2656,10 +2534,9 @@
             this.button31.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.button31.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button31.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button31.Location = new System.Drawing.Point(0, 43);
-            this.button31.Margin = new System.Windows.Forms.Padding(4);
+            this.button31.Location = new System.Drawing.Point(0, 35);
             this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(303, 43);
+            this.button31.Size = new System.Drawing.Size(226, 35);
             this.button31.TabIndex = 10;
             this.button31.Text = "Phần 2";
             this.button31.UseVisualStyleBackColor = false;
@@ -2674,9 +2551,8 @@
             this.button32.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button32.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button32.Location = new System.Drawing.Point(0, 0);
-            this.button32.Margin = new System.Windows.Forms.Padding(4);
             this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(303, 43);
+            this.button32.Size = new System.Drawing.Size(226, 35);
             this.button32.TabIndex = 9;
             this.button32.Text = "Phần 1";
             this.button32.UseVisualStyleBackColor = false;
@@ -2690,10 +2566,9 @@
             this.btn_Lythuyetdien2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Lythuyetdien2.Image = global::ElectricProject.Properties.Resources.electric2;
             this.btn_Lythuyetdien2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Lythuyetdien2.Location = new System.Drawing.Point(0, 255);
-            this.btn_Lythuyetdien2.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Lythuyetdien2.Location = new System.Drawing.Point(0, 207);
             this.btn_Lythuyetdien2.Name = "btn_Lythuyetdien2";
-            this.btn_Lythuyetdien2.Size = new System.Drawing.Size(303, 58);
+            this.btn_Lythuyetdien2.Size = new System.Drawing.Size(226, 47);
             this.btn_Lythuyetdien2.TabIndex = 3;
             this.btn_Lythuyetdien2.Text = "Lý thuyết điện 2";
             this.btn_Lythuyetdien2.UseVisualStyleBackColor = true;
@@ -2705,10 +2580,9 @@
             this.panel_SubmenuDoccument1.Controls.Add(this.button5);
             this.panel_SubmenuDoccument1.Controls.Add(this.button4);
             this.panel_SubmenuDoccument1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel_SubmenuDoccument1.Location = new System.Drawing.Point(0, 128);
-            this.panel_SubmenuDoccument1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_SubmenuDoccument1.Location = new System.Drawing.Point(0, 104);
             this.panel_SubmenuDoccument1.Name = "panel_SubmenuDoccument1";
-            this.panel_SubmenuDoccument1.Size = new System.Drawing.Size(303, 127);
+            this.panel_SubmenuDoccument1.Size = new System.Drawing.Size(226, 103);
             this.panel_SubmenuDoccument1.TabIndex = 4;
             // 
             // button6
@@ -2720,10 +2594,9 @@
             this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 86);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
+            this.button6.Location = new System.Drawing.Point(0, 70);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(303, 43);
+            this.button6.Size = new System.Drawing.Size(226, 35);
             this.button6.TabIndex = 8;
             this.button6.Text = "Phần 3";
             this.button6.UseVisualStyleBackColor = false;
@@ -2737,10 +2610,9 @@
             this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 43);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Location = new System.Drawing.Point(0, 35);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(303, 43);
+            this.button5.Size = new System.Drawing.Size(226, 35);
             this.button5.TabIndex = 7;
             this.button5.Text = "Phần 2";
             this.button5.UseVisualStyleBackColor = false;
@@ -2755,9 +2627,8 @@
             this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.Location = new System.Drawing.Point(0, 0);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(303, 43);
+            this.button4.Size = new System.Drawing.Size(226, 35);
             this.button4.TabIndex = 6;
             this.button4.Text = "Phần 1";
             this.button4.UseVisualStyleBackColor = false;
@@ -2772,10 +2643,9 @@
             this.btn_Lythuyetdien1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Lythuyetdien1.Image = global::ElectricProject.Properties.Resources.electric;
             this.btn_Lythuyetdien1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Lythuyetdien1.Location = new System.Drawing.Point(0, 71);
-            this.btn_Lythuyetdien1.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Lythuyetdien1.Location = new System.Drawing.Point(0, 58);
             this.btn_Lythuyetdien1.Name = "btn_Lythuyetdien1";
-            this.btn_Lythuyetdien1.Size = new System.Drawing.Size(303, 57);
+            this.btn_Lythuyetdien1.Size = new System.Drawing.Size(226, 46);
             this.btn_Lythuyetdien1.TabIndex = 2;
             this.btn_Lythuyetdien1.Text = "Lý thuyết điện 1";
             this.btn_Lythuyetdien1.UseVisualStyleBackColor = true;
@@ -2788,9 +2658,8 @@
             this.label2.ForeColor = System.Drawing.Color.Silver;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(303, 71);
+            this.label2.Size = new System.Drawing.Size(226, 58);
             this.label2.TabIndex = 1;
             this.label2.Text = "LÝ THUYẾT";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -2811,20 +2680,18 @@
             this.workpanel.Controls.Add(this.panel_work3d);
             this.workpanel.Controls.Add(this.panel_work2d);
             this.workpanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.workpanel.Location = new System.Drawing.Point(391, 163);
-            this.workpanel.Margin = new System.Windows.Forms.Padding(4);
+            this.workpanel.Location = new System.Drawing.Point(293, 132);
             this.workpanel.Name = "workpanel";
-            this.workpanel.Size = new System.Drawing.Size(1457, 781);
+            this.workpanel.Size = new System.Drawing.Size(1093, 635);
             this.workpanel.TabIndex = 5;
             // 
             // panel_workthuchanh
             // 
             this.panel_workthuchanh.Controls.Add(this.diagramView1);
             this.panel_workthuchanh.Controls.Add(this.ruler1);
-            this.panel_workthuchanh.Location = new System.Drawing.Point(385, 124);
-            this.panel_workthuchanh.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_workthuchanh.Location = new System.Drawing.Point(289, 101);
             this.panel_workthuchanh.Name = "panel_workthuchanh";
-            this.panel_workthuchanh.Size = new System.Drawing.Size(341, 250);
+            this.panel_workthuchanh.Size = new System.Drawing.Size(256, 203);
             this.panel_workthuchanh.TabIndex = 2;
             // 
             // diagramView1
@@ -2833,9 +2700,8 @@
             this.diagramView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.diagramView1.LicenseKey = null;
             this.diagramView1.Location = new System.Drawing.Point(0, 0);
-            this.diagramView1.Margin = new System.Windows.Forms.Padding(4);
             this.diagramView1.Name = "diagramView1";
-            this.diagramView1.Size = new System.Drawing.Size(341, 250);
+            this.diagramView1.Size = new System.Drawing.Size(256, 203);
             this.diagramView1.TabIndex = 2;
             this.diagramView1.Text = "diagramView1";
             // 
@@ -2844,37 +2710,44 @@
             this.ruler1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ruler1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ruler1.Location = new System.Drawing.Point(0, 0);
-            this.ruler1.Margin = new System.Windows.Forms.Padding(4);
             this.ruler1.Name = "ruler1";
-            this.ruler1.Size = new System.Drawing.Size(341, 250);
+            this.ruler1.Size = new System.Drawing.Size(256, 203);
             this.ruler1.TabIndex = 1;
             this.ruler1.Text = "ruler1";
             this.ruler1.TextColor = System.Drawing.SystemColors.ControlText;
             // 
             // panel_worklythuyet
             // 
-            this.panel_worklythuyet.Location = new System.Drawing.Point(925, 158);
-            this.panel_worklythuyet.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_worklythuyet.Location = new System.Drawing.Point(694, 128);
             this.panel_worklythuyet.Name = "panel_worklythuyet";
-            this.panel_worklythuyet.Size = new System.Drawing.Size(455, 300);
+            this.panel_worklythuyet.Size = new System.Drawing.Size(341, 244);
             this.panel_worklythuyet.TabIndex = 0;
             // 
             // panel_work3d
             // 
             this.panel_work3d.Controls.Add(this.elementHost1);
-            this.panel_work3d.Location = new System.Drawing.Point(56, 498);
-            this.panel_work3d.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_work3d.Location = new System.Drawing.Point(42, 405);
             this.panel_work3d.Name = "panel_work3d";
-            this.panel_work3d.Size = new System.Drawing.Size(304, 192);
+            this.panel_work3d.Size = new System.Drawing.Size(228, 156);
             this.panel_work3d.TabIndex = 1;
+            // 
+            // elementHost1
+            // 
+            this.elementHost1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.elementHost1.Location = new System.Drawing.Point(0, 0);
+            this.elementHost1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.elementHost1.Name = "elementHost1";
+            this.elementHost1.Size = new System.Drawing.Size(228, 156);
+            this.elementHost1.TabIndex = 0;
+            this.elementHost1.Text = "elementHost1";
+            this.elementHost1.Child = null;
             // 
             // panel_work2d
             // 
             this.panel_work2d.Controls.Add(this.axShockwaveFlash1);
-            this.panel_work2d.Location = new System.Drawing.Point(71, 75);
-            this.panel_work2d.Margin = new System.Windows.Forms.Padding(4);
+            this.panel_work2d.Location = new System.Drawing.Point(53, 61);
             this.panel_work2d.Name = "panel_work2d";
-            this.panel_work2d.Size = new System.Drawing.Size(211, 225);
+            this.panel_work2d.Size = new System.Drawing.Size(158, 183);
             this.panel_work2d.TabIndex = 3;
             // 
             // axShockwaveFlash1
@@ -2882,28 +2755,17 @@
             this.axShockwaveFlash1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.axShockwaveFlash1.Enabled = true;
             this.axShockwaveFlash1.Location = new System.Drawing.Point(0, 0);
-            this.axShockwaveFlash1.Margin = new System.Windows.Forms.Padding(4);
             this.axShockwaveFlash1.Name = "axShockwaveFlash1";
             this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
-            this.axShockwaveFlash1.Size = new System.Drawing.Size(211, 225);
+            this.axShockwaveFlash1.Size = new System.Drawing.Size(158, 183);
             this.axShockwaveFlash1.TabIndex = 0;
-            // 
-            // elementHost1
-            // 
-            this.elementHost1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.elementHost1.Location = new System.Drawing.Point(0, 0);
-            this.elementHost1.Name = "elementHost1";
-            this.elementHost1.Size = new System.Drawing.Size(304, 192);
-            this.elementHost1.TabIndex = 0;
-            this.elementHost1.Text = "elementHost1";
-            this.elementHost1.Child = null;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(20)))), ((int)(((byte)(45)))));
-            this.ClientSize = new System.Drawing.Size(1848, 944);
+            this.ClientSize = new System.Drawing.Size(1386, 767);
             this.Controls.Add(this.workpanel);
             this.Controls.Add(this.panel_Lineproperties);
             this.Controls.Add(this.panel_Menu);
@@ -2912,8 +2774,8 @@
             this.Controls.Add(this.panel_Menubar);
             this.ForeColor = System.Drawing.Color.Chocolate;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

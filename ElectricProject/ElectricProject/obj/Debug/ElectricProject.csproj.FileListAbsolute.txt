@@ -56,13 +56,10 @@ D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFu
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML.g.cs
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML.baml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.View3DForm.resources
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.cache
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CoreCompileInputs.cache
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
@@ -243,9 +240,6 @@ C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\
 C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
 C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
 C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML1.g.cs
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.lref
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML1.baml
 F:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\icudt.dll
 F:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
 F:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
@@ -322,3 +316,7 @@ F:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.
 F:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
 F:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
 F:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
