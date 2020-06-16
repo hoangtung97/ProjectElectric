@@ -55,7 +55,6 @@ D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFu
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
@@ -320,3 +319,4 @@ D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resour
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache

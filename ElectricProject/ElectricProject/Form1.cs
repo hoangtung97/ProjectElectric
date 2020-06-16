@@ -533,11 +533,19 @@ namespace ElectricProject
             node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
         }
 
+        private void button13_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Role bao ve dien ap";
+            node.Image = Properties.Resources._19_cau_dau_8_chan;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
 
         #endregion
 
 
-        
+
 
         #region hiển thị flash
         private void button3_Click(object sender, EventArgs e)
@@ -555,6 +563,13 @@ namespace ElectricProject
         }
 
         private void panel_Thuchanh_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        
+
+        private void button25_Click(object sender, EventArgs e)
         {
 
         }
