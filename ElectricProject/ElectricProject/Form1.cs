@@ -573,5 +573,23 @@ namespace ElectricProject
         {
 
         }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Cau dao 20 chan";
+            node.Image = Properties.Resources._20_cau_dau_20_chan;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            ShapeNode node = diagram1.Factory.CreateShapeNode(10, 10, 20, 20);
+            node.Id = "Cau dao 20 chan";
+            node.Image = Properties.Resources._21_CAU_CHI;
+            node.Transparent = true;
+            node.ImageAlign = MindFusion.Drawing.ImageAlign.Fit;
+        }
     }
 }

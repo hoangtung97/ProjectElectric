@@ -397,8 +397,8 @@
   <data name="33.nut_dung_khan_cap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\33.nut_dung_khan_cap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="21.CAU_CHI" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\21.CAU_CHI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="21_CAU_CHI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21_CAU_CHI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="29.nut_an_do_khong_nho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\29.nut_an_do_khong_nho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

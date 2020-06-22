@@ -2109,6 +2109,7 @@
             this.button18.Text = "TB10";
             this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button22
             // 
@@ -2170,6 +2171,7 @@
             this.button17.Text = "TB11";
             this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button23
             // 

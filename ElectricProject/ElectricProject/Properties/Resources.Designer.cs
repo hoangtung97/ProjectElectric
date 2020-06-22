@@ -285,7 +285,7 @@ namespace ElectricProject.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _21_CAU_CHI {
             get {
-                object obj = ResourceManager.GetObject("21.CAU_CHI", resourceCulture);
+                object obj = ResourceManager.GetObject("21_CAU_CHI", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

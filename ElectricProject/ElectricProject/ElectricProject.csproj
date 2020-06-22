@@ -397,7 +397,7 @@
     <None Include="Resources\20_cau_dau_20_chan.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\21.CAU_CHI.png" />
+    <None Include="Resources\21_CAU_CHI.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\23.chuyenmach.png" />
