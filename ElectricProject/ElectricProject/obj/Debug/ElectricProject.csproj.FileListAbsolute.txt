@@ -55,10 +55,14 @@ D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFu
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML.g.cs
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML.baml
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.View3DForm.resources
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.cache
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CoreCompileInputs.cache
 D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
@@ -239,6 +243,9 @@ C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\
 C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
 C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
 C:\Users\admin\Documents\GitHub\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML1.g.cs
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.lref
+D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\View3D_XAML1.baml
 F:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\icudt.dll
 F:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
 F:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
@@ -315,8 +322,794 @@ F:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.
 F:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
 F:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
 F:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
-D:\GithubFolder\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojResolveAssemblyReference.cache
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.Cache
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+H:\Duy Minh\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+F:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojResolveAssemblyReference.cache
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.Cache
+E:\Job Project\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.cache
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CoreCompileInputs.cache
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form2.resources
+D:\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form2.resources
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.cache
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CoreCompileInputs.cache
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+D:\GithubFolder\ProjectElectric\ProjectElectric\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form2.resources
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.cache
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+C:\Users\admin\Documents\GitHub\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form2.resources
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.cache
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CoreCompileInputs.cache
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+D:\GithubFolder\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+F:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojResolveAssemblyReference.cache
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form2.resources
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.Cache
+F:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+E:\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojResolveAssemblyReference.cache
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form2.resources
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.Cache
+E:\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\HelixToolkit.Wpf.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form2.resources
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.cache
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CoreCompileInputs.cache
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.CopyComplete
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+D:\Project\1\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojAssemblyReference.cache
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe.config
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Interop.ShockwaveFlashObjects.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.ResolveComReference.cache
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.pdb
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\icudt.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x64\pdfium.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\x86\pdfium.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.exe
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\ElectricProject.pdb
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Barcodes.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Common.WinForms.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Graphs.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Licensing.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Mapping.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Pdf.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Scripting.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Svg.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Swf.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Vsx.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Zip.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\stdole.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.EffectsProvider.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Dxf.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Excel.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Swf.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Export.Wmf.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Draw.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Svg.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.Import.Visio.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.WinForms.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Patagames.Pdf.Wpf.xml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csprojResolveAssemblyReference.cache
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.baml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.baml
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Aptomat.g.cs
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Resource3D\Mayphatdien.g.cs
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_Content.g.cs
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject_MarkupCompile.cache
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.g.resources
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.DocumentDisplayer.resources
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form1.resources
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Form2.resources
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.PDFViewerForm.resources
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.Properties.Resources.resources
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.csproj.GenerateResource.Cache
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\ElectricProject.exe.licenses
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\Interop.AcroPDFLib.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\obj\Debug\AxInterop.AcroPDFLib.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\Interop.AcroPDFLib.dll
+E:\Job Project\ElectricProject\ElectricProject\ElectricProject\bin\Debug\AxInterop.AcroPDFLib.dll

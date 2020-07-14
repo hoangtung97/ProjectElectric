@@ -39,14 +39,6 @@
     <Reference Include="AxInterop.ShockwaveFlashObjects">
       <HintPath>..\..\..\..\Project\Flash\AxInterop.ShockwaveFlashObjects.dll</HintPath>
     </Reference>
-    <Reference Include="HelixToolkit, Version=2.12.0.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
-      <HintPath>..\packages\HelixToolkit.2.12.0\lib\netstandard1.1\HelixToolkit.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="HelixToolkit.Wpf, Version=2.12.0.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
-      <HintPath>..\packages\HelixToolkit.Wpf.2.12.0\lib\net45\HelixToolkit.Wpf.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="MindFusion.Barcodes, Version=1.0.2.452, Culture=neutral, PublicKeyToken=dd7449df9ffcc455, processorArchitecture=MSIL">
       <HintPath>..\packages\MindFusion.Diagramming.6.6.0\lib\net45\MindFusion.Barcodes.dll</HintPath>
       <Private>True</Private>
@@ -179,6 +171,7 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Device.cs" />
     <Compile Include="DocumentDisplayer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +183,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="PDFViewerForm.cs">
       <SubType>Form</SubType>
@@ -210,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pdf.Net.SDK.licx" />
     <EmbeddedResource Include="PDFViewerForm.resx">
@@ -397,7 +399,7 @@
     <None Include="Resources\20_cau_dau_20_chan.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\21_CAU_CHI.png" />
+    <None Include="Resources\21.CAU_CHI.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\23.chuyenmach.png" />
@@ -449,6 +451,23 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
     <COMReference Include="AxShockwaveFlashObjects">
       <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -457,12 +476,57 @@
       <WrapperTool>aximp</WrapperTool>
       <Isolated>False</Isolated>
     </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.PowerPoint">
+      <Guid>{91493440-5A91-11CF-8700-00AA0060263B}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>12</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
     <COMReference Include="ShockwaveFlashObjects">
       <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
@@ -492,112 +556,68 @@
     <None Include="Resources\23.chuyenmach1.png" />
     <None Include="Resources\24.Chuyen_mach_7_vi_tri1.png" />
     <None Include="Resources\25.Cong_tac_gat1.png" />
-    <None Include="Resources\26.cong_tac_hanh_trinh1.png" />
-    <None Include="Resources\27.nut_an_xanh_Khong_nho1.png" />
-    <None Include="Resources\28.nut_an_xanh_nho1.png" />
-    <None Include="Resources\29.nut_an_do_khong_nho1.png" />
-    <None Include="Resources\30.nut_an_do_nho.png" />
-    <None Include="Resources\31.Nut_an_vang_khong_nho.png" />
-    <None Include="Resources\32.Nut_an_vang_nho.png" />
-    <None Include="Resources\33.nut_dung_khan_cap.png" />
-    <None Include="Resources\34.dong_co_dien_1_chieu.png" />
-    <None Include="Resources\35.dong_co_dien_xoay_chieu_1_pha.png" />
-    <None Include="Resources\36.dong_coDien_xoay_chieu_3_pha.png" />
-    <None Include="Resources\42.bong_den.png" />
-    <None Include="Resources\43.dien-tro.png" />
-    <None Include="Resources\44.bien_tro.png" />
-    <None Include="Resources\45.cuon_cam.png" />
-    <None Include="Resources\49.dong_ho_am_pe_ke.png" />
-    <None Include="Resources\50.dong_ho_von_ke.png" />
-    <None Include="Resources\51.Dong_ho_van_nang.png" />
-    <None Include="Resources\52.CAm_bien_quang_khuech_tan.png" />
-    <None Include="Resources\53.CAM_BIET_QUANG_PHAN_XA.png" />
-    <None Include="Resources\54.cam_bien_mau_sac.png" />
-    <None Include="Resources\55.cam_bien_tu.png" />
-    <None Include="Resources\56.bien_dong.png" />
-    <None Include="Resources\56.cam_bien_tiem_can.png" />
-    <None Include="Resources\61.guong_phan_xa.png" />
-    <None Include="Resources\62.nam_cham_vinh_cuu.png" />
-    <None Include="Resources\63.cam_bien_nhiet_do.png" />
-    <None Include="Resources\65.cam_bien-toc_do-vong_quay.png" />
-    <None Include="Resources\67.may_bien_ap_3_pha.png" />
-    <None Include="Resources\68.May_phat_dien.png" />
-    <None Include="Resources\69.bien_tan.png" />
-    <None Include="Resources\70.den_bao_su_co.png" />
-    <None Include="Resources\71.Di_ot.png" />
-    <None Include="Resources\72.Transitor.png" />
-    <None Include="Resources\73.dong_ho_van_nang-so.png" />
-    <None Include="Resources\74.May_cat.png" />
-    <None Include="Resources\75.bo_khong_che.png" />
-    <None Include="Resources\76.phanh_ham_co.png" />
-    <None Include="Resources\77.phanh_ham_dien_tu.png" />
-    <None Include="Resources\78.bien_ap_tu_ngau_1_pha.png" />
-    <None Include="Resources\79.may_bien_ap_cam_ung.png" />
-    <None Include="Resources\81.chuong_dien.png" />
-    <None Include="Resources\82.dong_co_sevor.png" />
-    <None Include="Resources\83.dong_co_buoc.png" />
-    <None Include="Resources\84.PLC_OMRON.png" />
-    <None Include="Resources\85.PLC_MISHUBISHI.png" />
-    <None Include="Resources\86.PLC_LOGO.png" />
-    <None Include="Resources\87.PLC_zen.png" />
-    <None Include="Resources\88.PLC_easy.png" />
-    <None Include="Resources\89.Allenbradley.png" />
-    <None Include="Resources\90.DAO CACH LY.png" />
-    <None Include="Resources\91.dong_ho_do_tan_so.png" />
-    <None Include="Resources\92.caudau10chan.png" />
-    <None Include="Resources\93.den bao xanh.png" />
-    <None Include="Resources\94.den bao do.png" />
-    <None Include="Resources\95.den bao vang.png" />
-    <None Include="Resources\32_Nut_an_vang_nho.png" />
-    <None Include="Resources\33_nut_dung_khan_cap.png" />
-    <None Include="Resources\34_dong_co_dien_1_chieu.png" />
-    <None Include="Resources\35_dong_co_dien_xoay_chieu_1_pha.png" />
-    <None Include="Resources\36_dong_coDien_xoay_chieu_3_pha.png" />
-    <None Include="Resources\42bong_den.png" />
-    <None Include="Resources\43dien-tro.png" />
-    <None Include="Resources\44bien_tro.png" />
-    <None Include="Resources\45cuon_cam.png" />
-    <None Include="Resources\49dong_ho_am_pe_ke.png" />
-    <None Include="Resources\50dong_ho_von_ke.png" />
-    <None Include="Resources\51Dong_ho_van_nang.png" />
-    <None Include="Resources\52CAm_bien_quang_khuech_tan.png" />
-    <None Include="Resources\53CAM_BIET_QUANG_PHAN_XA.png" />
-    <None Include="Resources\54cam_bien_mau_sac.png" />
-    <None Include="Resources\55cam_bien_tu.png" />
-    <None Include="Resources\56bien_dong.png" />
-    <None Include="Resources\56cam_bien_tiem_can.png" />
-    <None Include="Resources\61guong_phan_xa.png" />
-    <None Include="Resources\62nam_cham_vinh_cuu.png" />
-    <None Include="Resources\63cam_bien_nhiet_do.png" />
-    <None Include="Resources\65cam_bien-toc_do-vong_quay.png" />
-    <None Include="Resources\67may_bien_ap_3_pha.png" />
-    <None Include="Resources\68May_phat_dien.png" />
-    <None Include="Resources\69bien_tan.png" />
-    <None Include="Resources\70den_bao_su_co.png" />
-    <None Include="Resources\71Di_ot.png" />
-    <None Include="Resources\72Transitor.png" />
-    <None Include="Resources\73dong_ho_van_nang-so.png" />
-    <None Include="Resources\74May_cat.png" />
-    <None Include="Resources\75bo_khong_che.png" />
-    <None Include="Resources\76phanh_ham_co.png" />
-    <None Include="Resources\77phanh_ham_dien_tu.png" />
-    <None Include="Resources\78bien_ap_tu_ngau_1_pha.png" />
-    <None Include="Resources\79may_bien_ap_cam_ung.png" />
-    <None Include="Resources\81chuong_dien.png" />
-    <None Include="Resources\82dong_co_sevor.png" />
-    <None Include="Resources\83dong_co_buoc.png" />
-    <None Include="Resources\84PLC_OMRON.png" />
-    <None Include="Resources\85PLC_MISHUBISHI.png" />
-    <None Include="Resources\86PLC_LOGO.png" />
-    <None Include="Resources\87PLC_zen.png" />
-    <None Include="Resources\88PLC_easy.png" />
-    <None Include="Resources\89Allenbradley.png" />
-    <None Include="Resources\90DAO CACH LY.png" />
-    <None Include="Resources\91dong_ho_do_tan_so.png" />
-    <None Include="Resources\92caudau10chan.png" />
-    <None Include="Resources\93den bao xanh.png" />
-    <None Include="Resources\94den bao do.png" />
-    <None Include="Resources\95den bao vang.png" />
+    <None Include="Resources\123.jpg" />
+    <None Include="Resources\exitttt.png" />
+    <None Include="Resources\signup.png" />
+    <None Include="Resources\1_CauDao1Pha.png" />
+    <None Include="Resources\2_CauDao1PhaDaoChieu.png" />
+    <None Include="Resources\3_CauDao3Pha.png" />
+    <None Include="Resources\4_CauDao3PhaDaoChieu.png" />
+    <None Include="Resources\5_Contactor.png" />
+    <None Include="Resources\6_CongTac.png" />
+    <None Include="Resources\7_CongTacNgat.png" />
+    <None Include="Resources\8_CongTacHanhTrinh.png" />
+    <None Include="Resources\9_NutAnXanhKhongNho.png" />
+    <None Include="Resources\10_NutAnXanhNho.png" />
+    <None Include="Resources\12_NutAnDoNho.png" />
+    <None Include="Resources\13_NutAnVangKhongNho.png" />
+    <None Include="Resources\14_NutAnVangNho.png" />
+    <None Include="Resources\15_DaoCachLy.png" />
+    <None Include="Resources\16_MayCat.png" />
+    <None Include="Resources\17_Aptomat1Pha.png" />
+    <None Include="Resources\18_Aptomat3PhaCongSuatLon.png" />
+    <None Include="Resources\19_Aptomat3Pha.png" />
+    <None Include="Resources\20_RoleBaoVeDienAp.png" />
+    <None Include="Resources\21_RoleThoiGian.png" />
+    <None Include="Resources\22_Role.png" />
+    <None Include="Resources\23_RoleNhiet.png" />
+    <None Include="Resources\24_RoleBaoVeQuaDong.png" />
+    <None Include="Resources\25_RoleBaoVeMatPha.png" />
+    <None Include="Resources\26_CauChi.png" />
+    <None Include="Resources\27_BienApTuNgau.png" />
+    <None Include="Resources\28_MayBienApCamUng.png" />
+    <None Include="Resources\29_MayBienAp3Pha.png" />
+    <None Include="Resources\1_CauDao1Pha1.png" />
+    <None Include="Resources\2_CauDao1PhaDaoChieu1.png" />
+    <None Include="Resources\3_CauDao3Pha1.png" />
+    <None Include="Resources\4_CauDao3PhaDaoChieu1.png" />
+    <None Include="Resources\5_Contactor1.png" />
+    <None Include="Resources\6_CongTac1.png" />
+    <None Include="Resources\7_CongTacNgat1.png" />
+    <None Include="Resources\8_CongTacHanhTrinh1.png" />
+    <None Include="Resources\9_NutAnXanhKhongNho1.png" />
+    <None Include="Resources\10_NutAnXanhNho1.png" />
+    <None Include="Resources\11_NutAnDoKhongNho1.png" />
+    <None Include="Resources\12_NutAnDoNho1.png" />
+    <None Include="Resources\13_NutAnVangKhongNho1.png" />
+    <None Include="Resources\14_NutAnVangNho1.png" />
+    <None Include="Resources\15_DaoCachLy1.png" />
+    <None Include="Resources\16_MayCat1.png" />
+    <None Include="Resources\17_Aptomat1Pha1.png" />
+    <None Include="Resources\18_Aptomat3PhaCongSuatLon1.png" />
+    <None Include="Resources\19_Aptomat3Pha1.png" />
+    <None Include="Resources\20_RoleBaoVeDienAp1.png" />
+    <None Include="Resources\21_RoleThoiGian1.png" />
+    <None Include="Resources\22_Role1.png" />
+    <None Include="Resources\23_RoleNhiet1.png" />
+    <None Include="Resources\24_RoleBaoVeQuaDong1.png" />
+    <None Include="Resources\25_RoleBaoVeMatPha1.png" />
+    <None Include="Resources\26_CauChi1.png" />
+    <None Include="Resources\27_BienApTuNgau1.png" />
+    <None Include="Resources\28_MayBienApCamUng1.png" />
+    <None Include="Resources\29_MayBienAp3Pha1.png" />
+    <None Include="Resources\11_NutAnDoKhongNho.png" />
+    <None Include="Resources\illustration-of-light-bulb-with-brain-in-it.jpg" />
     <Content Include="x64\pdfium.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
